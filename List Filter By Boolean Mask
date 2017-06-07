@@ -1,0 +1,4 @@
+/// Filters the list and exports the output as "in" for True and "out" for False
+
+List.FilterByBoolMask(filList,mask)["in"]
+List.FilterByBoolMask(filList,mask)["out"]
