@@ -1,3 +1,0 @@
-if hasattr(A, "__iter__"):
-	for i in range(0,len(A)):
-		listA.append(A[i])
