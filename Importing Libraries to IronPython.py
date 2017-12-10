@@ -27,19 +27,17 @@ clr.AddReference('RevitNodes')
 import Revit
 clr.ImportExtensions(Revit.Elements)
 
-collector = Autodesk.Revit.DB.FilteredElementCollector(doc)
-levels = collector.OfClass(Level)
-
 #Importing Revit APIUI
 clr.AddReference("RevitAPIUI")
 from Autodesk.Revit.UI import TextBox
 from Autodesk.Revit.UI import TaskDialog
 from Autodesk.Revit.UI import TaskDialogCommonButtons
 
+#A small snippet to access the elements from Revit Database
+collector = Autodesk.Revit.DB.FilteredElementCollector(doc)
+levels = collector.OfClass(Level)
 
-
-doc = DocumentManager.Instance.CurrentDBDocument
-
+#Converting an item in to List
 def convertToList(testList):
 	if isinstance(testList, list):
 		return testList
