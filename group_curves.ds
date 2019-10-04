@@ -1,0 +1,31 @@
+def grpCrvs(crv:var[]..[])
+{
+    dis1 = (crv.StartPoint)<1>.DistanceTo(crv<2>)==0
+    ||(crv.EndPoint)<1>.DistanceTo(crv<2>)==0;
+    ind1 = DSCore.List.AllIndicesOf(dis1<1>,true);
+    bln1 = true;
+    ind2 = [Imperative]
+    {
+        while (bln1)
+        {
+            cnt1 = DSCore.List.Count(ind1);
+            ind1 = grpIndx(ind1);
+            cnt2 = DSCore.List.Count(ind1);
+            bln1 = cnt2!=cnt1;
+        }
+        return = ind1;
+    }
+    crv1 = DSCore.List.GetItemAtIndex(crv,ind2);
+    return = crv1;
+};
+
+def grpIndx(ind:var[]..[])
+{
+    ind1 = SetIntersection(ind<1>,ind<2>);
+    cnt1 = DSCore.List.Count(ind1<1><2>)>0;
+    ind2 = DSCore.List.FilterByBoolMask(ind,cnt1<1>);
+    ind3 = DSCore.List.FirstItem(ind2<1>);
+    ind4 = DSCore.List.UniqueItems(Flatten(ind3<1>)<1>);
+    ind5 = DSCore.List.UniqueItems(DSCore.List.Sort(ind4<1>));
+    return = ind5;
+};
