@@ -1,3 +1,4 @@
+#gets the parameter value of the element
 def getValue(element, param_name):
 	if checkList(param_name):
 		multi = []
