@@ -1,0 +1,2 @@
+cat = Category.ByName(["Floors", "Roofs"]);
+ElementQueries.OfCategory(cat);

@@ -1,0 +1,326 @@
+<Workspace Version="1.2.1.3083" X="207.609326162749" Y="51.2288106908143" zoom="1.44585868488232" Name="Home" Description="" RunType="Manual" RunPeriod="1000" HasRunWithoutCrash="True">
+  <NamespaceResolutionMap />
+  <Elements>
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="829e7bdb-165b-4c13-9fa9-28b9820e5504" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="Document.BackgroundOpen" x="-389.727865283404" y="113.739976084899" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <ID value="972bbaf7-d877-4591-9966-c25fc23e0d61" />
+      <Name value="Document.BackgroundOpen" />
+      <Description value="This will open the input Revit files in the background." />
+      <Inputs>
+        <Input value="filePath" />
+      </Inputs>
+      <Outputs>
+        <Output value="Document" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <CoreNodeModels.Input.Filename guid="a083e3b4-3364-4176-8f99-f828fc36a5c8" type="CoreNodeModels.Input.Filename" nickname="File Path" x="-765.373916547543" y="116.880230993684" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>.\rac_basic_sample_project.rvt</System.String>
+      <HintPath>C:\Users\johnp\Desktop\rac_basic_sample_project.rvt</HintPath>
+    </CoreNodeModels.Input.Filename>
+    <PythonNodeModels.PythonNode guid="e14264c6-5242-411b-8062-c64b1c31b388" type="PythonNodeModels.PythonNode" nickname="Python Script" x="337.416468555305" y="-8.1179263315225" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="1">
+      <PortInfo index="0" default="False" />
+      <Script>#Copyright(c) 2015, Konrad Sobon
+# @arch_laboratory, http://archi-lab.net
+
+import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+
+# Import DocumentManager and TransactionManager
+clr.AddReference("RevitServices")
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+
+doc = IN[0]
+
+# Import RevitAPI
+clr.AddReference("RevitAPI")
+import Autodesk
+from Autodesk.Revit.DB import *
+import System
+
+ps = FilteredElementCollector(doc).OfClass(PrintSetting)
+
+#Assign your output to the OUT variable
+OUT = [i.Name for i in ps]</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="ba34fec1-7d5d-4fb8-a234-596019da59a9" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="-86.4416900434558" y="119.188254008059" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="document;" ShouldFocus="false">
+      <PortInfo index="0" default="False" />
+    </Dynamo.Graph.Nodes.CodeBlockNodeModel>
+    <CoreNodeModels.Input.StringInput guid="bdee4bfa-5f5e-487a-ad84-ad4146f02e7d" type="CoreNodeModels.Input.StringInput" nickname="String" x="350.818932504214" y="296.42846366299" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>Bluebeam PDF</System.String>
+      <System.String value="Bluebeam PDF" />
+    </CoreNodeModels.Input.StringInput>
+    <CoreNodeModels.Input.StringInput guid="8c16d882-f473-4b31-a078-939f55d460c0" type="CoreNodeModels.Input.StringInput" nickname="String" x="310.890428703366" y="416.440559695034" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>C:\Users\johnp\Desktop\sampleProjectCombined.pdf</System.String>
+      <System.String value="C:\Users\johnp\Desktop\sampleProjectCombined.pdf" />
+    </CoreNodeModels.Input.StringInput>
+    <CoreNodeModels.Input.BoolSelector guid="bc14caf4-2c8a-4fc8-9965-9ed7345844b9" type="CoreNodeModels.Input.BoolSelector" nickname="Boolean" x="334.013175108556" y="531.595863473791" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.Boolean>True</System.Boolean>
+    </CoreNodeModels.Input.BoolSelector>
+    <Archilab.Grimshaw.UI.PrintRangeUI guid="fa171c44-9445-48e0-ade1-1ee3a176f2ea" type="Archilab.Grimshaw.UI.PrintRangeUI" nickname="Print Range" x="288.207691843188" y="-218.724353011603" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false" index="1:Select" />
+    <PythonNodeModels.PythonNode guid="8d4d7d15-e296-4836-9097-8b32c63bc256" type="PythonNodeModels.PythonNode" nickname="Python Script" x="794.504052444003" y="55.344963972191" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="true" inputcount="8">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <PortInfo index="2" default="False" />
+      <PortInfo index="3" default="False" />
+      <PortInfo index="4" default="False" />
+      <PortInfo index="5" default="False" />
+      <PortInfo index="6" default="False" />
+      <PortInfo index="7" default="False" />
+      <Script>#Copyright(c) 2015, Konrad K Sobon
+# @arch_laboratory, http://archi-lab.net
+
+import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+
+# Import Element wrapper extension methods
+clr.AddReference("RevitNodes")
+import Revit
+clr.ImportExtensions(Revit.Elements)
+
+# Import geometry conversion extension methods
+clr.ImportExtensions(Revit.GeometryConversion)
+
+# Import DocumentManager and TransactionManager
+clr.AddReference("RevitServices")
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+
+doc = IN[7]
+uiapp = DocumentManager.Instance.CurrentUIApplication
+app = uiapp.Application
+
+# Import RevitAPI
+clr.AddReference("RevitAPI")
+import Autodesk
+from Autodesk.Revit.DB import *
+
+import sys
+pyt_path = r'C:\Program Files (x86)\IronPython 2.7\Lib'
+sys.path.append(pyt_path)
+import System
+
+#The inputs to this node will be stored as a list in the IN variable.
+dataEnteringNode = IN
+
+sheets = IN[0]
+pRange = System.Enum.Parse(Autodesk.Revit.DB.PrintRange, IN[1])
+combined = IN[2]
+printerName = IN[3]
+printSetting = IN[4]
+filePath = IN[5]
+runIt = IN[6]
+
+if isinstance(sheets, list):
+	viewSheets = []
+	for i in sheets:
+		viewSheets.append(UnwrapElement(i))
+else:
+	viewSheets = UnwrapElement(sheets)
+
+def PrintView(doc, sheet, pRange, printerName, combined, filePath, printSetting):
+	# create view set 
+	viewSet = ViewSet()
+	viewSet.Insert(sheet)
+	# determine print range
+	printManager = doc.PrintManager
+	printManager.PrintRange = pRange
+	printManager.Apply()
+	# make new view set current
+	viewSheetSetting = printManager.ViewSheetSetting
+	viewSheetSetting.CurrentViewSheetSet.Views = viewSet
+	# set printer
+	printManager.SelectNewPrintDriver(printerName)
+	printManager.Apply()
+	# set combined and print to file
+	if printManager.IsVirtual:
+		printManager.CombinedFile = combined
+		printManager.Apply()
+		printManager.PrintToFile = True
+		printManager.Apply()
+	else:
+		printManager.CombinedFile = combined
+		printManager.Apply()
+		printManager.PrintToFile = False
+		printManager.Apply()
+	# set file path
+	printManager.PrintToFileName = filePath
+	printManager.Apply()
+	# apply print setting
+	try:
+		printSetup = printManager.PrintSetup
+		printSetup.CurrentPrintSetting = printSetting
+		printManager.Apply()
+	except:
+		pass
+	# save settings and submit print
+	TransactionManager.Instance.EnsureInTransaction(doc)
+	viewSheetSetting.SaveAs("tempSetName")
+	printManager.Apply()
+	printManager.SubmitPrint()
+	viewSheetSetting.Delete()
+	TransactionManager.Instance.TransactionTaskDone()
+	
+	return True
+
+try:
+	viewSets = FilteredElementCollector(doc).OfClass(ViewSheetSet)
+	for i in viewSets:
+		if i.Name == "tempSetName":
+			TransactionManager.Instance.EnsureInTransaction(doc)
+			doc.Delete(i.Id)
+			TransactionManager.Instance.ForceCloseTransaction()
+		else:
+			continue
+		
+	errorReport = None
+	message = "Success"
+	if runIt:
+		if isinstance(viewSheets, list) and isinstance(printSetting, list):
+			for i, j in zip(viewSheets, printSetting):
+				PrintView(doc, i, pRange, printerName, combined, filePath, j)
+		elif isinstance(viewSheets, list) and not isinstance(printSetting, list):
+			for i in viewSheets:
+				PrintView(doc, i, pRange, printerName, combined, filePath, printSetting)
+		elif not isinstance(viewSheets, list) and not isinstance(printSetting, list):
+			PrintView(doc, viewSheets, pRange, printerName, combined, filePath, printSetting)
+	else:
+		message = "Set RunIt to True"
+except:
+	# if error accurs anywhere in the process catch it
+	import traceback
+	errorReport = traceback.format_exc()
+	
+#Assign your output to the OUT variable
+if errorReport == None:
+	OUT = message
+else:
+	OUT = errorReport</Script>
+    </PythonNodeModels.PythonNode>
+    <CoreNodeModels.Input.BoolSelector guid="eb7a9af4-bd48-4120-b89a-80ca4d7c28a6" type="CoreNodeModels.Input.BoolSelector" nickname="Boolean" x="332.85462473994" y="121.469032983909" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.Boolean>False</System.Boolean>
+    </CoreNodeModels.Input.BoolSelector>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="b0ada0b8-48a1-4b4d-bf85-643d902d035d" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="508.768968062159" y="-4.31710073723099" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="true" CodeText="x[0];" ShouldFocus="false">
+      <PortInfo index="0" default="False" />
+    </Dynamo.Graph.Nodes.CodeBlockNodeModel>
+    <PythonNodeModels.PythonNode guid="7edc7f39-64e4-4a5e-bbc1-c7de17522d25" type="PythonNodeModels.PythonNode" nickname="Python Script" x="26.3002696311546" y="-454.843142746878" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="true" inputcount="1">
+      <PortInfo index="0" default="False" />
+      <Script>#Copyright(c) 2015, Konrad Sobon
+# @arch_laboratory, http://archi-lab.net
+
+import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+
+# Import DocumentManager and TransactionManager
+clr.AddReference("RevitServices")
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+
+doc = IN[0]
+
+# Import RevitAPI
+clr.AddReference("RevitAPI")
+import Autodesk
+from Autodesk.Revit.DB import *
+import System
+
+vs = FilteredElementCollector(doc).OfClass(ViewSheetSet)
+
+#Assign your output to the OUT variable
+OUT = [i.Name for i in vs]</Script>
+    </PythonNodeModels.PythonNode>
+    <PythonNodeModels.PythonNode guid="86ffdab9-88dd-4091-9a08-385a93d1f8d4" type="PythonNodeModels.PythonNode" nickname="Python Script" x="339.719935103152" y="-472.844070175195" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="2">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <Script>#Copyright(c) 2015, Konrad Sobon
+# @arch_laboratory, http://archi-lab.net
+
+import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+
+# Import DocumentManager and TransactionManager
+clr.AddReference("RevitServices")
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+from RevitServices.Transactions import TransactionManager
+
+doc = IN[1]
+
+# Import Element wrapper extension methods
+clr.AddReference("RevitNodes")
+import Revit
+clr.ImportExtensions(Revit.Elements)
+
+# Import RevitAPI
+clr.AddReference("RevitAPI")
+import Autodesk
+from Autodesk.Revit.DB import *
+
+vsName = IN[0]
+
+viewSets = FilteredElementCollector(doc).OfClass(ViewSheetSet)
+
+for i in viewSets:
+	if i.Name == vsName:
+		vs = i
+	else:
+		continue
+
+#Assign your output to the OUT variable
+OUT = [i.ToDSType(True) for i in vs.Views]</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="0c29785f-5e4c-403e-8a7b-937ae6071ec9" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="198.296056783357" y="-444.149768776847" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="x[0];" ShouldFocus="false">
+      <PortInfo index="0" default="False" />
+    </Dynamo.Graph.Nodes.CodeBlockNodeModel>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="829e7bdb-165b-4c13-9fa9-28b9820e5504" start_index="0" end="ba34fec1-7d5d-4fb8-a234-596019da59a9" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="a083e3b4-3364-4176-8f99-f828fc36a5c8" start_index="0" end="829e7bdb-165b-4c13-9fa9-28b9820e5504" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="e14264c6-5242-411b-8062-c64b1c31b388" start_index="0" end="b0ada0b8-48a1-4b4d-bf85-643d902d035d" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="ba34fec1-7d5d-4fb8-a234-596019da59a9" start_index="0" end="e14264c6-5242-411b-8062-c64b1c31b388" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="ba34fec1-7d5d-4fb8-a234-596019da59a9" start_index="0" end="8d4d7d15-e296-4836-9097-8b32c63bc256" end_index="7" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="ba34fec1-7d5d-4fb8-a234-596019da59a9" start_index="0" end="7edc7f39-64e4-4a5e-bbc1-c7de17522d25" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="ba34fec1-7d5d-4fb8-a234-596019da59a9" start_index="0" end="86ffdab9-88dd-4091-9a08-385a93d1f8d4" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="bdee4bfa-5f5e-487a-ad84-ad4146f02e7d" start_index="0" end="8d4d7d15-e296-4836-9097-8b32c63bc256" end_index="3" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="8c16d882-f473-4b31-a078-939f55d460c0" start_index="0" end="8d4d7d15-e296-4836-9097-8b32c63bc256" end_index="5" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="bc14caf4-2c8a-4fc8-9965-9ed7345844b9" start_index="0" end="8d4d7d15-e296-4836-9097-8b32c63bc256" end_index="6" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="fa171c44-9445-48e0-ade1-1ee3a176f2ea" start_index="0" end="8d4d7d15-e296-4836-9097-8b32c63bc256" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="eb7a9af4-bd48-4120-b89a-80ca4d7c28a6" start_index="0" end="8d4d7d15-e296-4836-9097-8b32c63bc256" end_index="2" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="b0ada0b8-48a1-4b4d-bf85-643d902d035d" start_index="0" end="8d4d7d15-e296-4836-9097-8b32c63bc256" end_index="4" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="7edc7f39-64e4-4a5e-bbc1-c7de17522d25" start_index="0" end="0c29785f-5e4c-403e-8a7b-937ae6071ec9" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="86ffdab9-88dd-4091-9a08-385a93d1f8d4" start_index="0" end="8d4d7d15-e296-4836-9097-8b32c63bc256" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="0c29785f-5e4c-403e-8a7b-937ae6071ec9" start_index="0" end="86ffdab9-88dd-4091-9a08-385a93d1f8d4" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="9eb99d2a-a41b-4eb3-a816-ed80d0d38308" annotationText="archi-LAB_grimshaw package" left="278.207691843188" top="-248.724353011603" width="195" height="123" fontSize="14" InitialTop="-218.724353011603" InitialHeight="123" TextblockHeight="20" backgrouund="#FFB5B5B5">
+      <Models ModelGuid="fa171c44-9445-48e0-ade1-1ee3a176f2ea" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="8ccb1295-5351-45c3-b5a9-97deb1e0a514" annotationText="Printer name as a string. The other node does not work! (in my case I used Bluebeam)" left="340.818932504214" top="202.42846366299" width="130" height="162" fontSize="14" InitialTop="296.42846366299" InitialHeight="98" TextblockHeight="84" backgrouund="#FFA4E1FF">
+      <Models ModelGuid="bdee4bfa-5f5e-487a-ad84-ad4146f02e7d" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="656d8255-2830-4184-969c-1a12a2f774a2" annotationText="This is the location of your new PDF. Has to be a string." left="300.890428703366" top="372.440559695034" width="207" height="123" fontSize="14" InitialTop="416.440559695034" InitialHeight="98" TextblockHeight="34" backgrouund="#FFA4E1FF">
+      <Models ModelGuid="8c16d882-f473-4b31-a078-939f55d460c0" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="4e5b54ae-99a2-48ff-af28-90c85036489c" annotationText="Run the workflow?" left="324.013175108556" top="501.595863473791" width="151" height="98" fontSize="14" InitialTop="531.595863473791" InitialHeight="98" TextblockHeight="20" backgrouund="#FFA4E1FF">
+      <Models ModelGuid="bc14caf4-2c8a-4fc8-9965-9ed7345844b9" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="b3dde842-b659-45ff-ba2d-8ba20c355153" annotationText="Modified Print Settings node to accept an unopened file. (Based on Konrad Sobons original print settings node.)" left="327.416468555305" top="-119.117926331523" width="142" height="204" fontSize="14" InitialTop="-8.1179263315225" InitialHeight="123" TextblockHeight="101" backgrouund="#FFB5B5B5">
+      <Models ModelGuid="e14264c6-5242-411b-8062-c64b1c31b388" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="21c53124-0cfb-4431-9296-5b589c2eae00" annotationText="Combine into one set?" left="322.85462473994" top="91.469032983909" width="151" height="98" fontSize="14" InitialTop="121.469032983909" InitialHeight="98" TextblockHeight="20" backgrouund="#FFA4E1FF">
+      <Models ModelGuid="eb7a9af4-bd48-4120-b89a-80ca4d7c28a6" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+  </Annotations>
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-17" eyeY="24" eyeZ="50" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>

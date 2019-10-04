@@ -1,0 +1,189 @@
+<Workspace Version="1.3.0.875" X="-1475.54047016352" Y="-730.602229726085" zoom="0.884263587285154" ScaleFactor="1" Name="Home" Description="" RunType="Automatic" RunPeriod="1000" HasRunWithoutCrash="True">
+  <NamespaceResolutionMap />
+  <Elements>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="6801f18b-2147-4afe-99a7-dfd041f9f925" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="101" y="141" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="true" CodeText="Flatten({1001..1038,2001..2038});" ShouldFocus="false" />
+    <PythonNodeModels.PythonNode guid="dd377f41-7371-4219-a99e-930a2fb5a824" type="PythonNodeModels.PythonNode" nickname="True_False" x="726.996485371167" y="244.999729643936" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="true" inputcount="2">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <Script>import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+#The inputs to this node will be stored as a list in the IN variables.
+dataEnteringNode = IN
+
+vermesser_NUM = IN[0]
+unique_A_NUM = IN[1]
+
+
+def bool_list(_listLarger, _listSmaller):
+  
+    true_false = []
+    for item in _listLarger:
+        if item in _listSmaller:
+            true_false.append(True)
+            pass
+        elif item not in _listSmaller:
+            true_false.append(False)
+
+    return true_false
+
+def compare_last_two(_listA,_listB):
+ 
+    filtered_list = []
+    
+    for i in _listA:
+        for j in _listB:
+            if j == abs(i)%100:
+                filtered_list.append(i)
+    return filtered_list
+
+Tower_A_NUM = compare_last_two(vermesser_NUM,unique_A_NUM)
+Tower_B_NUM = list(set(vermesser_NUM) - set(Tower_A_NUM))
+
+A_IN_Vermesser = bool_list(vermesser_NUM,Tower_A_NUM)
+B_IN_Vermesser = bool_list(vermesser_NUM,Tower_B_NUM)
+
+#Assign your output to the OUT variable.
+OUT = A_IN_Vermesser</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="1c4ee7b7-471d-46e6-8ce1-7a92e9dffba3" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="146" y="562" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="true" CodeText="Flatten({1..17,24,25,30,31});" ShouldFocus="false" />
+    <Dynamo.Graph.Nodes.ZeroTouch.DSFunction guid="3dc2a138-cc89-4f78-98ad-02aa6b5e951b" type="Dynamo.Graph.Nodes.ZeroTouch.DSFunction" nickname="List.FilterByBoolMask" x="1174.88164935428" y="85.4460966203917" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="true" assembly="DSCoreNodes.dll" function="DSCore.List.FilterByBoolMask@var[]..[],var[]..[]">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+    </Dynamo.Graph.Nodes.ZeroTouch.DSFunction>
+    <PythonNodeModels.PythonNode guid="4d984ff5-c4e3-4c82-a9e2-3796a549961c" type="PythonNodeModels.PythonNode" nickname="Group Numbers" x="1724.04069070566" y="218.0543502551" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="true" inputcount="2">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <Script>import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+#The inputs to this node will be stored as a list in the IN variables.
+dataEnteringNode = IN
+
+def cluster(data, maxgap = 10):
+    '''Arrange data into groups where successive elements
+       differ by no more than *maxgap*
+
+        &gt;&gt;&gt; cluster([1, 6, 9, 100, 102, 105, 109, 134, 139], maxgap=10)
+        [[1, 6, 9], [100, 102, 105, 109], [134, 139]]
+
+        &gt;&gt;&gt; cluster([1, 6, 9, 99, 100, 102, 105, 134, 139, 141], maxgap=10)
+        [[1, 6, 9], [99, 100, 102, 105], [134, 139, 141]]
+
+    '''
+    data.sort()
+    groups = [[data[0]]]
+    for x in data[1:]:
+        if abs(x - groups[-1][-1]) &lt;= maxgap:
+            groups[-1].append(x)
+        else:
+            groups.append([x])
+    return groups
+
+numbers = IN[0]
+look_for = IN[1]
+
+#Assign your output to the OUT variable.
+OUT = cluster(numbers, look_for)</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="bb71c580-326a-4d20-932a-454a0fd0d563" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="1401.97269041465" y="362.149644679177" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="10;" ShouldFocus="false" />
+    <Dynamo.Graph.Nodes.ZeroTouch.DSFunction guid="4d3d901d-083c-45e2-aa09-6944da1dd032" type="Dynamo.Graph.Nodes.ZeroTouch.DSFunction" nickname="GroupByFunction" x="571.45336532808" y="38.9140507664358" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false" assembly="BuiltIn" function="GroupByFunction@var[]..[],_FunctionObject">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+    </Dynamo.Graph.Nodes.ZeroTouch.DSFunction>
+    <DSRevitNodesUI.Categories guid="eafebb17-1acd-4c7a-af20-0a9c4e59b3e6" type="DSRevitNodesUI.Categories" nickname="Categories" x="753.864401485938" y="929.834823808873" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false" index="226:GenericAnnotation" />
+    <CoreNodeModels.Watch guid="13193f3a-4757-42b8-a726-beb9cc31e194" type="CoreNodeModels.Watch" nickname="Watch" x="1028.27669435424" y="995.897042462353" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+    </CoreNodeModels.Watch>
+    <DSRevitNodesUI.ElementsOfCategory guid="d56ff51b-448c-41aa-84e5-b5778b3e56e0" type="DSRevitNodesUI.ElementsOfCategory" nickname="All Elements of Category" x="1247.51058964322" y="929.394451128964" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="true">
+      <PortInfo index="0" default="False" />
+    </DSRevitNodesUI.ElementsOfCategory>
+    <Dynamo.Graph.Nodes.ZeroTouch.DSFunction guid="c554ee07-3cff-47c7-8bd3-7296e09d626d" type="Dynamo.Graph.Nodes.ZeroTouch.DSFunction" nickname="Element.GetParameterValueByName" x="1679.54145001162" y="1088.15281574288" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="true" assembly="RevitNodes.dll" function="Revit.Elements.Element.GetParameterValueByName@string">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+    </Dynamo.Graph.Nodes.ZeroTouch.DSFunction>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="03d8dacb-4be8-485c-9d0d-db42f28c1adb" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="1505.24071502913" y="1095.91127832454" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="&quot;Name&quot;;" ShouldFocus="false" />
+    <PythonNodeModels.PythonNode guid="6cbd3cb8-45b3-470e-a14d-d901f921bde6" type="PythonNodeModels.PythonNode" nickname="Group Numbers" x="1943.45731988005" y="242.125653681046" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="true" inputcount="2">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <Script>import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+#The inputs to this node will be stored as a list in the IN variables.
+dataEnteringNode = IN
+
+def cluster(data, maxgap = 10):
+    '''Arrange data into groups where successive elements
+       differ by no more than *maxgap*
+
+        &gt;&gt;&gt; cluster([1, 6, 9, 100, 102, 105, 109, 134, 139], maxgap=10)
+        [[1, 6, 9], [100, 102, 105, 109], [134, 139]]
+
+        &gt;&gt;&gt; cluster([1, 6, 9, 99, 100, 102, 105, 134, 139, 141], maxgap=10)
+        [[1, 6, 9], [99, 100, 102, 105], [134, 139, 141]]
+
+    '''
+    data.sort()
+    groups = [[data[0]]]
+    for x in data[1:]:
+        if abs(x - groups[-1][-1]) &lt;= maxgap:
+            groups[-1].append(x)
+        else:
+            groups.append([x])
+    return groups
+
+numbers = IN[0]
+look_for = IN[1]
+
+#Assign your output to the OUT variable.
+OUT = cluster(numbers, look_for)</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Graph.Nodes.ZeroTouch.DSFunction guid="46dafcd4-807e-46ff-8983-a1b35f65ac64" type="Dynamo.Graph.Nodes.ZeroTouch.DSFunction" nickname="List.GroupByKey" x="2442.77865998687" y="1002.55838775576" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="true" assembly="DSCoreNodes.dll" function="DSCore.List.GroupByKey@var[]..[],var[]..[]">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+    </Dynamo.Graph.Nodes.ZeroTouch.DSFunction>
+    <PythonNodeModels.PythonNode guid="6dac8a69-99fc-433b-8094-e37feb545c18" type="PythonNodeModels.PythonNode" nickname="Python Script" x="2179.79039139968" y="1218.74462773782" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="true" inputcount="1">
+      <PortInfo index="0" default="False" />
+      <Script>import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+#The inputs to this node will be stored as a list in the IN variables.
+dataEnteringNode = IN
+
+def first_two(_list, num_digits = 2):
+	empty_list = []
+	for num in _list:
+		empty_list.append(str(num)[:num_digits])
+	
+	return empty_list
+		
+req_data = IN[0]
+
+#Assign your output to the OUT variable.
+OUT = first_two(req_data)</Script>
+    </PythonNodeModels.PythonNode>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="6801f18b-2147-4afe-99a7-dfd041f9f925" start_index="0" end="3dc2a138-cc89-4f78-98ad-02aa6b5e951b" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="6801f18b-2147-4afe-99a7-dfd041f9f925" start_index="0" end="dd377f41-7371-4219-a99e-930a2fb5a824" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="dd377f41-7371-4219-a99e-930a2fb5a824" start_index="0" end="3dc2a138-cc89-4f78-98ad-02aa6b5e951b" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="1c4ee7b7-471d-46e6-8ce1-7a92e9dffba3" start_index="0" end="dd377f41-7371-4219-a99e-930a2fb5a824" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="3dc2a138-cc89-4f78-98ad-02aa6b5e951b" start_index="0" end="4d984ff5-c4e3-4c82-a9e2-3796a549961c" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="bb71c580-326a-4d20-932a-454a0fd0d563" start_index="0" end="4d984ff5-c4e3-4c82-a9e2-3796a549961c" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="bb71c580-326a-4d20-932a-454a0fd0d563" start_index="0" end="6cbd3cb8-45b3-470e-a14d-d901f921bde6" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="eafebb17-1acd-4c7a-af20-0a9c4e59b3e6" start_index="0" end="13193f3a-4757-42b8-a726-beb9cc31e194" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="eafebb17-1acd-4c7a-af20-0a9c4e59b3e6" start_index="0" end="d56ff51b-448c-41aa-84e5-b5778b3e56e0" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="d56ff51b-448c-41aa-84e5-b5778b3e56e0" start_index="0" end="c554ee07-3cff-47c7-8bd3-7296e09d626d" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="d56ff51b-448c-41aa-84e5-b5778b3e56e0" start_index="0" end="46dafcd4-807e-46ff-8983-a1b35f65ac64" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="c554ee07-3cff-47c7-8bd3-7296e09d626d" start_index="0" end="6cbd3cb8-45b3-470e-a14d-d901f921bde6" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="c554ee07-3cff-47c7-8bd3-7296e09d626d" start_index="0" end="6dac8a69-99fc-433b-8094-e37feb545c18" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="03d8dacb-4be8-485c-9d0d-db42f28c1adb" start_index="0" end="c554ee07-3cff-47c7-8bd3-7296e09d626d" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="6dac8a69-99fc-433b-8094-e37feb545c18" start_index="0" end="46dafcd4-807e-46ff-8983-a1b35f65ac64" end_index="1" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations />
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-17" eyeY="24" eyeZ="50" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>

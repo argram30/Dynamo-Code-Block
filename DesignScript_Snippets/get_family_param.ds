@@ -1,0 +1,6 @@
+ele.Name;
+ele.Id;
+Revit.Elements.Element.GetParameterValueByName(ele,"Width");
+Revit.Elements.Element.GetParameterValueByName(ele,"Height");
+lvl = Revit.Elements.Element.GetParameterValueByName(ele,"Level");
+lvl.Name;

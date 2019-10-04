@@ -1,0 +1,51 @@
+<Workspace Version="1.2.0.2690" X="-12.6859893127721" Y="84.979981527036" zoom="0.695616441301115" Name="Home" Description="" RunType="Manual" RunPeriod="1000" HasRunWithoutCrash="True">
+  <NamespaceResolutionMap />
+  <Elements>
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="a3acd97f-9dd6-4754-bcf7-49e48f53f2b0" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="Document.BackgroundOpen" x="726.201036818166" y="252.952882898264" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <ID value="972bbaf7-d877-4591-9966-c25fc23e0d61" />
+      <Name value="Document.BackgroundOpen" />
+      <Description value="This will open the input Revit files in the background." />
+      <Inputs>
+        <Input value="filePath" />
+      </Inputs>
+      <Outputs>
+        <Output value="Document" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="9017b3eb-41f0-4103-9dbf-10e7637aca73" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="Document.Close" x="1071.97867249659" y="403.987027602928" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="True" />
+      <ID value="87551f7a-ebe7-4542-b2fe-3a657fee7bdd" />
+      <Name value="Document.Close" />
+      <Description value="This will close the input Revit document. Offers a boolean toggle to save." />
+      <Inputs>
+        <Input value="document" />
+        <Input value="save" />
+      </Inputs>
+      <Outputs>
+        <Output value="closed" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="7584894c-17f3-4286-b806-9aaae8d97e53" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="744" y="430" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="true;" ShouldFocus="false" />
+    <CoreNodeModels.Input.Directory guid="581290b0-3e4f-41ba-954b-2ef5ced656e3" type="CoreNodeModels.Input.Directory" nickname="Directory Path" x="199.371350472061" y="245.853904995517" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>No file selected.</System.String>
+    </CoreNodeModels.Input.Directory>
+    <Dynamo.Graph.Nodes.ZeroTouch.DSFunction guid="fac57bc0-ad77-41b9-989a-15454c4ad110" type="Dynamo.Graph.Nodes.ZeroTouch.DSFunction" nickname="Directory.Contents" x="383.380802233411" y="313.419875564138" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false" assembly="DSCoreNodes.dll" function="DSCore.IO.Directory.Contents@var,string">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="True" />
+    </Dynamo.Graph.Nodes.ZeroTouch.DSFunction>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="a3acd97f-9dd6-4754-bcf7-49e48f53f2b0" start_index="0" end="9017b3eb-41f0-4103-9dbf-10e7637aca73" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="7584894c-17f3-4286-b806-9aaae8d97e53" start_index="0" end="9017b3eb-41f0-4103-9dbf-10e7637aca73" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="581290b0-3e4f-41ba-954b-2ef5ced656e3" start_index="0" end="fac57bc0-ad77-41b9-989a-15454c4ad110" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="fac57bc0-ad77-41b9-989a-15454c4ad110" start_index="0" end="a3acd97f-9dd6-4754-bcf7-49e48f53f2b0" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations />
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-17" eyeY="24" eyeZ="50" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>

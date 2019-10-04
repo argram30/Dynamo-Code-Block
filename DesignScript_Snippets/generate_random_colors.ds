@@ -1,0 +1,9 @@
+def rnd_gen()
+{
+    return = Math.Random(0,255);
+}
+
+def rnd_col(x)
+{
+    return = Color.ByARGB(255, rnd_gen(), rnd_gen(), rnd_gen());
+}

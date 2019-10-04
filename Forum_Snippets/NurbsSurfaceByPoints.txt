@@ -1,0 +1,3 @@
+NurbsSurface.ByPoints also needs a list of list of points (rows), not just a flat list of points. You probably need to order the list into x and z coordinate sorted rows/columns order to make a nurbssurface, using a combination of Point.X, Point.Z, SortByKey, and GroupByKey. I can't remember if Clockwork has some utilities for this.
+
+If this is heading to Revit, you could also just send the collection of unsorted points to a Topography.ByPoints node, which makes a mesh of whatever jumble of points you have. 

@@ -1,0 +1,19 @@
+def fib(n)
+{
+	return = [Imperative]
+	{
+	sequence = {0,1};
+	i = List.Count(sequence);
+		if (n<=2)
+		{
+			return = "Sorry";
+		}
+		while (i != n)
+		{
+			results = sequence[i-1] + sequence[i-2];
+			sequence = List.AddItemToEnd(results,sequence);
+			i=i+1;
+		}
+		return = sequence;
+	}
+};

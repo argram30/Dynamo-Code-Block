@@ -1,0 +1,106 @@
+<Workspace Version="1.3.0.875" X="-610.387272551952" Y="-29.7267854152394" zoom="1.26328763388833" ScaleFactor="1" Name="Home" Description="" RunType="Automatic" RunPeriod="1000" HasRunWithoutCrash="True">
+  <NamespaceResolutionMap>
+    <ClassMap partialName="List" resolvedName="DSCore.List" assemblyName="DSCoreNodes.dll" />
+  </NamespaceResolutionMap>
+  <Elements>
+    <CoreNodeModels.Input.FileObject guid="28658837-d8a3-4e72-a06e-a3cc9e6d7f5b" type="CoreNodeModels.Input.FileObject" nickname="File.FromPath" x="365.753018197159" y="115.001086918659" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+    </CoreNodeModels.Input.FileObject>
+    <CoreNodeModels.Input.Filename guid="81ea94da-3003-4e51-bde5-85d5bd6f6075" type="CoreNodeModels.Input.Filename" nickname="File Path" x="59.0622204138671" y="110.405310880953" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>C:\Users\RGovindarajan\Desktop\test.xlsx</System.String>
+      <HintPath>C:\Users\RGovindarajan\Desktop\test.xlsx</HintPath>
+    </CoreNodeModels.Input.Filename>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="9199932d-dacb-4fc8-aa4b-a3638a851a53" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="359.263736772484" y="203.98372766785" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="&quot;Tabelle1&quot;;" ShouldFocus="false" />
+    <CoreNodeModels.Logic.If guid="e75de501-a482-4a8e-9d34-9c761817cb17" type="CoreNodeModels.Logic.If" nickname="If" x="1055.44839555211" y="565.691060427042" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="true">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <PortInfo index="2" default="False" />
+    </CoreNodeModels.Logic.If>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="5bba293b-f24c-4435-a047-8ba7ca7d01dc" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="575.088900643299" y="655.963611084395" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="null;&#xA;true;&#xA;false;" ShouldFocus="false" />
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="1e33b584-5ea6-4968-b8a7-ed954ea695bb" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="710.035387200756" y="542.191090772764" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="List.UniqueItems(Flatten(x!=y));" ShouldFocus="false">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+    </Dynamo.Graph.Nodes.CodeBlockNodeModel>
+    <CoreNodeModels.Input.BoolSelector guid="2eec093a-a8ed-4c23-b41e-ae27d97dd84b" type="CoreNodeModels.Input.BoolSelector" nickname="Boolean" x="1215.15068795731" y="712.959916426324" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.Boolean>False</System.Boolean>
+    </CoreNodeModels.Input.BoolSelector>
+    <Dynamo.Graph.Nodes.ZeroTouch.DSFunction guid="43f4b6f1-3adc-4367-9023-82361e0c9f05" type="Dynamo.Graph.Nodes.ZeroTouch.DSFunction" nickname="Excel.ReadFromFile" x="566.297983872362" y="177.804150382446" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="true" assembly="DSOffice.dll" function="DSOffice.Excel.ReadFromFile@var,string,bool">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <PortInfo index="2" default="True" />
+    </Dynamo.Graph.Nodes.ZeroTouch.DSFunction>
+    <CoreNodeModels.Watch guid="78648678-8c8f-42ff-9cf2-04430ceccc68" type="CoreNodeModels.Watch" nickname="Watch" x="1365.47169417245" y="311.275602215727" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+    </CoreNodeModels.Watch>
+    <PythonNodeModels.PythonNode guid="27b7c3c7-2bf5-4de6-9c3e-eb73341a79b6" type="PythonNodeModels.PythonNode" nickname="Python Script" x="995.642566812308" y="341.843157921684" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="true" inputcount="1">
+      <PortInfo index="0" default="False" />
+      <Script>from System.IO import Directory
+import sys
+sys.path.append('C:\Program Files (x86)\IronPython 2.7\Lib')
+
+import clr
+clr.AddReferenceByName('Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c')
+from Microsoft.Office.Interop import Excel
+from Microsoft.Office.Interop.Excel import ApplicationClass
+from System.Runtime.InteropServices import Marshal
+
+
+def bool_check(data):
+    if type(data) is str:
+        check1 = False
+    else:
+        check1 = True
+
+    return check1
+
+
+def excel_close(_bool):
+    if _bool:
+        xlApp = Marshal.GetActiveObject("Excel.Application")
+        xlApp.Visible = True
+        xlApp.DisplayAlerts = False
+        xlApp.Workbooks.Close()
+        xlApp.Quit()
+        Check =  "Success"
+    else:
+        Check = "Excel file is not opened yet"
+
+    return Check
+
+true_false = bool_check(IN[0])
+OUT = excel_close(true_false)
+</Script>
+    </PythonNodeModels.PythonNode>
+    <PythonNodeModels.PythonNode guid="fb3a8210-5b91-4e5f-857e-486812cf0c12" type="PythonNodeModels.PythonNode" nickname="Python Script" x="1183.72667667872" y="459.694823124164" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="1">
+      <PortInfo index="0" default="False" />
+      <Script>import sys
+sys.path.append(r'C:\Program Files (x86)\IronPython 2.7\Lib')
+from StringIO import StringIO
+output = StringIO()
+sys.stdout = output
+
+print('Starting Test')
+print('=============')
+print('1')
+print('2')
+print('3')
+
+OUT = output.getvalue()</Script>
+    </PythonNodeModels.PythonNode>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="81ea94da-3003-4e51-bde5-85d5bd6f6075" start_index="0" end="28658837-d8a3-4e72-a06e-a3cc9e6d7f5b" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="5bba293b-f24c-4435-a047-8ba7ca7d01dc" start_index="0" end="1e33b584-5ea6-4968-b8a7-ed954ea695bb" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="5bba293b-f24c-4435-a047-8ba7ca7d01dc" start_index="1" end="e75de501-a482-4a8e-9d34-9c761817cb17" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="5bba293b-f24c-4435-a047-8ba7ca7d01dc" start_index="2" end="e75de501-a482-4a8e-9d34-9c761817cb17" end_index="2" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="1e33b584-5ea6-4968-b8a7-ed954ea695bb" start_index="0" end="e75de501-a482-4a8e-9d34-9c761817cb17" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="43f4b6f1-3adc-4367-9023-82361e0c9f05" start_index="0" end="27b7c3c7-2bf5-4de6-9c3e-eb73341a79b6" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="fb3a8210-5b91-4e5f-857e-486812cf0c12" start_index="0" end="78648678-8c8f-42ff-9cf2-04430ceccc68" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations />
+  <Presets />
+  <Cameras>
+    <Camera Name="Hintergrundvorschau" eyeX="-17" eyeY="24" eyeZ="50" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>

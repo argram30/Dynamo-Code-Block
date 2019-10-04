@@ -1,0 +1,22 @@
+import clr
+clr.AddReference('ProtoGeometry')
+from Autodesk.DesignScript.Geometry import *
+#The inputs to this node will be stored as a list in the IN variables.
+dataEnteringNode = IN
+
+def get_Y(point):
+	return point.Y
+
+def get_X(point):
+	return point.X
+	
+sorted_list = []
+
+for i in IN[0]:
+	sorted_Y = sorted(i, key = get_Y)
+	
+	sorted_list.append(sorted_Y)
+	
+
+#Assign your output to the OUT variable.
+OUT = sorted_list

@@ -1,0 +1,373 @@
+{
+  "Uuid": "3c9d0464-8643-5ffe-96e5-ab1769818209",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "Shrink_Grid",
+  "ElementResolver": {
+    "ResolutionMap": {
+      "Category": {
+        "Key": "Revit.Elements.Category",
+        "Value": "RevitNodes.dll"
+      },
+      "Math": {
+        "Key": "DSCore.Math",
+        "Value": "DSCoreNodes.dll"
+      }
+    }
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "NodeType": "PythonScriptNode",
+      "Code": "import clr\r\n\r\n# ProtoGeometry (Dynamo)\r\nclr.AddReference('ProtoGeometry')\r\nfrom Autodesk.DesignScript.Geometry import *\r\n\r\n# API\r\nclr.AddReference(\"RevitAPI\")\r\nimport Autodesk\r\nfrom Autodesk.Revit.DB import *\r\n\r\n# RevtiServices\r\nclr.AddReference(\"RevitServices\")\r\nimport RevitServices\r\nfrom RevitServices.Persistence import DocumentManager\r\nfrom RevitServices.Transactions import TransactionManager\r\n\r\n# RevitNodes, ToDSType method, Geometry conversion\r\nclr.AddReference(\"RevitNodes\")\r\nimport Revit\r\nclr.ImportExtensions(Revit.Elements)\r\nclr.ImportExtensions(Revit.GeometryConversion)\r\n\r\n# defs\r\ndef Convert(num):\r\n\treturn UnitUtils.ConvertToInternalUnits(num, DisplayUnitType.DUT_MILLIMETERS)\r\n\r\n# start\r\ndoc = DocumentManager.Instance.CurrentDBDocument\r\n\r\nview = UnwrapElement(IN[0])\r\ndelta = Convert(IN[1])\r\ngrids = [UnwrapElement(item) for item in IN[2]]\r\n\r\ntest = []\r\nTransactionManager.Instance.EnsureInTransaction(doc)\r\nfor g in grids:\r\n\t\r\n\t# get grid_Curve and change its Y to create a new curve then apply it to the grid\r\n\t\r\n\t# DatumExtentType.ViewSpecific is important cuz I don't want the changes affect how grid be in other views, but just affect on this particular view.\r\n\tcurve = g.GetCurvesInView(DatumExtentType.ViewSpecific, view)[0]\r\n\tstart = curve.GetEndPoint(0)\r\n\tend = curve.GetEndPoint(1)\r\n\tnewStart = XYZ(start.X, start.Y + delta, start.Z)\r\n\tnewEnd = XYZ(end.X, end.Y - delta, end.Z)\r\n\tnewCurve = Line.CreateBound(newStart, newEnd)\r\n\tg.SetCurveInView(DatumExtentType.ViewSpecific, view, newCurve)\r\n\r\nTransactionManager.Instance.TransactionTaskDone()\r\n\r\n# end\r\nOUT = 0\r\n\r\n",
+      "VariableInputPorts": true,
+      "Id": "e9372c4255af4315ba027326cef41cae",
+      "Inputs": [
+        {
+          "Id": "3ab183eef9e84ec0be94b567c8a8f9c2",
+          "Name": "IN[0]",
+          "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "7d1cd50cc843467383ed913575d8db60",
+          "Name": "IN[1]",
+          "Description": "Input #1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "f92b26366e6b40ffabe3f0e02cdf2ba8",
+          "Name": "IN[2]",
+          "Description": "Input #2",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "a04eeaadf5f9472d82df271881b574d0",
+          "Name": "OUT",
+          "Description": "Result of the python script",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded IronPython script."
+    },
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "NodeType": "PythonScriptNode",
+      "Code": "import clr\r\n\r\n# ProtoGeometry (Dynamo)\r\nclr.AddReference('ProtoGeometry')\r\nfrom Autodesk.DesignScript.Geometry import *\r\n\r\n# API\r\nclr.AddReference(\"RevitAPI\")\r\nimport Autodesk\r\nfrom Autodesk.Revit.DB import *\r\n\r\n# RevtiServices\r\nclr.AddReference(\"RevitServices\")\r\nimport RevitServices\r\nfrom RevitServices.Persistence import DocumentManager\r\nfrom RevitServices.Transactions import TransactionManager\r\n\r\n# RevitNodes, ToDSType method, Geometry conversion\r\nclr.AddReference(\"RevitNodes\")\r\nimport Revit\r\nclr.ImportExtensions(Revit.Elements)\r\nclr.ImportExtensions(Revit.GeometryConversion)\r\n# defs\r\n\r\n\r\n# start\r\nview = UnwrapElement(IN[0])\r\n\r\n# end\r\nOUT = view.CropBox.ToProtoType()\r\n\r\n",
+      "VariableInputPorts": true,
+      "Id": "cd447375ccc641ca86eba5450c2d5dc6",
+      "Inputs": [
+        {
+          "Id": "15b523e7dc02442b8f240df4844c5f1f",
+          "Name": "IN[0]",
+          "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "c1188ba9a26a4d9395e1bf9fccf646ed",
+          "Name": "OUT",
+          "Description": "Result of the python script",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded IronPython script."
+    },
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "NodeType": "PythonScriptNode",
+      "Code": "import clr\r\nclr.AddReference(\"RevitServices\")\r\n\r\nimport RevitServices\r\nfrom RevitServices.Persistence import DocumentManager\r\nfrom RevitServices.Transactions import TransactionManager\r\n\r\ndoc = DocumentManager.Instance.CurrentDBDocument\r\nview = doc.ActiveView\r\n\r\nOUT = view",
+      "VariableInputPorts": true,
+      "Id": "83184ce027e14ae5b7f3b8d037f32e7d",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "bdc2caf2d0f94262b5ff16c7fdb5835a",
+          "Name": "OUT",
+          "Description": "Result of the python script",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded IronPython script."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "archilab.Revit.Selection.Select.ByCategoryAndView@Revit.Elements.Category,Revit.Elements.Views.View",
+      "Id": "3d3bfc7e0493438f9a3dc7e75566a56d",
+      "Inputs": [
+        {
+          "Id": "680e8c89d1764957be8b7798bbf342df",
+          "Name": "category",
+          "Description": "Category to filter for.\n\nCategory",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "1f78b57d9c2d462796cca41703bdcb34",
+          "Name": "view",
+          "Description": "View to filter for.\n\nView",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "1862a1ced4b14de1ba8142bc7a888c32",
+          "Name": "Element",
+          "Description": "Element.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Select Elements by Category and View.\n\nSelect.ByCategoryAndView (category: Category, view: View): Element[]"
+    },
+    {
+      "ConcreteType": "DSRevitNodesUI.Categories, DSRevitNodesUI",
+      "SelectedIndex": 233,
+      "NodeType": "ExtensionNode",
+      "Id": "16d8c71029b04ad99746f38b37130396",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "c97c11ee354847b79cf73e4e0241192a",
+          "Name": "Category",
+          "Description": "The selected Category.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "All built-in categories."
+    },
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "NodeType": "PythonScriptNode",
+      "Code": "data = UnwrapElement(IN[0])\r\n\r\nOUT = data\r\n#OUT = dir(data[0])",
+      "VariableInputPorts": true,
+      "Id": "fec39a0c2e214978863b14b258961302",
+      "Inputs": [
+        {
+          "Id": "1579c44b0a014f63968e5e1ea62e0d84",
+          "Name": "IN[0]",
+          "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "998d29d663264dea9541963c3a48c081",
+          "Name": "OUT",
+          "Description": "Result of the python script",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded IronPython script."
+    },
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "NodeType": "PythonScriptNode",
+      "Code": "import clr\r\n#Geometry Extensions to convert Revit Geometry\r\nclr.AddReference(\"RevitNodes\")\r\nimport Revit\r\nclr.ImportExtensions(Revit.GeometryConversion)\r\n\r\n#Revit Services to Handle Transactions\r\nclr.AddReference(\"RevitServices\")\r\nimport RevitServices\r\nfrom RevitServices.Persistence import DocumentManager\r\nfrom RevitServices.Transactions import TransactionManager\r\n\r\ndoc = DocumentManager.Instance.CurrentDBDocument\r\nview = doc.ActiveView\r\n\r\nrevView = UnwrapElement(view)\r\n\r\ncropShape = revView.GetCropRegionShapeManager()\r\nviewBound = cropShape.GetCropShape()\r\n\r\nOUT = [dir(i) for i in viewBound]\r\n#OUT = type(viewBound).__name__",
+      "VariableInputPorts": true,
+      "Id": "8afaf839fb6447e29f0076257fefc7de",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "abf60b3b5e474a879c80478fe9abcb0e",
+          "Name": "OUT",
+          "Description": "Result of the python script",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded IronPython script."
+    }
+  ],
+  "Connectors": [
+    {
+      "Start": "bdc2caf2d0f94262b5ff16c7fdb5835a",
+      "End": "1f78b57d9c2d462796cca41703bdcb34",
+      "Id": "8c844246e49f491eb41c1ed116ac9253"
+    },
+    {
+      "Start": "bdc2caf2d0f94262b5ff16c7fdb5835a",
+      "End": "15b523e7dc02442b8f240df4844c5f1f",
+      "Id": "eaddeac06576439fb47d43ddf0876e6a"
+    },
+    {
+      "Start": "1862a1ced4b14de1ba8142bc7a888c32",
+      "End": "1579c44b0a014f63968e5e1ea62e0d84",
+      "Id": "90d22f8020664f36a9ce7d316f071774"
+    },
+    {
+      "Start": "c97c11ee354847b79cf73e4e0241192a",
+      "End": "680e8c89d1764957be8b7798bbf342df",
+      "Id": "22b592582e1c4dd5be00249255f0adf2"
+    }
+  ],
+  "Dependencies": [],
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.0.2.6826",
+      "RunType": "Manual",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": 97.870438920896092,
+      "EyeY": 62.030831197496987,
+      "EyeZ": 6.3500995539150367,
+      "LookX": -53.527370181098888,
+      "LookY": -64.3877604393056,
+      "LookZ": -33.824699646792439,
+      "UpX": -0.46165328017889029,
+      "UpY": 0.83771871662047714,
+      "UpZ": -0.29172521441229826
+    },
+    "NodeViews": [
+      {
+        "ShowGeometry": true,
+        "Name": "Python Script",
+        "Id": "e9372c4255af4315ba027326cef41cae",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": true,
+        "X": 680.450487266328,
+        "Y": 3.2902595346958492
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "BBox",
+        "Id": "cd447375ccc641ca86eba5450c2d5dc6",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 716.77471815112335,
+        "Y": 909.13426743400248
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Active View",
+        "Id": "83184ce027e14ae5b7f3b8d037f32e7d",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 277.82529792158141,
+        "Y": 610.141053013328
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Select.ByCategoryAndView",
+        "Id": "3d3bfc7e0493438f9a3dc7e75566a56d",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 690.083390773349,
+        "Y": 459.94479483254838
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Categories",
+        "Id": "16d8c71029b04ad99746f38b37130396",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 221.05451213642178,
+        "Y": 409.99982180168229
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Grid Plane",
+        "Id": "fec39a0c2e214978863b14b258961302",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1029.0872479411714,
+        "Y": 455.85719029444465
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Active View",
+        "Id": "8afaf839fb6447e29f0076257fefc7de",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 307.08432724280976,
+        "Y": 830.398394954698
+      }
+    ],
+    "Annotations": [
+      {
+        "Id": "337582dc4a7747e0abcda4120a15d1fe",
+        "Title": " ",
+        "Nodes": [
+          "e9372c4255af4315ba027326cef41cae"
+        ],
+        "Left": 670.450487266328,
+        "Top": -49.709740465304151,
+        "Width": 144.0,
+        "Height": 198.0,
+        "FontSize": 36.0,
+        "InitialTop": 3.2902595346958492,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 43.0,
+        "Background": "#FFC1D676"
+      }
+    ],
+    "X": -256.50575484973444,
+    "Y": -667.24032449278434,
+    "Zoom": 1.3832201971456222
+  }
+}

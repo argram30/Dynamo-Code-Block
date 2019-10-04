@@ -1,0 +1,14 @@
+def getName(ele)
+{
+	return = [Imperative]
+	{
+		if (ele == null)
+		{
+			return = null;
+		}
+		else
+		{
+			return = ele.Name;
+		}
+	}
+};

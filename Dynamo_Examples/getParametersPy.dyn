@@ -1,0 +1,85 @@
+<Workspace Version="1.3.2.2480" X="4999.60337248815" Y="603.045215438835" zoom="1.54904107199449" ScaleFactor="1" Name="Home" Description="" RunType="Manual" RunPeriod="1000" HasRunWithoutCrash="True">
+  <NamespaceResolutionMap>
+    <ClassMap partialName="Category" resolvedName="Revit.Elements.Category" assemblyName="RevitNodes.dll" />
+  </NamespaceResolutionMap>
+  <Elements>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="0a165061-9290-40ec-8d4f-0b7acd598fd0" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="-3523.61743630122" y="319.062884134619" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="Category.ByName(&quot;Rooms&quot;);" ShouldFocus="false" />
+    <DSRevitNodesUI.ElementsOfCategory guid="0f64a005-5759-4435-a351-b7b44f802b73" type="DSRevitNodesUI.ElementsOfCategory" nickname="All Elements of Category" x="-3212.21687716365" y="315.077645652642" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="true">
+      <PortInfo index="0" default="False" />
+    </DSRevitNodesUI.ElementsOfCategory>
+    <PythonNodeModels.PythonNode guid="ed0ae7e6-76ba-4b2f-90bc-a53cf53df05c" type="PythonNodeModels.PythonNode" nickname="Dictionary Rooms" x="-2657.46071121215" y="314.035784582169" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="true" inputcount="2">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <Script>import sys
+import _collections as collections
+
+data = IN[0]
+param_name = IN[1]
+
+def cal_num(_lsts):
+	new_lst = []
+	for lst in _lsts:
+		if type(lst) == list:
+			new_lst.append([j if i &lt; 2 else '.'.join(lst[2:5]) for i,j in enumerate(lst) if i &lt;= 2])	
+	return new_lst		
+
+def null_area(room_lst):
+	new_rooms = []
+	for room in data:
+		if room.GetParameterValueByName(param_name[1]) != "": new_rooms.append(room)
+	else: pass
+	return new_rooms
+
+filt_rooms = null_area(data)
+#values of the room
+vals = [[ele.GetParameterValueByName(i) for i in param_name] for ele in filt_rooms]
+
+#short values of the room number
+short_vals = cal_num(vals)
+
+#storing the values to sort
+val_dict = {}
+
+for name,area,number in short_vals:
+	val_dict.setdefault(number, []).append([name,area])
+	
+#ord_val_dict = collections.OrderedDict(Sorted(val_dict.items()))
+chk = val_dict.items()
+
+OUT = chk</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="03a909a6-35de-4525-8426-8deb51774f17" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="-2979.40569275049" y="403.22654132867" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="{&#xA;&quot;Name&quot;,&#xA;&quot;Area&quot;,&#xA;&quot;gg_RA_Bauteil&quot;,&#xA;&quot;gg_RA_Ebene&quot;,&#xA;&quot;gg_RA_Wohnungsnummer&quot;&#xA;};" ShouldFocus="false" />
+    <Dynamo.Graph.Nodes.ZeroTouch.DSFunction guid="6e187270-a03c-4369-9e65-bb84634f548a" type="Dynamo.Graph.Nodes.ZeroTouch.DSFunction" nickname="Element.GetParameterValueByName" x="-2956.44429522094" y="-198.975695910426" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="true" assembly="RevitNodes.dll" function="Revit.Elements.Element.GetParameterValueByName@string">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+    </Dynamo.Graph.Nodes.ZeroTouch.DSFunction>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="f2fc4c4d-8adc-41cd-90ab-81244783206f" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="-3119.74143567152" y="-232.775678074415" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="&quot;Number&quot;;" ShouldFocus="false" />
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="3c29d6ed-ac76-441e-baa4-82e4fa0532e1" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="Elements in Room" x="-2459.92926659799" y="247.716046610931" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <ID value="29b30d46-9dd4-42d2-adf3-eda1ad145f62" />
+      <Name value="Elements in Room" />
+      <Description value="This node will check if any of the elements are inside any of the supplied rooms. " />
+      <Inputs>
+        <Input value="Elements" />
+        <Input value="Rooms" />
+      </Inputs>
+      <Outputs>
+        <Output value="Elements" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="0a165061-9290-40ec-8d4f-0b7acd598fd0" start_index="0" end="0f64a005-5759-4435-a351-b7b44f802b73" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="0f64a005-5759-4435-a351-b7b44f802b73" start_index="0" end="ed0ae7e6-76ba-4b2f-90bc-a53cf53df05c" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="0f64a005-5759-4435-a351-b7b44f802b73" start_index="0" end="6e187270-a03c-4369-9e65-bb84634f548a" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="03a909a6-35de-4525-8426-8deb51774f17" start_index="0" end="ed0ae7e6-76ba-4b2f-90bc-a53cf53df05c" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="f2fc4c4d-8adc-41cd-90ab-81244783206f" start_index="0" end="6e187270-a03c-4369-9e65-bb84634f548a" end_index="1" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations />
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-17" eyeY="24" eyeZ="50" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>
