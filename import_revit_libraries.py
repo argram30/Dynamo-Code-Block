@@ -37,7 +37,7 @@ from Autodesk.Revit.UI import TaskDialogCommonButtons
 collector = Autodesk.Revit.DB.FilteredElementCollector(doc)
 levels = collector.OfClass(Level)
 
-#Converting an item in to List
+#Converting an item in to Lists
 def convertToList(testList):
 	if isinstance(testList, list):
 		return testList
