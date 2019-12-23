@@ -1,0 +1,552 @@
+{
+  "Uuid": "6b4282f8-caa0-4e7f-aa87-4ce528dcf7da",
+  "IsCustomNode": false,
+  "Description": null,
+  "Name": "CSharpC#InDynamo",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Scripting.CSharpScript.FromString@string,var[]..[],string[]",
+      "Id": "372fea6eac79444a9daab22e84e65f6f",
+      "Inputs": [
+        {
+          "Id": "ddefe23cb9da44f7841f1107e70e9c37",
+          "Name": "script",
+          "Description": "The C# script as a string\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "83892cb744e342cc88748de745865cdf",
+          "Name": "IN",
+          "Description": "A list of inputs. You will need to recast each item in the list\n\nvar[]..[]\nDefault value : DesignScript.Builtin.Dictionary.ByKeysValues([], [])",
+          "UsingDefaultValue": true,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "f355734c355440a3a1b30b22211f5931",
+          "Name": "CustomAssemblies",
+          "Description": "An optional list of assembly file paths to be side-loaded with the script\n\nstring[]\nDefault value : DesignScript.Builtin.Dictionary.ByKeysValues([], [])",
+          "UsingDefaultValue": true,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "c61eee56c80245cda341995ea8ebdf7d",
+          "Name": "OUT",
+          "Description": "The script output",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Runs an embedded C# script. Your return statement should be left without a semicolon (;) at the end for the script engine to pick up\n\nCSharpScript.FromString (script: string, IN: var[]..[] = DesignScript.Builtin.Dictionary.ByKeysValues([], []), CustomAssemblies: string[] = DesignScript.Builtin.Dictionary.ByKeysValues([], [])): var[]..[]"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "\"\nusing System;\n\nvar a = (Int64)IN[0];\nvar b = (Int64)IN[1];\n\nInt64 test()\n{\nreturn a * a + b * b;\n}\n\nreturn test();\n\";",
+      "Id": "c5eccd72f35c473ba7efc852c09fb092",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "cd57e1ad29374d1b94c6621bc67ac091",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "[x, 6];\n[];",
+      "Id": "b3624f2ec1554064a91d10f365ae6121",
+      "Inputs": [
+        {
+          "Id": "3570e700a6b44efda7f2b35fdc3fec76",
+          "Name": "x",
+          "Description": "x",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "c1f255cef7d44d66b457dec44560671d",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "daab37842e98405ab80dde5eee2dd558",
+          "Name": "",
+          "Description": "Value of expression at line 2",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "//package = dynamic c sharp interpreter, works with dynamo 1 & 2",
+      "Id": "6b4bc8e3cf0446b7a4ad0b2fb3c97cbb",
+      "Inputs": [],
+      "Outputs": [],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.IntegerSlider, CoreNodeModels",
+      "NodeType": "NumberInputNode",
+      "NumberType": "Integer",
+      "InputValue": 26,
+      "MaximumValue": 100,
+      "MinimumValue": 0,
+      "StepValue": 1,
+      "Id": "5f851be331a842ecaef65e5a098bb340",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "7cedea8094d644ea8fa2721a3c1ea0b8",
+          "Name": "",
+          "Description": "Int32",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "A slider that produces integer values."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "\"\nusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\nusing System.Threading.Tasks;\nusing Autodesk.DesignScript.RunTime;\nusing Autodesk.DesignScript.Interfaces;\nusing Autodesk.DesignScript.Geometry;\n\nnamespace MyTest\n{\n    public class ZeroTouchTest\n    {\n        private Int64 _x;\n        private Int64 _y;\n        private Int64 _z;\n\n        internal ZeroTouchTest(Int64 x, Int64 y, Int64 z)\n        {\n            _x = x;\n            _y = y;\n            _z = z:\n        }\n        public static Line ByTwoDoubles(Int64 x, Int64 y, Int64 z)\n        {\n           Point p1 = Point.ByCoordinates(x, y, z);\n           Point p2 = Point.ByCoordinates(x + 10, y + 10, z + 10);\n           Line line = Line.ByStartPiontEndPoint(p1,p2);\n           p1.Dispose();\n           p2.Dispose();\n           return line;\n        }\n    }\n}\n\";",
+      "Id": "355b7806e6f94e209cded36d1873c314",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "c6f652da993d4180a6c1be1b3c9dde7b",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "\"\nusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\nusing System.Threading.Tasks;\nusing Autodesk.DesignScript.RunTime;\nusing Autodesk.DesignScript.Interfaces;\nusing Autodesk.DesignScript.Geometry;\n\npublic class ZeroTouchTest\n{\n    private Int64 _x;\n    private Int64 _y;\n    private Int64 _z;\n\n    internal ZeroTouchTest(Int64 x, Int64 y, Int64 z)\n    {\n        _x = x;\n        _y = y;\n        _z = z:\n    }\n    public static Line ByTwoDoubles(Int64 x, Int64 y, Int64 z)\n    {\n       Point p1 = Point.ByCoordinates(x, y, z);\n       Point p2 = Point.ByCoordinates(x + 10, y + 10, z + 10);\n       Line line = Line.ByStartPiontEndPoint(p1,p2);\n       p1.Dispose();\n       p2.Dispose();\n       return line;\n    }\n}\n\";",
+      "Id": "d56d09532222419ab659e5c8dd3bb468",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "3f008b783ca14fd4b590f9fcb829591c",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Scripting.CSharpScript.FromString@string,var[]..[],string[]",
+      "Id": "1d9d0d253d384b3baa421d8442772411",
+      "Inputs": [
+        {
+          "Id": "40455c888d3645d48b78a1c29d104538",
+          "Name": "script",
+          "Description": "The C# script as a string\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "33dbe1706d91467dbcff8619b4e7c175",
+          "Name": "IN",
+          "Description": "A list of inputs. You will need to recast each item in the list\n\nvar[]..[]\nDefault value : DesignScript.Builtin.Dictionary.ByKeysValues([], [])",
+          "UsingDefaultValue": true,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "a876df92bac84d8b85427daf225b2fb9",
+          "Name": "CustomAssemblies",
+          "Description": "An optional list of assembly file paths to be side-loaded with the script\n\nstring[]\nDefault value : DesignScript.Builtin.Dictionary.ByKeysValues([], [])",
+          "UsingDefaultValue": true,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "d02e0da779c740d0b8f8b9b5a5ac94a0",
+          "Name": "OUT",
+          "Description": "The script output",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Runs an embedded C# script. Your return statement should be left without a semicolon (;) at the end for the script engine to pick up\n\nCSharpScript.FromString (script: string, IN: var[]..[] = DesignScript.Builtin.Dictionary.ByKeysValues([], []), CustomAssemblies: string[] = DesignScript.Builtin.Dictionary.ByKeysValues([], [])): var[]..[]"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Scripting.CSharpScript.FromString@string,var[]..[],string[]",
+      "Id": "8072662ed6f14c3fbddb17c77b1d561b",
+      "Inputs": [
+        {
+          "Id": "06f66696d915447aaeaaf8ebfa84c031",
+          "Name": "script",
+          "Description": "The C# script as a string\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "51946fafd0964115b4e7c21e3fd7a467",
+          "Name": "IN",
+          "Description": "A list of inputs. You will need to recast each item in the list\n\nvar[]..[]\nDefault value : DesignScript.Builtin.Dictionary.ByKeysValues([], [])",
+          "UsingDefaultValue": true,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "6ed321423443404b886d6c13bf62f038",
+          "Name": "CustomAssemblies",
+          "Description": "An optional list of assembly file paths to be side-loaded with the script\n\nstring[]\nDefault value : DesignScript.Builtin.Dictionary.ByKeysValues([], [])",
+          "UsingDefaultValue": true,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "b73a3367309940d2857e74fef1e4320e",
+          "Name": "OUT",
+          "Description": "The script output",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Runs an embedded C# script. Your return statement should be left without a semicolon (;) at the end for the script engine to pick up\n\nCSharpScript.FromString (script: string, IN: var[]..[] = DesignScript.Builtin.Dictionary.ByKeysValues([], []), CustomAssemblies: string[] = DesignScript.Builtin.Dictionary.ByKeysValues([], [])): var[]..[]"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "[];",
+      "Id": "f2d80cc83d6743deb448b022f0afd233",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "9ac37fa7732d45d1b69aadbb9ff6bd2a",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "\"\nusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\nusing System.Threading.Tasks;\nusing Autodesk.DesignScript.RunTime;\nusing Autodesk.DesignScript.Interfaces;\nusing Autodesk.DesignScript.Geometry;\n\nnamespace MyTest\n{\n    public class ZeroTouchTest\n    {\n        private double _x;\n        private double _y;\n        private double _z;\n\n        internal ZeroTouchTest(double x, double y, double z)\n        {\n            _x = x;\n            _y = y;\n            _z = z:\n        }\n        public static Line ByTwoDoubles(double x, double y, double z)\n        {\n           Point p1 = Point.ByCoordinates(x, y, z);\n           Point p2 = Point.ByCoordinates(x + 10, y + 10, z + 10);\n           Line line = Line.ByStartPiontEndPoint(p1,p2);\n           p1.Dispose();\n           p2.Dispose();\n           return line;\n        }\n    }\n}\n\";",
+      "Id": "6d7a14e99bb640f8a698e0d9fe5917e8",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "9a9d10f266324e268217085ee8a7f6a9",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "\"\nusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\nusing System.Threading.Tasks;\nusing Autodesk.DesignScript.RunTime;\nusing Autodesk.DesignScript.Interfaces;\nusing Autodesk.DesignScript.Geometry;\n\npublic class ZeroTouchTest\n{\n    private double _x;\n    private double _y;\n    private double _z;\n\n    internal ZeroTouchTest(double x, double y, double z)\n    {\n        _x = x;\n        _y = y;\n        _z = z:\n    }\n    public static Line ByTwoDoubles(double x, double y, double z)\n    {\n       Point p1 = Point.ByCoordinates(x, y, z);\n       Point p2 = Point.ByCoordinates(x + 10, y + 10, z + 10);\n       Line line = Line.ByStartPiontEndPoint(p1,p2);\n       p1.Dispose();\n       p2.Dispose();\n       return line;\n    }\n}\n\";",
+      "Id": "b2d3316af78f450581eb1808a6537bc8",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "363bcad91814419d9e63b6b678badc1a",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    }
+  ],
+  "Connectors": [
+    {
+      "Start": "cd57e1ad29374d1b94c6621bc67ac091",
+      "End": "06f66696d915447aaeaaf8ebfa84c031",
+      "Id": "c3318f73dd4f418b83ad23f0acb6f29d"
+    },
+    {
+      "Start": "c1f255cef7d44d66b457dec44560671d",
+      "End": "51946fafd0964115b4e7c21e3fd7a467",
+      "Id": "a2ba1c33835a47d78f3672ec4ab4594a"
+    },
+    {
+      "Start": "daab37842e98405ab80dde5eee2dd558",
+      "End": "6ed321423443404b886d6c13bf62f038",
+      "Id": "8545d68d27934baa8d6423ed395504cd"
+    },
+    {
+      "Start": "7cedea8094d644ea8fa2721a3c1ea0b8",
+      "End": "3570e700a6b44efda7f2b35fdc3fec76",
+      "Id": "53a6ee54bd4d4fccb1b0822ef07b6686"
+    },
+    {
+      "Start": "c6f652da993d4180a6c1be1b3c9dde7b",
+      "End": "40455c888d3645d48b78a1c29d104538",
+      "Id": "95e2b7b641464ba08cb6b740464570f1"
+    },
+    {
+      "Start": "3f008b783ca14fd4b590f9fcb829591c",
+      "End": "ddefe23cb9da44f7841f1107e70e9c37",
+      "Id": "71db982389694c70b2d5796aa0c68f74"
+    },
+    {
+      "Start": "9ac37fa7732d45d1b69aadbb9ff6bd2a",
+      "End": "33dbe1706d91467dbcff8619b4e7c175",
+      "Id": "40909ad01a054f60875e8913695655e3"
+    },
+    {
+      "Start": "9ac37fa7732d45d1b69aadbb9ff6bd2a",
+      "End": "a876df92bac84d8b85427daf225b2fb9",
+      "Id": "23b36f3750f347898262200ab5f4ee09"
+    },
+    {
+      "Start": "9ac37fa7732d45d1b69aadbb9ff6bd2a",
+      "End": "f355734c355440a3a1b30b22211f5931",
+      "Id": "5b0b1b7891014c16bda6918c893cb9c8"
+    },
+    {
+      "Start": "9ac37fa7732d45d1b69aadbb9ff6bd2a",
+      "End": "83892cb744e342cc88748de745865cdf",
+      "Id": "e70abe9f09d94e5fa5a2f620aeffe8bb"
+    }
+  ],
+  "Dependencies": [],
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.0.2.6826",
+      "RunType": "Automatic",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": -17.0,
+      "EyeY": 24.0,
+      "EyeZ": 50.0,
+      "LookX": 12.0,
+      "LookY": -13.0,
+      "LookZ": -58.0,
+      "UpX": 0.0,
+      "UpY": 1.0,
+      "UpZ": 0.0
+    },
+    "NodeViews": [
+      {
+        "ShowGeometry": true,
+        "Name": "CSharpScript.FromString",
+        "Id": "372fea6eac79444a9daab22e84e65f6f",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 448.72509038249541,
+        "Y": 206.024005792551
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Code Block",
+        "Id": "c5eccd72f35c473ba7efc852c09fb092",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -58.38388347856494,
+        "Y": 552.11791665717919
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Code Block",
+        "Id": "b3624f2ec1554064a91d10f365ae6121",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 251.10340941581512,
+        "Y": 424.64126896278515
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Code Block",
+        "Id": "6b4bc8e3cf0446b7a4ad0b2fb3c97cbb",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 235.91991257864015,
+        "Y": -220.01308892869554
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Integer Slider",
+        "Id": "5f851be331a842ecaef65e5a098bb340",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -74.7479007442032,
+        "Y": 420.45819199280538
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Code Block",
+        "Id": "355b7806e6f94e209cded36d1873c314",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -1341.1014668514536,
+        "Y": -69.252124153542127
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Code Block",
+        "Id": "d56d09532222419ab659e5c8dd3bb468",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -719.95138445774774,
+        "Y": 208.01860032440692
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "CSharpScript.FromString",
+        "Id": "1d9d0d253d384b3baa421d8442772411",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 438.93511113226305,
+        "Y": -72.990402839068508
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "CSharpScript.FromString",
+        "Id": "8072662ed6f14c3fbddb17c77b1d561b",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 485.08102063260662,
+        "Y": 545.15630892334309
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Code Block",
+        "Id": "f2d80cc83d6743deb448b022f0afd233",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 171.0,
+        "Y": 45.0
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Code Block",
+        "Id": "6d7a14e99bb640f8a698e0d9fe5917e8",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -1976.3325344831396,
+        "Y": -78.794199756543378
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Code Block",
+        "Id": "b2d3316af78f450581eb1808a6537bc8",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -1333.8102352337896,
+        "Y": 620.25231507065337
+      }
+    ],
+    "Annotations": [],
+    "X": 1282.0721849755578,
+    "Y": 141.90202537124679,
+    "Zoom": 0.58385795068303015
+  }
+}
