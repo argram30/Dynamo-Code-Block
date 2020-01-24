@@ -1,0 +1,3152 @@
+{
+  "-2009013": {
+    "Name": "Rebar Shape",
+    "Id": -2009013,
+    "DeutschName": "Biegeform"
+  },
+  "-2009003": {
+    "Name": "Structural Area Reinforcement",
+    "Id": -2009003,
+    "DeutschName": "Bewehrung - Verlegebereich Fläche"
+  },
+  "-2009033": {
+    "Name": "Structural Connections - Symbol",
+    "Id": -2009033,
+    "DeutschName": "Tragwerksverbindungen - Symbol"
+  },
+  "-2003326": {
+    "Name": "Mass - Pattern Lines",
+    "Id": -2003326,
+    "DeutschName": "Körper - Musterlinien"
+  },
+  "-2003306": {
+    "Name": "Ramps - DOWN text",
+    "Id": -2003306,
+    "DeutschName": "Rampen - Text AB"
+  },
+  "-2009063": {
+    "Name": "Hole Tags",
+    "Id": -2009063,
+    "DeutschName": "Bohrungsbezeichnungen"
+  },
+  "-2008003": {
+    "Name": "Duct Tags",
+    "Id": -2008003,
+    "DeutschName": "Luftkanalbeschriftungen"
+  },
+  "-2008013": {
+    "Name": "Air Terminals",
+    "Id": -2008013,
+    "DeutschName": "Luftdurchlässe"
+  },
+  "-2008023": {
+    "Name": "Flex Ducts - Pattern",
+    "Id": -2008023,
+    "DeutschName": "Flexkanäle - Muster"
+  },
+  "-2008043": {
+    "Name": "Piping Systems",
+    "Id": -2008043,
+    "DeutschName": "Rohr Systeme"
+  },
+  "-2008053": {
+    "Name": "Flex Pipes - Pattern",
+    "Id": -2008053,
+    "DeutschName": "Flexible Rohre - Muster"
+  },
+  "-2008083": {
+    "Name": "Data Devices",
+    "Id": -2008083,
+    "DeutschName": "Datengeräte"
+  },
+  "-2008093": {
+    "Name": "Analytical Surfaces - Shades",
+    "Id": -2008093,
+    "DeutschName": "Berechnete Oberflächen - Schattierungen"
+  },
+  "-2001267": {
+    "Name": "Property Tags",
+    "Id": -2001267,
+    "DeutschName": "Eigenschaftsbeschriftungen"
+  },
+  "-2000287": {
+    "Name": "Lines - <Beyond>",
+    "Id": -2000287,
+    "DeutschName": "Linien - <Außerhalb des Bereichs>"
+  },
+  "-2000831": {
+    "Name": "Lines - <Space Separation>",
+    "Id": -2000831,
+    "DeutschName": "Linien - <MEP-Raumtrennung>"
+  },
+  "-2000267": {
+    "Name": "Assemblies",
+    "Id": -2000267,
+    "DeutschName": "Baugruppen"
+  },
+  "-2000014": {
+    "Name": "Windows",
+    "Id": -2000014,
+    "DeutschName": "Fenster"
+  },
+  "-2000044": {
+    "Name": "Lines - Wide Lines",
+    "Id": -2000044,
+    "DeutschName": "Linien - Breite Linien"
+  },
+  "-2008212": {
+    "Name": "MEP Fabrication Containment",
+    "Id": -2008212,
+    "DeutschName": "MEP Fabrication Kabelführungen"
+  },
+  "-2008108": {
+    "Name": "HVAC Zones - Boundary",
+    "Id": -2008108,
+    "DeutschName": "Zonen - Begrenzung"
+  },
+  "-2008118": {
+    "Name": "HVAC Zones - Reference Lines",
+    "Id": -2008118,
+    "DeutschName": "Zonen - Referenzlinien"
+  },
+  "-2008128": {
+    "Name": "Conduit Fittings",
+    "Id": -2008128,
+    "DeutschName": "Leerrohrformteile"
+  },
+  "-2008138": {
+    "Name": "Conduits - Drop",
+    "Id": -2008138,
+    "DeutschName": "Leerrohr - Gefälle"
+  },
+  "-2000615": {
+    "Name": "Ceilings - Finish 2 [5]",
+    "Id": -2000615,
+    "DeutschName": "Decken - Nichttragende Schicht 2 [5]"
+  },
+  "-2009608": {
+    "Name": "Structural Trusses - Stick Symbols",
+    "Id": -2009608,
+    "DeutschName": "Fachwerkbinder - Einfügesymbole"
+  },
+  "-2008168": {
+    "Name": "Analytical Surfaces - Roofs",
+    "Id": -2008168,
+    "DeutschName": "Berechnete Oberflächen - Dächer"
+  },
+  "-2008178": {
+    "Name": "Analytical Surfaces - Fixed Windows",
+    "Id": -2008178,
+    "DeutschName": "Berechnete Oberflächen - Festverglaste Fenster"
+  },
+  "-2008123": {
+    "Name": "Duct Insulations",
+    "Id": -2008123,
+    "DeutschName": "Luftkanaldämmung außen"
+  },
+  "-2008198": {
+    "Name": "MEP Fabrication Ductwork - Insulation",
+    "Id": -2008198,
+    "DeutschName": "MEP Fabrication Luftkanäle - Dämmung außen"
+  },
+  "-2008133": {
+    "Name": "Conduit Tags",
+    "Id": -2008133,
+    "DeutschName": "Leerrohre - Beschriftungen"
+  },
+  "-2009631": {
+    "Name": "Analytical Beams - Start Segment",
+    "Id": -2009631,
+    "DeutschName": "Skelettbau Träger (analytisch) - Anfangssegment"
+  },
+  "-2008153": {
+    "Name": "Duct Insulation Tags",
+    "Id": -2008153,
+    "DeutschName": "Luftkanaldämmung außen - Beschriftungen"
+  },
+  "-2009651": {
+    "Name": "Analytical Column Tags",
+    "Id": -2009651,
+    "DeutschName": "Stütze (analytisch) - Beschriftungen"
+  },
+  "-2008193": {
+    "Name": "MEP Fabrication Ductwork",
+    "Id": -2008193,
+    "DeutschName": "MEP Fabrication Luftkanäle"
+  },
+  "-2001358": {
+    "Name": "Structural Stiffeners - Hidden Lines",
+    "Id": -2001358,
+    "DeutschName": "Steifen - Verdeckte Linien"
+  },
+  "-2009641": {
+    "Name": "Analytical Isolated Foundations",
+    "Id": -2009641,
+    "DeutschName": "Fundamente Einzeln (analytisch)"
+  },
+  "-2008163": {
+    "Name": "Pipe Segments",
+    "Id": -2008163,
+    "DeutschName": "Rohrsegmente"
+  },
+  "-2008173": {
+    "Name": "Analytical Surfaces - Ceilings",
+    "Id": -2008173,
+    "DeutschName": "Berechnete Oberflächen - Decken"
+  },
+  "-2001357": {
+    "Name": "Structural Columns - Location Lines",
+    "Id": -2001357,
+    "DeutschName": "Tragwerksstützen - Basislinien"
+  },
+  "-2008183": {
+    "Name": "Analytical Surfaces - Non-sliding Doors",
+    "Id": -2008183,
+    "DeutschName": "Berechnete Oberflächen - Türen außer Schiebetüren"
+  },
+  "-2009638": {
+    "Name": "Analytical Columns - Top Segment",
+    "Id": -2009638,
+    "DeutschName": "Tragwerksstützen (analytisch) - Oberes Segment"
+  },
+  "-2001328": {
+    "Name": "Structural Framing - Kicker Bracing",
+    "Id": -2001328,
+    "DeutschName": "Skelettbau - Aussteifungselement"
+  },
+  "-2001327": {
+    "Name": "Structural Beam Systems",
+    "Id": -2001327,
+    "DeutschName": "Trägersysteme"
+  },
+  "-2000605": {
+    "Name": "Floors - Finish 2 [5]",
+    "Id": -2000605,
+    "DeutschName": "Geschossdecken - Nichttragende Schicht 2 [5]"
+  },
+  "-2005217": {
+    "Name": "Structural Load Cases - Temperature Loads",
+    "Id": -2005217,
+    "DeutschName": "Tragwerk Lastfälle - Temperaturlast"
+  },
+  "-2005207": {
+    "Name": "Structural Internal Loads - Internal Area Loads",
+    "Id": -2005207,
+    "DeutschName": "Interne Traglasten - Interne Flächenlasten"
+  },
+  "-2003605": {
+    "Name": "Spaces - Color Fill",
+    "Id": -2003605,
+    "DeutschName": "MEP-Räume - Farbfüllung"
+  },
+  "-2000901": {
+    "Name": "Adaptive Points - Points",
+    "Id": -2000901,
+    "DeutschName": "Adaptive Punkte - Punkte"
+  },
+  "-2005014": {
+    "Name": "Specialty Equipment Tags",
+    "Id": -2005014,
+    "DeutschName": "Sonderausstattung - Beschriftungen"
+  },
+  "-2005004": {
+    "Name": "Electrical Fixture Tags",
+    "Id": -2005004,
+    "DeutschName": "Elektroinstallationsbeschriftungen"
+  },
+  "-2003416": {
+    "Name": "Mass - Mass Skylight",
+    "Id": -2003416,
+    "DeutschName": "Körper - Körper - Oberlicht"
+  },
+  "-2000951": {
+    "Name": "Railings - <Above> Handrails",
+    "Id": -2000951,
+    "DeutschName": "Geländer - <Oberhalb > Handläufe"
+  },
+  "-2000941": {
+    "Name": "Stair Landing Tags",
+    "Id": -2000941,
+    "DeutschName": "Treppe - Podestbeschriftungen"
+  },
+  "-2000971": {
+    "Name": "Analytical Beams - Local Coordinate System",
+    "Id": -2000971,
+    "DeutschName": "Skelettbau Träger (analytisch) - Lokales Koordinatensystem"
+  },
+  "-2000931": {
+    "Name": "Stairs - <Above> Cut Marks",
+    "Id": -2000931,
+    "DeutschName": "Treppen - <Oberhalb> Schnittmarkierungen"
+  },
+  "-2000921": {
+    "Name": "Stairs - Treads/Risers",
+    "Id": -2000921,
+    "DeutschName": "Treppen - Auftritte/Steigungen"
+  },
+  "-2000132": {
+    "Name": "Railings - <Above> Railings Cut Line",
+    "Id": -2000132,
+    "DeutschName": "Geländer - <Oberhalb> Geländerschnittlinie"
+  },
+  "-2000162": {
+    "Name": "Rooms - Reference",
+    "Id": -2000162,
+    "DeutschName": "Räume - Referenz"
+  },
+  "-2003308": {
+    "Name": "Ramps - Down Arrow",
+    "Id": -2003308,
+    "DeutschName": "Rampen - Pfeil nach unten"
+  },
+  "-2003327": {
+    "Name": "Mass - Pattern Fill",
+    "Id": -2003327,
+    "DeutschName": "Körper - Musterfüllung"
+  },
+  "-2003307": {
+    "Name": "Ramps - Up Arrow",
+    "Id": -2003307,
+    "DeutschName": "Rampen - Pfeil nach oben"
+  },
+  "-2008116": {
+    "Name": "HVAC Zones - Color Fill",
+    "Id": -2008116,
+    "DeutschName": "Zonen - Farbfüllung"
+  },
+  "-2008126": {
+    "Name": "Cable Tray Fittings",
+    "Id": -2008126,
+    "DeutschName": "Kabeltrassenformteile"
+  },
+  "-2008136": {
+    "Name": "Cable Trays - Center line",
+    "Id": -2008136,
+    "DeutschName": "Kabeltrassen - Achse"
+  },
+  "-2008176": {
+    "Name": "Analytical Surfaces - Underground Slabs",
+    "Id": -2008176,
+    "DeutschName": "Berechnete Oberflächen - Unterirdische Platten"
+  },
+  "-2008186": {
+    "Name": "Analytical Surfaces",
+    "Id": -2008186,
+    "DeutschName": "Berechnete Oberflächen"
+  },
+  "-2008196": {
+    "Name": "MEP Fabrication Ductwork - Center Line",
+    "Id": -2008196,
+    "DeutschName": "MEP Fabrication Luftkanäle - Achse"
+  },
+  "-2007004": {
+    "Name": "Duct Color Fill Legends",
+    "Id": -2007004,
+    "DeutschName": "Farbenlegenden für Luftkanäle"
+  },
+  "-2000584": {
+    "Name": "Walls - Finish 1 [4]",
+    "Id": -2000584,
+    "DeutschName": "Wände - Nichttragende Schicht 1 [4]"
+  },
+  "-2000594": {
+    "Name": "Roofs - Finish 1 [4]",
+    "Id": -2000594,
+    "DeutschName": "Dächer - Nichttragende Schicht 1 [4]"
+  },
+  "-2000984": {
+    "Name": "Analytical Pipe Connections - Connection Line Symbol",
+    "Id": -2000984,
+    "DeutschName": "Analytische Rohrverbindungen - Verbindungsliniensymbol"
+  },
+  "-2009519": {
+    "Name": "Lighting Fixtures - Hidden Lines",
+    "Id": -2009519,
+    "DeutschName": "Leuchten - Verdeckte Linien"
+  },
+  "-2009509": {
+    "Name": "Ramps - Hidden Lines",
+    "Id": -2009509,
+    "DeutschName": "Rampen - Verdeckte Linien"
+  },
+  "-2009529": {
+    "Name": "Entourage - Hidden Lines",
+    "Id": -2009529,
+    "DeutschName": "Umgebung - Verdeckte Linien"
+  },
+  "-2000544": {
+    "Name": "Callout Boundary - Callout Leader Line",
+    "Id": -2000544,
+    "DeutschName": "Begrenzung des Detailausschnitts - Führungslinie des Detailausschnitts"
+  },
+  "-2009510": {
+    "Name": "Curtain Panels - Hidden Lines",
+    "Id": -2009510,
+    "DeutschName": "Fassadenelemente - Verdeckte Linien"
+  },
+  "-2009500": {
+    "Name": "Windows - Hidden Lines",
+    "Id": -2009500,
+    "DeutschName": "Fenster - Verdeckte Linien"
+  },
+  "-2009520": {
+    "Name": "Mechanical Equipment - Hidden Lines",
+    "Id": -2009520,
+    "DeutschName": "HLS-Bauteile - Verdeckte Linien"
+  },
+  "-2000934": {
+    "Name": "Stairs - Outlines",
+    "Id": -2000934,
+    "DeutschName": "Treppen - Konturen"
+  },
+  "-2000944": {
+    "Name": "Stair Tread/Riser Numbers",
+    "Id": -2000944,
+    "DeutschName": "Treppe - Nummerierung Auftritte/Steigugen"
+  },
+  "-2000974": {
+    "Name": "Analytical Walls - Local Coordinate System",
+    "Id": -2000974,
+    "DeutschName": "Wände (analytisch) - Lokales Koordinatensystem"
+  },
+  "-2000083": {
+    "Name": "Reference Lines",
+    "Id": -2000083,
+    "DeutschName": "Referenzlinien"
+  },
+  "-2000023": {
+    "Name": "Doors",
+    "Id": -2000023,
+    "DeutschName": "Türen"
+  },
+  "-2000043": {
+    "Name": "Lines - Medium Lines",
+    "Id": -2000043,
+    "DeutschName": "Linien - Mittelstarke Linien"
+  },
+  "-2009017": {
+    "Name": "Structural Fabric Areas",
+    "Id": -2009017,
+    "DeutschName": "Bewehrung - Verlegebereich Matten"
+  },
+  "-2009037": {
+    "Name": "Structural Connections - Profiles",
+    "Id": -2009037,
+    "DeutschName": "Tragwerksverbindungen - Profile"
+  },
+  "-2009027": {
+    "Name": "Structural Fabric Reinforcement - Fabric Wire",
+    "Id": -2009027,
+    "DeutschName": "Bewehrung - Matten - Mattenstab"
+  },
+  "-2009057": {
+    "Name": "Anchor Tags",
+    "Id": -2009057,
+    "DeutschName": "Ankerbezeichnungen"
+  },
+  "-2009047": {
+    "Name": "Structural Connections - Modifiers",
+    "Id": -2009047,
+    "DeutschName": "Tragwerksverbindungen - Modifikatoren"
+  },
+  "-2008017": {
+    "Name": "Duct Accessory Tags",
+    "Id": -2008017,
+    "DeutschName": "Luftkanalzubehör - Beschriftungen"
+  },
+  "-2008037": {
+    "Name": "Electrical Circuits",
+    "Id": -2008037,
+    "DeutschName": "Elektrischer Stromkreis"
+  },
+  "-2008047": {
+    "Name": "Pipe Tags",
+    "Id": -2008047,
+    "DeutschName": "Rohrbeschriftungen"
+  },
+  "-2008057": {
+    "Name": "Wire Tags",
+    "Id": -2008057,
+    "DeutschName": "Kabelbeschriftungen"
+  },
+  "-2000700": {
+    "Name": "Materials",
+    "Id": -2000700,
+    "DeutschName": "Materialien"
+  },
+  "-2008077": {
+    "Name": "Nurse Call Devices",
+    "Id": -2008077,
+    "DeutschName": "Notrufgeräte"
+  },
+  "-2008087": {
+    "Name": "Lighting Devices",
+    "Id": -2008087,
+    "DeutschName": "Lichtschalter"
+  },
+  "-2000710": {
+    "Name": "Reference Points",
+    "Id": -2000710,
+    "DeutschName": "Referenzpunkte"
+  },
+  "-2001272": {
+    "Name": "Site - Survey Point",
+    "Id": -2001272,
+    "DeutschName": "Grundstück - Vermessungspunkt"
+  },
+  "-2001262": {
+    "Name": "Topography - Interior Point",
+    "Id": -2001262,
+    "DeutschName": "Topographie - Innenpunkt"
+  },
+  "-2000282": {
+    "Name": "Title Blocks - Medium Lines",
+    "Id": -2000282,
+    "DeutschName": "Planköpfe - Mittelstarke Linien"
+  },
+  "-2000202": {
+    "Name": "Section Line - Broken Section Line",
+    "Id": -2000202,
+    "DeutschName": "Schnittlinie - Versetzte Schnittlinie"
+  },
+  "-2006132": {
+    "Name": "Bridge Towers",
+    "Id": -2006132,
+    "DeutschName": "Brückentürme"
+  },
+  "-2000198": {
+    "Name": "View Reference",
+    "Id": -2000198,
+    "DeutschName": "Referenz anzeigen"
+  },
+  "-2005013": {
+    "Name": "Generic Model Tags",
+    "Id": -2005013,
+    "DeutschName": "Allgemeine Modellbeschriftungen"
+  },
+  "-2005003": {
+    "Name": "Electrical Equipment Tags",
+    "Id": -2005003,
+    "DeutschName": "Elektrische Ausstattung - Beschriftungen"
+  },
+  "-2005023": {
+    "Name": "Stair Tags",
+    "Id": -2005023,
+    "DeutschName": "Treppe - Beschriftungen"
+  },
+  "-2000193": {
+    "Name": "Matchline",
+    "Id": -2000193,
+    "DeutschName": "Anpassungslinie"
+  },
+  "-2008209": {
+    "Name": "MEP Fabrication Pipework Tags",
+    "Id": -2008209,
+    "DeutschName": "MEP Fabrication Rohrbeschriftungen"
+  },
+  "-2008219": {
+    "Name": "MEP Fabrication Containment - Drop",
+    "Id": -2008219,
+    "DeutschName": "MEP Fabrication Kabelführungen - Gefälle"
+  },
+  "-2000128": {
+    "Name": "Railings - Rails",
+    "Id": -2000128,
+    "DeutschName": "Geländer - Geländer"
+  },
+  "-2008206": {
+    "Name": "MEP Fabrication Ductwork - Drop",
+    "Id": -2008206,
+    "DeutschName": "MEP Fabrication Luftkanäle - Gefälle"
+  },
+  "-2008216": {
+    "Name": "MEP Fabrication Pipework - Rise",
+    "Id": -2008216,
+    "DeutschName": "MEP Fabrication Rohre - Anstieg"
+  },
+  "-2000133": {
+    "Name": "Railing Tags",
+    "Id": -2000133,
+    "DeutschName": "Geländerholmbeschriftungen"
+  },
+  "-2000123": {
+    "Name": "Stairs - Supports",
+    "Id": -2000952,
+    "DeutschName": "Treppen - Auflager"
+  },
+  "-2000163": {
+    "Name": "Areas - Interior Fill",
+    "Id": -2000163,
+    "DeutschName": "Flächen - Innenfüllung"
+  },
+  "-2000173": {
+    "Name": "Curtain Grids",
+    "Id": -2000173,
+    "DeutschName": "Fassadenraster"
+  },
+  "-2000608": {
+    "Name": "Floors - Cut Pattern",
+    "Id": -2000608,
+    "DeutschName": "Geschossdecken - Schnittmuster"
+  },
+  "-2000601": {
+    "Name": "Floors - Structure [1]",
+    "Id": -2000601,
+    "DeutschName": "Geschossdecken - Tragende Schicht [1]"
+  },
+  "-2000611": {
+    "Name": "Ceilings - Structure [1]",
+    "Id": -2000611,
+    "DeutschName": "Decken - Tragende Schicht [1]"
+  },
+  "-2009634": {
+    "Name": "Analytical Braces - Start Segment",
+    "Id": -2009634,
+    "DeutschName": "Skelettbau Streben (analytisch) - Anfangssegment"
+  },
+  "-2009654": {
+    "Name": "Analytical Isolated Foundation Tags",
+    "Id": -2009654,
+    "DeutschName": "Einzelfundament (analytisch) - Beschriftungen"
+  },
+  "-2005252": {
+    "Name": "Area Load Tags",
+    "Id": -2005252,
+    "DeutschName": "Flächenlastenbeschriftungen"
+  },
+  "-2005212": {
+    "Name": "Structural Load Cases - Live Loads",
+    "Id": -2005212,
+    "DeutschName": "Tragwerk Lastfälle - Nicht ständige Lasten"
+  },
+  "-2005202": {
+    "Name": "Structural Loads - Line Loads",
+    "Id": -2005202,
+    "DeutschName": "Lasten - Linienlasten"
+  },
+  "-2003601": {
+    "Name": "Spaces - Interior",
+    "Id": -2003601,
+    "DeutschName": "MEP-Räume - Innen"
+  },
+  "-2003412": {
+    "Name": "Mass - Mass Interior Wall",
+    "Id": -2003412,
+    "DeutschName": "Körper - Körper - Innenwand"
+  },
+  "-2000196": {
+    "Name": "Imports in Families",
+    "Id": -2000196,
+    "DeutschName": "Importiert in Familien"
+  },
+  "-2000126": {
+    "Name": "Railings",
+    "Id": -2000126,
+    "DeutschName": "Geländer"
+  },
+  "-2000580": {
+    "Name": "Walls - Membrane Layer",
+    "Id": -2000580,
+    "DeutschName": "Wände - Sperrschicht"
+  },
+  "-2000590": {
+    "Name": "Roofs - Membrane Layer",
+    "Id": -2000590,
+    "DeutschName": "Dächer - Sperrschicht"
+  },
+  "-2000539": {
+    "Name": "Callout Boundary",
+    "Id": -2000539,
+    "DeutschName": "Begrenzung des Detailausschnitts"
+  },
+  "-2000549": {
+    "Name": "Annotation Crop Boundary",
+    "Id": -2000549,
+    "DeutschName": "Zuschneidegrenze für Beschriftung"
+  },
+  "-2000988": {
+    "Name": "Pipes - Hydraulic Separation Symbols",
+    "Id": -2000988,
+    "DeutschName": "Rohre - Symbole für Warmwassertrennung"
+  },
+  "-2009515": {
+    "Name": "Casework - Hidden Lines",
+    "Id": -2009515,
+    "DeutschName": "Schreinerarbeiten - Verdeckte Linien"
+  },
+  "-2009505": {
+    "Name": "Furniture - Hidden Lines",
+    "Id": -2009505,
+    "DeutschName": "Möbel - Verdeckte Linien"
+  },
+  "-2000530": {
+    "Name": "Reference Planes",
+    "Id": -2000530,
+    "DeutschName": "Referenzebenen"
+  },
+  "-2000540": {
+    "Name": "Walls - Surface Pattern",
+    "Id": -2000540,
+    "DeutschName": "Wände - Oberflächenmuster"
+  },
+  "-2000550": {
+    "Name": "Color Fill Legends",
+    "Id": -2000550,
+    "DeutschName": "Farbenlegenden"
+  },
+  "-2000560": {
+    "Name": "Raster Images",
+    "Id": -2000560,
+    "DeutschName": "Rasterbilder"
+  },
+  "-2000570": {
+    "Name": "Schedule Graphics",
+    "Id": -2000570,
+    "DeutschName": "Grafikliste"
+  },
+  "-2000510": {
+    "Name": "Viewports",
+    "Id": -2000510,
+    "DeutschName": "Ansichtsfenster"
+  },
+  "-2000938": {
+    "Name": "Stair Paths",
+    "Id": -2000938,
+    "DeutschName": "Treppe - Lauflinien"
+  },
+  "-2000948": {
+    "Name": "Railings - Supports",
+    "Id": -2000948,
+    "DeutschName": "Geländer - Stützen"
+  },
+  "-2009019": {
+    "Name": "Lines - <Fabric Sheets>",
+    "Id": -2009019,
+    "DeutschName": "Linien - <Einzelmatten>"
+  },
+  "-2009009": {
+    "Name": "Structural Path Reinforcement",
+    "Id": -2009009,
+    "DeutschName": "Bewehrung - linear"
+  },
+  "-2009039": {
+    "Name": "Structural Connections - Anchors",
+    "Id": -2009039,
+    "DeutschName": "Tragwerksverbindungen - Anker"
+  },
+  "-2009029": {
+    "Name": "Structural Fabric Areas - Boundary",
+    "Id": -2009029,
+    "DeutschName": "Bewehrung - Verlegebereich Matten - Begrenzung"
+  },
+  "-2009059": {
+    "Name": "Weld Tags",
+    "Id": -2009059,
+    "DeutschName": "Schweißnahtbezeichnungen"
+  },
+  "-2009012": {
+    "Name": "Structural Path Reinforcement - Boundary",
+    "Id": -2009012,
+    "DeutschName": "Bewehrung - linear - Verlegebereich"
+  },
+  "-2006138": {
+    "Name": "Bridge Bearings",
+    "Id": -2006138,
+    "DeutschName": "Brückenlager"
+  },
+  "-2009032": {
+    "Name": "Structural Connections - Hidden Lines",
+    "Id": -2009032,
+    "DeutschName": "Tragwerksverbindungen - Verdeckte Linien"
+  },
+  "-2009022": {
+    "Name": "Structural Fabric Reinforcement Tags",
+    "Id": -2009022,
+    "DeutschName": "Bewehrung - Mattenbeschriftungen"
+  },
+  "-2000027": {
+    "Name": "Doors - Opening",
+    "Id": -2000027,
+    "DeutschName": "Türen - Öffnung"
+  },
+  "-2009042": {
+    "Name": "Structural Connections - Others",
+    "Id": -2009042,
+    "DeutschName": "Tragwerksverbindungen - Sonstige"
+  },
+  "-2006133": {
+    "Name": "Bridge Cables",
+    "Id": -2006133,
+    "DeutschName": "Brückenkabel"
+  },
+  "-2009062": {
+    "Name": "Structural Rebar Couplers - Hidden Lines",
+    "Id": -2009062,
+    "DeutschName": "Verbindungsmittel - Verdeckte Linien"
+  },
+  "-2000077": {
+    "Name": "Lines - Insulation Batting Lines",
+    "Id": -2000077,
+    "DeutschName": "Linien - Dämmung"
+  },
+  "-2008208": {
+    "Name": "MEP Fabrication Pipework",
+    "Id": -2008208,
+    "DeutschName": "MEP Fabrication Rohre"
+  },
+  "-2008218": {
+    "Name": "MEP Fabrication Containment - Rise",
+    "Id": -2008218,
+    "DeutschName": "MEP Fabrication Kabelführungen - Anstieg"
+  },
+  "-2008039": {
+    "Name": "Wires",
+    "Id": -2008039,
+    "DeutschName": "Kabel"
+  },
+  "-2008049": {
+    "Name": "Pipe Fittings",
+    "Id": -2008049,
+    "DeutschName": "Rohrformteile"
+  },
+  "-2008059": {
+    "Name": "Pipe Color Fill",
+    "Id": -2008059,
+    "DeutschName": "Rohrfarbfüllung"
+  },
+  "-2008069": {
+    "Name": "Pipes - Drop",
+    "Id": -2008069,
+    "DeutschName": "Rohre - Gefälle"
+  },
+  "-2008079": {
+    "Name": "Security Devices",
+    "Id": -2008079,
+    "DeutschName": "Sicherheitsgeräte"
+  },
+  "-2008089": {
+    "Name": "Wires - Home Run Arrows",
+    "Id": -2008089,
+    "DeutschName": "Kabel - Rückführungspfeile"
+  },
+  "-2008099": {
+    "Name": "Sprinklers",
+    "Id": -2008099,
+    "DeutschName": "Sprinkler"
+  },
+  "-2008062": {
+    "Name": "Ducts - Drop",
+    "Id": -2008062,
+    "DeutschName": "Luftkanäle - Gefälle"
+  },
+  "-2008072": {
+    "Name": "Pipe Fittings - Center line",
+    "Id": -2008072,
+    "DeutschName": "Rohrformteile - Achse"
+  },
+  "-2008082": {
+    "Name": "Communication Device Tags",
+    "Id": -2008082,
+    "DeutschName": "Kommunikationsgerätebeschriftungen"
+  },
+  "-2008092": {
+    "Name": "Analytical Surfaces - Exterior",
+    "Id": -2008092,
+    "DeutschName": "Berechnete Oberflächen - Außen"
+  },
+  "-2001269": {
+    "Name": "Property Line Segment Tags",
+    "Id": -2001269,
+    "DeutschName": "Grundstücksgrenzensegmente - Beschriftungen"
+  },
+  "-2001266": {
+    "Name": "Topography - Boundary Point",
+    "Id": -2001266,
+    "DeutschName": "Topographie - Grenzpunkt"
+  },
+  "-2000286": {
+    "Name": "Lines - <Hidden>",
+    "Id": -2000286,
+    "DeutschName": "Linien - <Verdeckt>"
+  },
+  "-2000269": {
+    "Name": "Parts",
+    "Id": -2000269,
+    "DeutschName": "Teile"
+  },
+  "-2000279": {
+    "Name": "Views",
+    "Id": -2000279,
+    "DeutschName": "Ansichten"
+  },
+  "-2000266": {
+    "Name": "Roof Tags",
+    "Id": -2000266,
+    "DeutschName": "Dachbeschriftungen"
+  },
+  "-2006136": {
+    "Name": "Bridge Foundations",
+    "Id": -2006136,
+    "DeutschName": "Brückenfundamente"
+  },
+  "-2003418": {
+    "Name": "Mass - Mass Shade",
+    "Id": -2003418,
+    "DeutschName": "Körper - Körper - Schatten"
+  },
+  "-2005017": {
+    "Name": "Parking Tags",
+    "Id": -2005017,
+    "DeutschName": "Parkplatzbeschriftungen"
+  },
+  "-2005007": {
+    "Name": "Furniture System Tags",
+    "Id": -2005007,
+    "DeutschName": "Möbelsystembeschriftungen"
+  },
+  "-2005027": {
+    "Name": "Material Tags",
+    "Id": -2005027,
+    "DeutschName": "Materialbeschriftungen"
+  },
+  "-2008129": {
+    "Name": "Conduit Fitting Tags",
+    "Id": -2008129,
+    "DeutschName": "Leerrohrformteil - Beschriftungen"
+  },
+  "-2008139": {
+    "Name": "Conduits - Center line",
+    "Id": -2008139,
+    "DeutschName": "Leerrohr - Achse"
+  },
+  "-2008149": {
+    "Name": "Conduit Runs",
+    "Id": -2008149,
+    "DeutschName": "Leerrohrstrecken"
+  },
+  "-2008100": {
+    "Name": "Sprinkler Tags",
+    "Id": -2008100,
+    "DeutschName": "Sprinklerbeschriftungen"
+  },
+  "-2008169": {
+    "Name": "Analytical Surfaces - Raised Floors",
+    "Id": -2008169,
+    "DeutschName": "Berechnete Oberflächen - Erhöhte Geschossdecken"
+  },
+  "-2001390": {
+    "Name": "Roofs - Fascias",
+    "Id": -2001390,
+    "DeutschName": "Dächer - Traufen"
+  },
+  "-2008130": {
+    "Name": "Cable Trays",
+    "Id": -2008130,
+    "DeutschName": "Kabeltrassen"
+  },
+  "-2008140": {
+    "Name": "Cable Tray Fittings - Center line",
+    "Id": -2008140,
+    "DeutschName": "Kabeltrassenformteile - Mittellinie"
+  },
+  "-2008150": {
+    "Name": "Cable Tray Runs",
+    "Id": -2008150,
+    "DeutschName": "Kabeltrassenführung"
+  },
+  "-2009630": {
+    "Name": "Analytical Beams",
+    "Id": -2009630,
+    "DeutschName": "Skelettbau Träger (analytisch)"
+  },
+  "-2001339": {
+    "Name": "Topography - Topography Links",
+    "Id": -2001339,
+    "DeutschName": "Topographie - Topografieverknüpfung"
+  },
+  "-2009650": {
+    "Name": "Analytical Brace Tags",
+    "Id": -2009650,
+    "DeutschName": "Strebe (analytisch) - Beschriftungen"
+  },
+  "-2009640": {
+    "Name": "Analytical Walls",
+    "Id": -2009640,
+    "DeutschName": "Wände (analytisch)"
+  },
+  "-2008160": {
+    "Name": "Duct Placeholders",
+    "Id": -2008160,
+    "DeutschName": "Luftkanalplatzhalter"
+  },
+  "-2008170": {
+    "Name": "Analytical Surfaces - Slabs on Grade",
+    "Id": -2008170,
+    "DeutschName": "Berechnete Oberflächen - Eingemessene Platten"
+  },
+  "-2008180": {
+    "Name": "Analytical Surfaces - Fixed Skylights",
+    "Id": -2008180,
+    "DeutschName": "Berechnete Oberflächen - Festverglaste Dachfenster"
+  },
+  "-2008179": {
+    "Name": "Analytical Surfaces - Operable Windows",
+    "Id": -2008179,
+    "DeutschName": "Berechnete Oberflächen - Bewegliche Fenster"
+  },
+  "-2001350": {
+    "Name": "Specialty Equipment",
+    "Id": -2001350,
+    "DeutschName": "Sonderausstattung"
+  },
+  "-2001340": {
+    "Name": "Topography",
+    "Id": -2001340,
+    "DeutschName": "Topographie"
+  },
+  "-2001370": {
+    "Name": "Entourage",
+    "Id": -2001370,
+    "DeutschName": "Umgebung"
+  },
+  "-2001360": {
+    "Name": "Planting",
+    "Id": -2001360,
+    "DeutschName": "Bepflanzung"
+  },
+  "-2008159": {
+    "Name": "Piping Systems - Reference Lines",
+    "Id": -2008159,
+    "DeutschName": "Rohr Systeme - Referenzlinien"
+  },
+  "-2001330": {
+    "Name": "Structural Columns",
+    "Id": -2001330,
+    "DeutschName": "Tragwerksstützen"
+  },
+  "-2001329": {
+    "Name": "Structural Framing - Hidden Lines",
+    "Id": -2001329,
+    "DeutschName": "Skelettbau - Verdeckte Linien"
+  },
+  "-2001320": {
+    "Name": "Structural Framing",
+    "Id": -2001320,
+    "DeutschName": "Skelettbau"
+  },
+  "-2001300": {
+    "Name": "Structural Foundations",
+    "Id": -2001300,
+    "DeutschName": "Fundamente"
+  },
+  "-2000614": {
+    "Name": "Ceilings - Finish 1 [4]",
+    "Id": -2000614,
+    "DeutschName": "Decken - Nichttragende Schicht 1 [4]"
+  },
+  "-2000604": {
+    "Name": "Floors - Finish 1 [4]",
+    "Id": -2000604,
+    "DeutschName": "Geschossdecken - Nichttragende Schicht 1 [4]"
+  },
+  "-2000485": {
+    "Name": "Space Tags",
+    "Id": -2000485,
+    "DeutschName": "MEP-Raumbeschriftungen"
+  },
+  "-2005216": {
+    "Name": "Structural Load Cases - Accidental Loads",
+    "Id": -2005216,
+    "DeutschName": "Tragwerk Lastfälle - Außergewöhnliche Lasten"
+  },
+  "-2005206": {
+    "Name": "Structural Internal Loads - Internal Line Loads",
+    "Id": -2005206,
+    "DeutschName": "Interne Traglasten - Interne Linienlasten"
+  },
+  "-2003415": {
+    "Name": "Mass - Mass Glazing",
+    "Id": -2003415,
+    "DeutschName": "Körper - Körper - Verglasung"
+  },
+  "-2003405": {
+    "Name": "Mass Tags",
+    "Id": -2003405,
+    "DeutschName": "Körperbeschriftungen"
+  },
+  "-2000300": {
+    "Name": "Text Notes",
+    "Id": -2000300,
+    "DeutschName": "Notizen"
+  },
+  "-2000320": {
+    "Name": "Roofs - Curtain Roof Grids",
+    "Id": -2000320,
+    "DeutschName": "Dächer - Fassadendachraster"
+  },
+  "-2000340": {
+    "Name": "Curtain Systems",
+    "Id": -2000340,
+    "DeutschName": "Fassadensysteme"
+  },
+  "-2000350": {
+    "Name": "Contour Labels",
+    "Id": -2000350,
+    "DeutschName": "Höhenlinienbeschriftungen"
+  },
+  "-2009018": {
+    "Name": "Lines - <Fabric Envelope>",
+    "Id": -2009018,
+    "DeutschName": "Linien - <Mattenfeld>"
+  },
+  "-2009038": {
+    "Name": "Structural Connections - Plates",
+    "Id": -2009038,
+    "DeutschName": "Tragwerksverbindungen - Platten"
+  },
+  "-2009028": {
+    "Name": "Structural Fabric Reinforcement Symbols",
+    "Id": -2009028,
+    "DeutschName": "Symbole für Mattenbewehrung"
+  },
+  "-2009058": {
+    "Name": "Shear Stud Tags",
+    "Id": -2009058,
+    "DeutschName": "Kopfbolzenbezeichnungen"
+  },
+  "-2008107": {
+    "Name": "HVAC Zones",
+    "Id": -2008107,
+    "DeutschName": "Zonen"
+  },
+  "-2008117": {
+    "Name": "HVAC Zones - Interior Fill",
+    "Id": -2008117,
+    "DeutschName": "Zonen - Innenfüllung"
+  },
+  "-2008127": {
+    "Name": "Cable Tray Fitting Tags",
+    "Id": -2008127,
+    "DeutschName": "Kabeltrassenformteil - Beschriftungen"
+  },
+  "-2008137": {
+    "Name": "Conduits - Rise",
+    "Id": -2008137,
+    "DeutschName": "Leerrohr - Anstieg"
+  },
+  "-2008157": {
+    "Name": "Duct Systems - Reference Lines",
+    "Id": -2008157,
+    "DeutschName": "Luftkanal Systeme - Referenzlinien"
+  },
+  "-2008167": {
+    "Name": "Analytical Surfaces - Exterior Walls",
+    "Id": -2008167,
+    "DeutschName": "Berechnete Oberflächen - Außenwände"
+  },
+  "-2008177": {
+    "Name": "Analytical Surfaces - Underground Ceilings",
+    "Id": -2008177,
+    "DeutschName": "Berechnete Oberflächen - Unterirdische Decken"
+  },
+  "-2008187": {
+    "Name": "Analytical Surfaces - Shades",
+    "Id": -2008187,
+    "DeutschName": "Berechnete Oberflächen - Schattierungen"
+  },
+  "-2008048": {
+    "Name": "Flex Pipe Tags",
+    "Id": -2008048,
+    "DeutschName": "Flexible Rohre - Beschriftungen"
+  },
+  "-2008058": {
+    "Name": "Pipe Color Fill Legends",
+    "Id": -2008058,
+    "DeutschName": "Rohr-Farbenlegenden"
+  },
+  "-2008078": {
+    "Name": "Nurse Call Device Tags",
+    "Id": -2008078,
+    "DeutschName": "Notrufgerätebeschriftungen"
+  },
+  "-2008088": {
+    "Name": "Lighting Device Tags",
+    "Id": -2008088,
+    "DeutschName": "Lichtschalterbeschriftung"
+  },
+  "-2000585": {
+    "Name": "Walls - Finish 2 [5]",
+    "Id": -2000585,
+    "DeutschName": "Wände - Nichttragende Schicht 2 [5]"
+  },
+  "-2000595": {
+    "Name": "Roofs - Finish 2 [5]",
+    "Id": -2000595,
+    "DeutschName": "Dächer - Nichttragende Schicht 2 [5]"
+  },
+  "-2001268": {
+    "Name": "Site - Property Line Segments",
+    "Id": -2001268,
+    "DeutschName": "Grundstück - Grundstücksgrenzensegmente"
+  },
+  "-2000985": {
+    "Name": "Mechanical Equipment Sets",
+    "Id": -2000985,
+    "DeutschName": "HLS-Bauteilsätze"
+  },
+  "-2000515": {
+    "Name": "View Titles",
+    "Id": -2000515,
+    "DeutschName": "Ansichtstitel"
+  },
+  "-2000535": {
+    "Name": "Elevations",
+    "Id": -2000535,
+    "DeutschName": "Ansichten"
+  },
+  "-2009511": {
+    "Name": "Curtain Wall Mullions - Hidden Lines",
+    "Id": -2009511,
+    "DeutschName": "Fassadenpfosten - Verdeckte Linien"
+  },
+  "-2009501": {
+    "Name": "Doors - Hidden Lines",
+    "Id": -2009501,
+    "DeutschName": "Türen - Verdeckte Linien"
+  },
+  "-2009531": {
+    "Name": "Curtain Systems - Hidden Lines",
+    "Id": -2009531,
+    "DeutschName": "Fassadensysteme - Verdeckte Linien"
+  },
+  "-2009521": {
+    "Name": "Plumbing Fixtures - Hidden Lines",
+    "Id": -2009521,
+    "DeutschName": "Sanitärinstallationen - Verdeckte Linien"
+  },
+  "-2000935": {
+    "Name": "Stairs - <Above> Outlines",
+    "Id": -2000935,
+    "DeutschName": "Treppen - <Oberhalb> Konturen"
+  },
+  "-2000955": {
+    "Name": "Analytical Link Tags",
+    "Id": -2000955,
+    "DeutschName": "Kopplungsbeschriftungen"
+  },
+  "-2000975": {
+    "Name": "Analytical Floors - Local Coordinate System",
+    "Id": -2000975,
+    "DeutschName": "Geschossdecken (analytisch) - Lokales Koordinatensystem"
+  },
+  "-2000288": {
+    "Name": "Lines - <Centerline>",
+    "Id": -2000288,
+    "DeutschName": "Linien - <Achse>"
+  },
+  "-2000268": {
+    "Name": "Assembly Tags",
+    "Id": -2000268,
+    "DeutschName": "Baugruppenbeschriftungen"
+  },
+  "-2000029": {
+    "Name": "Doors - Frame/Mullion",
+    "Id": -2000029,
+    "DeutschName": "Türen - Rahmen/Pfosten"
+  },
+  "-2000079": {
+    "Name": "Lines - <Area Boundary>",
+    "Id": -2000079,
+    "DeutschName": "Linien - <Flächenbegrenzung>"
+  },
+  "-2000032": {
+    "Name": "Floors",
+    "Id": -2000032,
+    "DeutschName": "Geschossdecken"
+  },
+  "-2000042": {
+    "Name": "Lines - Thin Lines",
+    "Id": -2000042,
+    "DeutschName": "Linien - Feine Linien"
+  },
+  "-2000022": {
+    "Name": "Windows - Opening",
+    "Id": -2000022,
+    "DeutschName": "Fenster - Öffnung"
+  },
+  "-2009016": {
+    "Name": "Structural Fabric Reinforcement",
+    "Id": -2009016,
+    "DeutschName": "Bewehrung - Matten"
+  },
+  "-2009006": {
+    "Name": "Structural Area Reinforcement - Boundary",
+    "Id": -2009006,
+    "DeutschName": "Bewehrung - Verlegebereich Fläche - Begrenzung"
+  },
+  "-2009036": {
+    "Name": "Structural Connections - Reference",
+    "Id": -2009036,
+    "DeutschName": "Tragwerksverbindungen - Referenz"
+  },
+  "-2009026": {
+    "Name": "Structural Fabric Reinforcement - Boundary",
+    "Id": -2009026,
+    "DeutschName": "Bewehrung - Matten - Begrenzung"
+  },
+  "-2009056": {
+    "Name": "Bolt Tags",
+    "Id": -2009056,
+    "DeutschName": "Schraubenbezeichnungen"
+  },
+  "-2009046": {
+    "Name": "Structural Connections - Welds",
+    "Id": -2009046,
+    "DeutschName": "Tragwerksverbindungen - Schweißnähte"
+  },
+  "-2008016": {
+    "Name": "Duct Accessories",
+    "Id": -2008016,
+    "DeutschName": "Luftkanalzubehör"
+  },
+  "-2008036": {
+    "Name": "Ducts - Rise",
+    "Id": -2008036,
+    "DeutschName": "Luftkanäle - Anstieg"
+  },
+  "-2008056": {
+    "Name": "Pipe Accessory Tags",
+    "Id": -2008056,
+    "DeutschName": "Rohrzubehörbeschriftungen"
+  },
+  "-2008066": {
+    "Name": "Duct Fittings - Center line",
+    "Id": -2008066,
+    "DeutschName": "Luftkanalformteile - Achse"
+  },
+  "-2008076": {
+    "Name": "Telephone Device Tags",
+    "Id": -2008076,
+    "DeutschName": "Telefongerätebeschriftungen"
+  },
+  "-2008086": {
+    "Name": "Fire Alarm Device Tags",
+    "Id": -2008086,
+    "DeutschName": "Brandmelderbeschriftungen"
+  },
+  "-2000711": {
+    "Name": "Reference Points - Points",
+    "Id": -2000711,
+    "DeutschName": "Referenzpunkte - Punkte"
+  },
+  "-2000404": {
+    "Name": "Section Marks - Wide Lines",
+    "Id": -2000404,
+    "DeutschName": "Schnittlinienbeschriftung - Breite Linien"
+  },
+  "-2001180": {
+    "Name": "Parking",
+    "Id": -2001180,
+    "DeutschName": "Parkplatz"
+  },
+  "-2001100": {
+    "Name": "Furniture Systems",
+    "Id": -2001100,
+    "DeutschName": "Möbelsysteme"
+  },
+  "-2001120": {
+    "Name": "Lighting Fixtures",
+    "Id": -2001120,
+    "DeutschName": "Leuchten"
+  },
+  "-2001140": {
+    "Name": "Mechanical Equipment",
+    "Id": -2001140,
+    "DeutschName": "HLS-Bauteile"
+  },
+  "-2001160": {
+    "Name": "Plumbing Fixtures",
+    "Id": -2001160,
+    "DeutschName": "Sanitärinstallationen"
+  },
+  "-2005218": {
+    "Name": "Structural Load Cases - Seismic Loads",
+    "Id": -2005218,
+    "DeutschName": "Tragwerk Lastfälle - Erdbebenlasten"
+  },
+  "-2005019": {
+    "Name": "Structural Foundation Tags",
+    "Id": -2005019,
+    "DeutschName": "Fundamentbeschriftungen"
+  },
+  "-2005009": {
+    "Name": "Mechanical Equipment Tags",
+    "Id": -2005009,
+    "DeutschName": "HLS-Bauteile - Beschriftungen"
+  },
+  "-2005029": {
+    "Name": "Keynote Tags",
+    "Id": -2005029,
+    "DeutschName": "Bauelementbeschriftungen"
+  },
+  "-2005012": {
+    "Name": "Curtain Panel Tags",
+    "Id": -2005012,
+    "DeutschName": "Fassadenelementbeschriftungen"
+  },
+  "-2005002": {
+    "Name": "Ceiling Tags",
+    "Id": -2005002,
+    "DeutschName": "Deckenbeschriftungen"
+  },
+  "-2003414": {
+    "Name": "Mass - Mass Roof",
+    "Id": -2003414,
+    "DeutschName": "Körper - Körper - Dach"
+  },
+  "-2005022": {
+    "Name": "Multi-Category Tags",
+    "Id": -2005022,
+    "DeutschName": "Mehrere Kategorien - Beschriftungen"
+  },
+  "-2003404": {
+    "Name": "Mass - Form",
+    "Id": -2003404,
+    "DeutschName": "Körper - Form"
+  },
+  "-2000190": {
+    "Name": "Filled region",
+    "Id": -2000190,
+    "DeutschName": "Gefüllter Bereich"
+  },
+  "-2000180": {
+    "Name": "Ramps",
+    "Id": -2000180,
+    "DeutschName": "Rampen"
+  },
+  "-2000129": {
+    "Name": "Stair Paths - DOWN Text",
+    "Id": -2000129,
+    "DeutschName": "Treppe - Lauflinien - Text AB"
+  },
+  "-2000100": {
+    "Name": "Columns",
+    "Id": -2000100,
+    "DeutschName": "Stützen"
+  },
+  "-2000120": {
+    "Name": "Stairs",
+    "Id": -2000120,
+    "DeutschName": "Treppen"
+  },
+  "-2008211": {
+    "Name": "MEP Fabrication Pipework - Symbology",
+    "Id": -2008211,
+    "DeutschName": "MEP Fabrication Rohre - Symbole"
+  },
+  "-2008221": {
+    "Name": "MEP Fabrication Pipework - Insulation",
+    "Id": -2008221,
+    "DeutschName": "MEP Fabrication Rohre - Dämmung außen"
+  },
+  "-2000150": {
+    "Name": "Generic Annotations",
+    "Id": -2000150,
+    "DeutschName": "Allgemeine Beschriftungen"
+  },
+  "-2000160": {
+    "Name": "Rooms",
+    "Id": -2000160,
+    "DeutschName": "Räume"
+  },
+  "-2000170": {
+    "Name": "Curtain Panels",
+    "Id": -2000170,
+    "DeutschName": "Fassadenelemente"
+  },
+  "-2000130": {
+    "Name": "Stair Paths - Up Arrows",
+    "Id": -2000130,
+    "DeutschName": "Treppe - Lauflinien - Pfeile AUF"
+  },
+  "-2003100": {
+    "Name": "Sheets",
+    "Id": -2003100,
+    "DeutschName": "Pläne"
+  },
+  "-2000600": {
+    "Name": "Floors - Membrane Layer",
+    "Id": -2000600,
+    "DeutschName": "Geschossdecken - Sperrschicht"
+  },
+  "-2000610": {
+    "Name": "Ceilings - Membrane Layer",
+    "Id": -2000610,
+    "DeutschName": "Decken - Sperrschicht"
+  },
+  "-2009637": {
+    "Name": "Analytical Columns - Base Segment",
+    "Id": -2009637,
+    "DeutschName": "Tragwerksstützen (analytisch) - Basissegment"
+  },
+  "-2008124": {
+    "Name": "Duct Linings",
+    "Id": -2008124,
+    "DeutschName": "Luftkanaldämmung innen"
+  },
+  "-2009657": {
+    "Name": "Analytical Links",
+    "Id": -2009657,
+    "DeutschName": "Kopplungen"
+  },
+  "-2008134": {
+    "Name": "Cable Trays - Rise",
+    "Id": -2008134,
+    "DeutschName": "Kabeltrassen - Anstieg"
+  },
+  "-2008154": {
+    "Name": "Duct Lining Tags",
+    "Id": -2008154,
+    "DeutschName": "Luftkanaldämmung innen - Beschriftungen"
+  },
+  "-2000401": {
+    "Name": "Section Marks - Thin Lines",
+    "Id": -2000401,
+    "DeutschName": "Schnittlinienbeschriftung - Feine Linien"
+  },
+  "-2008174": {
+    "Name": "Analytical Surfaces - Air Surfaces",
+    "Id": -2008174,
+    "DeutschName": "Berechnete Oberflächen - Luftflächen"
+  },
+  "-2008184": {
+    "Name": "Analytical Surfaces - Air Openings",
+    "Id": -2008184,
+    "DeutschName": "Berechnete Oberflächen - Luftöffnungen"
+  },
+  "-2008194": {
+    "Name": "MEP Fabrication Ductwork Tags",
+    "Id": -2008194,
+    "DeutschName": "MEP Fabrication Luftkanalbeschriftungen"
+  },
+  "-2001334": {
+    "Name": "Structural Columns - Hidden Lines",
+    "Id": -2001334,
+    "DeutschName": "Tragwerksstützen - Verdeckte Linien"
+  },
+  "-2001324": {
+    "Name": "Structural Framing - Purlin",
+    "Id": -2001324,
+    "DeutschName": "Skelettbau - Pfette"
+  },
+  "-2001354": {
+    "Name": "Structural Stiffeners",
+    "Id": -2001354,
+    "DeutschName": "Steifen"
+  },
+  "-2001344": {
+    "Name": "Structural Columns - Rigid Links",
+    "Id": -2001344,
+    "DeutschName": "Tragwerksstützen - Starre Kopplungen"
+  },
+  "-2000982": {
+    "Name": "Coordination Model",
+    "Id": -2000982,
+    "DeutschName": "Koordinationsmodell"
+  },
+  "-2003600": {
+    "Name": "Spaces",
+    "Id": -2003600,
+    "DeutschName": "MEP-Räume"
+  },
+  "-2009516": {
+    "Name": "Electrical Equipment - Hidden Lines",
+    "Id": -2009516,
+    "DeutschName": "Elektrische Ausstattung - Verdeckte Linien"
+  },
+  "-2009506": {
+    "Name": "Columns - Hidden Lines",
+    "Id": -2009506,
+    "DeutschName": "Stützen - Verdeckte Linien"
+  },
+  "-2000902": {
+    "Name": "Adaptive Points - Planes",
+    "Id": -2000902,
+    "DeutschName": "Adaptive Punkte - Ebenen"
+  },
+  "-2009526": {
+    "Name": "Topography - Hidden Lines",
+    "Id": -2009526,
+    "DeutschName": "Topographie - Verdeckte Linien"
+  },
+  "-2003411": {
+    "Name": "Mass - Mass Zone",
+    "Id": -2003411,
+    "DeutschName": "Körper - Körpermodellzone"
+  },
+  "-2000942": {
+    "Name": "Stair Support Tags",
+    "Id": -2000942,
+    "DeutschName": "Treppe - Auflagerbeschriftungen"
+  },
+  "-2000952": {
+    "Name": "Stairs - Supports",
+    "Id": -2000952,
+    "DeutschName": "Treppen - Auflager"
+  },
+  "-2000932": {
+    "Name": "Stairs - Nosing Lines",
+    "Id": -2000932,
+    "DeutschName": "Treppen - Trittüberstandslinien"
+  },
+  "-2000972": {
+    "Name": "Analytical Columns - Local Coordinate System",
+    "Id": -2000972,
+    "DeutschName": "Tragwerksstützen (analytisch) - Lokales Koordinatensystem"
+  },
+  "-2000304": {
+    "Name": "Analysis Display Style",
+    "Id": -2000304,
+    "DeutschName": "Anzeigestil für Analyse"
+  },
+  "-2000197": {
+    "Name": "View Reference",
+    "Id": -2000197,
+    "DeutschName": "Referenz anzeigen"
+  },
+  "-2000107": {
+    "Name": "Guide Grid",
+    "Id": -2000107,
+    "DeutschName": "Hilfslinienraster"
+  },
+  "-2000127": {
+    "Name": "Railings - Balusters",
+    "Id": -2000127,
+    "DeutschName": "Geländer - Vertikale Holme"
+  },
+  "-2000018": {
+    "Name": "Windows - Frame/Mullion",
+    "Id": -2000018,
+    "DeutschName": "Fenster - Rahmen/Pfosten"
+  },
+  "-2005110": {
+    "Name": "Span Direction Symbol",
+    "Id": -2005110,
+    "DeutschName": "Spannrichtungssymbol"
+  },
+  "-2005100": {
+    "Name": "Spot Elevation Symbols",
+    "Id": -2005100,
+    "DeutschName": "Höhenkotensymbole"
+  },
+  "-2005130": {
+    "Name": "Structural Beam System Tags",
+    "Id": -2005130,
+    "DeutschName": "Trägersystem - Beschriftungen"
+  },
+  "-2000038": {
+    "Name": "Ceilings",
+    "Id": -2000038,
+    "DeutschName": "Decken"
+  },
+  "-2000078": {
+    "Name": "Lines - Lines",
+    "Id": -2000078,
+    "DeutschName": "Linien - Linien"
+  },
+  "-2003324": {
+    "Name": "Mass - Nodes",
+    "Id": -2003324,
+    "DeutschName": "Körper - Knoten"
+  },
+  "-2003304": {
+    "Name": "Ramps - Stringers Beyond Cut Line",
+    "Id": -2003304,
+    "DeutschName": "Rampen - Wangen hinter Schnittverlauf"
+  },
+  "-2000581": {
+    "Name": "Walls - Structure [1]",
+    "Id": -2000581,
+    "DeutschName": "Wände - Tragende Schicht [1]"
+  },
+  "-2000712": {
+    "Name": "Reference Points - Planes",
+    "Id": -2000712,
+    "DeutschName": "Referenzpunkte - Ebenen"
+  },
+  "-2000591": {
+    "Name": "Roofs - Structure [1]",
+    "Id": -2000591,
+    "DeutschName": "Dächer - Tragende Schicht [1]"
+  },
+  "-2000501": {
+    "Name": "Cameras",
+    "Id": -2000501,
+    "DeutschName": "Kameras"
+  },
+  "-2000541": {
+    "Name": "Floors - Surface Pattern",
+    "Id": -2000541,
+    "DeutschName": "Geschossdecken - Oberflächenmuster"
+  },
+  "-2000551": {
+    "Name": "Rooms - Color Fill",
+    "Id": -2000551,
+    "DeutschName": "Räume - Farbfüllung"
+  },
+  "-2000919": {
+    "Name": "Stairs - Runs",
+    "Id": -2000919,
+    "DeutschName": "Treppen - Läufe"
+  },
+  "-2000939": {
+    "Name": "Stair Paths - <Above> Up Arrows",
+    "Id": -2000939,
+    "DeutschName": "Treppe - Lauflinien - <Oberhalb> Pfeil AUF"
+  },
+  "-2000949": {
+    "Name": "Railings - Terminations",
+    "Id": -2000949,
+    "DeutschName": "Geländer - Endpfosten"
+  },
+  "-2009011": {
+    "Name": "Structural Path Reinforcement Tags",
+    "Id": -2009011,
+    "DeutschName": "Bewehrung - lineare Bewehrungsbeschriftungen"
+  },
+  "-2000016": {
+    "Name": "Windows - Glass",
+    "Id": -2000016,
+    "DeutschName": "Fenster - Glas"
+  },
+  "-2009021": {
+    "Name": "Structural Area Reinforcement Tags",
+    "Id": -2009021,
+    "DeutschName": "Tragwerk-Flächenbewehrung - Beschriftungen"
+  },
+  "-2009041": {
+    "Name": "Structural Connections - Bolts",
+    "Id": -2009041,
+    "DeutschName": "Tragwerksverbindungen - Schrauben"
+  },
+  "-2006130": {
+    "Name": "Bridge Abutments",
+    "Id": -2006130,
+    "DeutschName": "Brückenwiderlager"
+  },
+  "-2009061": {
+    "Name": "Structural Rebar Coupler Tags",
+    "Id": -2009061,
+    "DeutschName": "Beschriftungen Verbindungsmittel"
+  },
+  "-2006110": {
+    "Name": "Brace in Plan View Symbols",
+    "Id": -2006110,
+    "DeutschName": "Strebe in Symbolen in Draufsicht"
+  },
+  "-2006100": {
+    "Name": "Connection Symbols",
+    "Id": -2006100,
+    "DeutschName": "Verbindungssymbole"
+  },
+  "-2005018": {
+    "Name": "Structural Column Tags",
+    "Id": -2005018,
+    "DeutschName": "Tragwerksstützenbeschriftungen"
+  },
+  "-2005028": {
+    "Name": "Detail Item Tags",
+    "Id": -2005028,
+    "DeutschName": "Detailelementbeschriftungen"
+  },
+  "-2005008": {
+    "Name": "Lighting Fixture Tags",
+    "Id": -2005008,
+    "DeutschName": "Leuchtenbeschriftungen"
+  },
+  "-2000066": {
+    "Name": "Lines - <Room Separation>",
+    "Id": -2000066,
+    "DeutschName": "Linien - <Raumtrennung>"
+  },
+  "-2008210": {
+    "Name": "MEP Fabrication Pipework - Center Line",
+    "Id": -2008210,
+    "DeutschName": "MEP Fabrication Rohre - Achse"
+  },
+  "-2008220": {
+    "Name": "MEP Fabrication Ductwork - Lining",
+    "Id": -2008220,
+    "DeutschName": "MEP Fabrication Luftkanäle - Dämmung innen"
+  },
+  "-2008001": {
+    "Name": "Ducts - Center line",
+    "Id": -2008001,
+    "DeutschName": "Luftkanäle - Achse"
+  },
+  "-2008021": {
+    "Name": "Flex Ducts - Center line",
+    "Id": -2008021,
+    "DeutschName": "Flexkanäle - Achse"
+  },
+  "-2008051": {
+    "Name": "Flex Pipes - Center Line",
+    "Id": -2008051,
+    "DeutschName": "Flexible Rohre - Achse"
+  },
+  "-2008061": {
+    "Name": "Duct Fitting Tags",
+    "Id": -2008061,
+    "DeutschName": "Luftkanalformteilbeschriftung"
+  },
+  "-2008081": {
+    "Name": "Communication Devices",
+    "Id": -2008081,
+    "DeutschName": "Kommunikationsgeräte"
+  },
+  "-2008091": {
+    "Name": "Analytical Surfaces - Interior",
+    "Id": -2008091,
+    "DeutschName": "Berechnete Oberflächen - Innen"
+  },
+  "-2001271": {
+    "Name": "Site - Project Base Point",
+    "Id": -2001271,
+    "DeutschName": "Grundstück - Projekt-Basispunkt"
+  },
+  "-2000480": {
+    "Name": "Room Tags",
+    "Id": -2000480,
+    "DeutschName": "Raumbeschriftungen"
+  },
+  "-2000400": {
+    "Name": "Section Marks",
+    "Id": -2000400,
+    "DeutschName": "Schnittlinienbeschriftung"
+  },
+  "-2000281": {
+    "Name": "Title Blocks - Thin Lines",
+    "Id": -2000281,
+    "DeutschName": "Planköpfe - Feine Linien"
+  },
+  "-2000450": {
+    "Name": "Window Tags",
+    "Id": -2000450,
+    "DeutschName": "Fensterbeschriftungen"
+  },
+  "-2000460": {
+    "Name": "Door Tags",
+    "Id": -2000460,
+    "DeutschName": "Türbeschriftungen"
+  },
+  "-2000201": {
+    "Name": "Section Line",
+    "Id": -2000201,
+    "DeutschName": "Schnittlinie"
+  },
+  "-2000221": {
+    "Name": "Grids - Multi-segmented Grid",
+    "Id": -2000221,
+    "DeutschName": "Raster - Segmentierte Rasterlinie"
+  },
+  "-2000261": {
+    "Name": "Dimensions - Automatic Sketch Dimensions",
+    "Id": -2000261,
+    "DeutschName": "Bemaßungen - Automatische Skizzenbemaßungen"
+  },
+  "-2000271": {
+    "Name": "Parts - Hidden Lines",
+    "Id": -2000271,
+    "DeutschName": "Teile - Verdeckte Linien"
+  },
+  "-2006137": {
+    "Name": "Bridge Girders",
+    "Id": -2006137,
+    "DeutschName": "Brückenträger"
+  },
+  "-2005016": {
+    "Name": "Site Tags",
+    "Id": -2005016,
+    "DeutschName": "Grundstücksbeschriftungen"
+  },
+  "-2005006": {
+    "Name": "Furniture Tags",
+    "Id": -2005006,
+    "DeutschName": "Möbelbeschriftungen"
+  },
+  "-2003410": {
+    "Name": "Mass Floor Tags",
+    "Id": -2003410,
+    "DeutschName": "Körpergeschossbeschriftungen"
+  },
+  "-2005026": {
+    "Name": "Floor Tags",
+    "Id": -2005026,
+    "DeutschName": "Geschossdeckenbeschriftungen"
+  },
+  "-2003400": {
+    "Name": "Mass",
+    "Id": -2003400,
+    "DeutschName": "Körper"
+  },
+  "-2000194": {
+    "Name": "Masking Region",
+    "Id": -2000194,
+    "DeutschName": "Maskierung"
+  },
+  "-2008205": {
+    "Name": "MEP Fabrication Ductwork - Rise",
+    "Id": -2008205,
+    "DeutschName": "MEP Fabrication Luftkanäle - Anstieg"
+  },
+  "-2008215": {
+    "Name": "MEP Fabrication Containment - Symbology",
+    "Id": -2008215,
+    "DeutschName": "MEP Fabrication Kabelführungen - Symbole"
+  },
+  "-2000124": {
+    "Name": "Stairs - <Above> Supports",
+    "Id": -2000124,
+    "DeutschName": "Treppen - <Oberhalb> Auflager"
+  },
+  "-2000164": {
+    "Name": "Areas - Reference",
+    "Id": -2000164,
+    "DeutschName": "Flächen - Referenz"
+  },
+  "-2000607": {
+    "Name": "Floors - Hidden Lines",
+    "Id": -2000607,
+    "DeutschName": "Geschossdecken - Verdeckte Linien"
+  },
+  "-2000617": {
+    "Name": "Ceilings - Cut Pattern",
+    "Id": -2000617,
+    "DeutschName": "Decken - Schnittmuster"
+  },
+  "-2008101": {
+    "Name": "Switch System",
+    "Id": -2008101,
+    "DeutschName": "Schaltersystem"
+  },
+  "-2001391": {
+    "Name": "Roofs - Gutters",
+    "Id": -2001391,
+    "DeutschName": "Dächer - Rinnen"
+  },
+  "-2008131": {
+    "Name": "Cable Tray Tags",
+    "Id": -2008131,
+    "DeutschName": "Kabeltrasse - Beschriftungen"
+  },
+  "-2008141": {
+    "Name": "Conduit Fittings - Center line",
+    "Id": -2008141,
+    "DeutschName": "Leerrohrformteile - Achse"
+  },
+  "-2008151": {
+    "Name": "Panel Schedule Graphics",
+    "Id": -2008151,
+    "DeutschName": "Grafiken für Verteiler-Bauteilliste"
+  },
+  "-2009633": {
+    "Name": "Analytical Braces",
+    "Id": -2009633,
+    "DeutschName": "Skelettbau Streben (analytisch)"
+  },
+  "-2008161": {
+    "Name": "Pipe Placeholders",
+    "Id": -2008161,
+    "DeutschName": "Rohrplatzhalter"
+  },
+  "-2009653": {
+    "Name": "Analytical Wall Tags",
+    "Id": -2009653,
+    "DeutschName": "Wand (analytisch) - Beschriftungen"
+  },
+  "-2009643": {
+    "Name": "Analytical Foundation Slabs",
+    "Id": -2009643,
+    "DeutschName": "Fundamente Platte (analytisch)"
+  },
+  "-2008171": {
+    "Name": "Analytical Surfaces - Interior Walls",
+    "Id": -2008171,
+    "DeutschName": "Berechnete Oberflächen - Innenwände"
+  },
+  "-2008181": {
+    "Name": "Analytical Surfaces - Operable Skylights",
+    "Id": -2008181,
+    "DeutschName": "Berechnete Oberflächen - Bewegliche Dachfenster"
+  },
+  "-2001321": {
+    "Name": "Structural Framing - Other",
+    "Id": -2001321,
+    "DeutschName": "Skelettbau - Sonstige"
+  },
+  "-2001341": {
+    "Name": "Topography - Triangulation Edges",
+    "Id": -2001341,
+    "DeutschName": "Topographie - Triangulationskanten"
+  },
+  "-2000586": {
+    "Name": "Walls - Common Edges",
+    "Id": -2000586,
+    "DeutschName": "Wände - Gemeinsame Kanten"
+  },
+  "-2005251": {
+    "Name": "Line Load Tags",
+    "Id": -2005251,
+    "DeutschName": "Linienlastenbeschriftungen"
+  },
+  "-2000596": {
+    "Name": "Roofs - Common Edges",
+    "Id": -2000596,
+    "DeutschName": "Dächer - Gemeinsame Kanten"
+  },
+  "-2005211": {
+    "Name": "Structural Load Cases - Dead Loads",
+    "Id": -2005211,
+    "DeutschName": "Tragwerk Lastfälle - Ständige Lasten"
+  },
+  "-2005201": {
+    "Name": "Structural Loads - Point Loads",
+    "Id": -2005201,
+    "DeutschName": "Lasten - Einzellasten"
+  },
+  "-2000986": {
+    "Name": "Mechanical Equipment Set Tags",
+    "Id": -2000986,
+    "DeutschName": "Beschriftungen für HSL-Bauteile"
+  },
+  "-2000996": {
+    "Name": "Shaft Openings",
+    "Id": -2000996,
+    "DeutschName": "Schachtöffnungen"
+  },
+  "-2000536": {
+    "Name": "Crop Boundaries",
+    "Id": -2000536,
+    "DeutschName": "Zuschneidegrenzen"
+  },
+  "-2009512": {
+    "Name": "Generic Models - Hidden Lines",
+    "Id": -2009512,
+    "DeutschName": "Allgemeines Modell - Verdeckte Linien"
+  },
+  "-2009502": {
+    "Name": "Roofs - Hidden Lines",
+    "Id": -2009502,
+    "DeutschName": "Dächer - Verdeckte Linien"
+  },
+  "-2009532": {
+    "Name": "Mass - Hidden Lines",
+    "Id": -2009532,
+    "DeutschName": "Körper - Verdeckte Linien"
+  },
+  "-2009522": {
+    "Name": "Parking - Hidden Lines",
+    "Id": -2009522,
+    "DeutschName": "Parkplatz - Verdeckte Linien"
+  },
+  "-2000321": {
+    "Name": "Walls - Curtain Wall Grids",
+    "Id": -2000321,
+    "DeutschName": "Wände - Fassadenraster"
+  },
+  "-2000936": {
+    "Name": "Stairs - Riser Lines",
+    "Id": -2000936,
+    "DeutschName": "Treppen - Steigungslinien"
+  },
+  "-2000946": {
+    "Name": "Railings - Top Rails",
+    "Id": -2000946,
+    "DeutschName": "Geländer - Obere Holme"
+  },
+  "-2000956": {
+    "Name": "Analytical Node Tags",
+    "Id": -2000956,
+    "DeutschName": "Beschriftungen für analytische Knoten"
+  },
+  "-2000301": {
+    "Name": "Section Boxes",
+    "Id": -2000301,
+    "DeutschName": "3D-Schnittbereiche"
+  },
+  "-2000976": {
+    "Name": "Analytical Foundation Slabs - Local Coordinate System",
+    "Id": -2000976,
+    "DeutschName": "Fundamente Platte (analytisch) - Lokales Koordinatensystem"
+  },
+  "-2001220": {
+    "Name": "Roads",
+    "Id": -2001220,
+    "DeutschName": "Straßen"
+  },
+  "-2001260": {
+    "Name": "Site",
+    "Id": -2001260,
+    "DeutschName": "Grundstück"
+  },
+  "-2000280": {
+    "Name": "Title Blocks",
+    "Id": -2000280,
+    "DeutschName": "Planköpfe"
+  },
+  "-2005301": {
+    "Name": "Boundary Conditions",
+    "Id": -2005301,
+    "DeutschName": "Auflagerbedingungen"
+  },
+  "-2000200": {
+    "Name": "Sections",
+    "Id": -2000200,
+    "DeutschName": "Schnitte"
+  },
+  "-2000220": {
+    "Name": "Grids",
+    "Id": -2000220,
+    "DeutschName": "Raster"
+  },
+  "-2000240": {
+    "Name": "Levels",
+    "Id": -2000240,
+    "DeutschName": "Ebenen"
+  },
+  "-2000260": {
+    "Name": "Dimensions",
+    "Id": -2000260,
+    "DeutschName": "Bemaßungen"
+  },
+  "-2000270": {
+    "Name": "Part Tags",
+    "Id": -2000270,
+    "DeutschName": "Teilebeschriftungen"
+  },
+  "-2000011": {
+    "Name": "Walls",
+    "Id": -2000011,
+    "DeutschName": "Wände"
+  },
+  "-2000031": {
+    "Name": "Doors - Glass",
+    "Id": -2000031,
+    "DeutschName": "Türen - Glas"
+  },
+  "-2000051": {
+    "Name": "Lines",
+    "Id": -2000051,
+    "DeutschName": "Linien"
+  },
+  "-2009015": {
+    "Name": "Rebar Cover References",
+    "Id": -2009015,
+    "DeutschName": "Bewehrungsüberdeckungsreferenzen"
+  },
+  "-2009005": {
+    "Name": "Structural Area Reinforcement Symbols",
+    "Id": -2009005,
+    "DeutschName": "Symbole für Tragwerk-Flächenbewehrung"
+  },
+  "-2009025": {
+    "Name": "Rebar Set Toggle",
+    "Id": -2009025,
+    "DeutschName": "Bewehrungssatz ein/aus"
+  },
+  "-2009055": {
+    "Name": "Plate Tags",
+    "Id": -2009055,
+    "DeutschName": "Plattenbezeichnungen"
+  },
+  "-2009045": {
+    "Name": "Structural Connections - Holes",
+    "Id": -2009045,
+    "DeutschName": "Tragwerksverbindungen - Bohrungen"
+  },
+  "-2006134": {
+    "Name": "Bridge Arches",
+    "Id": -2006134,
+    "DeutschName": "Brückenbogen"
+  },
+  "-2003200": {
+    "Name": "Areas",
+    "Id": -2003200,
+    "DeutschName": "Flächen"
+  },
+  "-2008005": {
+    "Name": "Duct Color Fill",
+    "Id": -2008005,
+    "DeutschName": "Farbfüllung für Luftkanäle"
+  },
+  "-2008015": {
+    "Name": "Duct Systems",
+    "Id": -2008015,
+    "DeutschName": "Luftkanal Systeme"
+  },
+  "-2008045": {
+    "Name": "Pipes - Center Line",
+    "Id": -2008045,
+    "DeutschName": "Rohre - Achse"
+  },
+  "-2008055": {
+    "Name": "Pipe Accessories",
+    "Id": -2008055,
+    "DeutschName": "Rohrzubehör"
+  },
+  "-2008075": {
+    "Name": "Telephone Devices",
+    "Id": -2008075,
+    "DeutschName": "Telefongeräte"
+  },
+  "-2008085": {
+    "Name": "Fire Alarm Devices",
+    "Id": -2008085,
+    "DeutschName": "Brandmelder"
+  },
+  "-2008095": {
+    "Name": "Analytical Surfaces - Opening",
+    "Id": -2008095,
+    "DeutschName": "Berechnete Oberflächen - Öffnung"
+  },
+  "-2001265": {
+    "Name": "Site - Property Lines",
+    "Id": -2001265,
+    "DeutschName": "Grundstück - Grundstücksgrenzen"
+  },
+  "-2000285": {
+    "Name": "Lines - <Demolished>",
+    "Id": -2000285,
+    "DeutschName": "Linien - <Abgebrochen>"
+  },
+  "-2001121": {
+    "Name": "Lighting Fixtures - Light Source",
+    "Id": -2001121,
+    "DeutschName": "Leuchten - Lichtquelle"
+  },
+  "-2000265": {
+    "Name": "Spot Slopes",
+    "Id": -2000265,
+    "DeutschName": "Neigungskoten"
+  },
+  "-2005250": {
+    "Name": "Point Load Tags",
+    "Id": -2005250,
+    "DeutschName": "Einzellastenbeschriftungen"
+  },
+  "-2005210": {
+    "Name": "Structural Load Cases",
+    "Id": -2005210,
+    "DeutschName": "Tragwerk Lastfälle"
+  },
+  "-2005200": {
+    "Name": "Structural Loads",
+    "Id": -2005200,
+    "DeutschName": "Lasten"
+  },
+  "-2005011": {
+    "Name": "Wall Tags",
+    "Id": -2005011,
+    "DeutschName": "Wandbeschriftungen"
+  },
+  "-2005001": {
+    "Name": "Casework Tags",
+    "Id": -2005001,
+    "DeutschName": "Schreinerarbeiten - Beschriftungen"
+  },
+  "-2005021": {
+    "Name": "Planting Tags",
+    "Id": -2005021,
+    "DeutschName": "Bepflanzungsbeschriftungen"
+  },
+  "-2000191": {
+    "Name": "Plan Region",
+    "Id": -2000191,
+    "DeutschName": "Planbereich"
+  },
+  "-2000181": {
+    "Name": "Walls - Wall Sweeps",
+    "Id": -2000181,
+    "DeutschName": "Wände - Profilierte Wände"
+  },
+  "-2000131": {
+    "Name": "Stair Paths - Down Arrows",
+    "Id": -2000131,
+    "DeutschName": "Treppe - Lauflinien - Pfeile AB"
+  },
+  "-2000151": {
+    "Name": "Generic Models",
+    "Id": -2000151,
+    "DeutschName": "Allgemeines Modell"
+  },
+  "-2000161": {
+    "Name": "Rooms - Interior Fill",
+    "Id": -2000161,
+    "DeutschName": "Räume - Innenfüllung"
+  },
+  "-2000171": {
+    "Name": "Curtain Wall Mullions",
+    "Id": -2000171,
+    "DeutschName": "Fassadenpfosten"
+  },
+  "-2003101": {
+    "Name": "Project Information",
+    "Id": -2003101,
+    "DeutschName": "Projektinformationen"
+  },
+  "-2000603": {
+    "Name": "Floors - Substrate [2]",
+    "Id": -2000603,
+    "DeutschName": "Geschossdecken - Träger [2]"
+  },
+  "-2000613": {
+    "Name": "Ceilings - Substrate [2]",
+    "Id": -2000613,
+    "DeutschName": "Decken - Träger [2]"
+  },
+  "-2009606": {
+    "Name": "Structural Framing - Chord",
+    "Id": -2009606,
+    "DeutschName": "Skelettbau - Gurt"
+  },
+  "-2008115": {
+    "Name": "Zone Tags",
+    "Id": -2008115,
+    "DeutschName": "Zonenbeschriftungen"
+  },
+  "-2008125": {
+    "Name": "Routing Preferences",
+    "Id": -2008125,
+    "DeutschName": "Routing-Voreinstellungen"
+  },
+  "-2008135": {
+    "Name": "Cable Trays - Drop",
+    "Id": -2008135,
+    "DeutschName": "Kabeltrassen - Gefälle"
+  },
+  "-2009636": {
+    "Name": "Analytical Columns",
+    "Id": -2009636,
+    "DeutschName": "Tragwerksstützen (analytisch)"
+  },
+  "-2008155": {
+    "Name": "Pipe Insulation Tags",
+    "Id": -2008155,
+    "DeutschName": "Rohrdämmung außen - Beschriftungen"
+  },
+  "-2009656": {
+    "Name": "Analytical Slab Foundation Tags",
+    "Id": -2009656,
+    "DeutschName": "Plattenfundament (analytisch) - Beschriftungen"
+  },
+  "-2008175": {
+    "Name": "Analytical Surfaces - Underground Walls",
+    "Id": -2008175,
+    "DeutschName": "Berechnete Oberflächen - Unterirdische Wände"
+  },
+  "-2008185": {
+    "Name": "Analytical Spaces",
+    "Id": -2008185,
+    "DeutschName": "Berechnete Räume"
+  },
+  "-2001335": {
+    "Name": "Structural Columns - Stick Symbols",
+    "Id": -2001335,
+    "DeutschName": "Tragwerksstützen - Einfügesymbole"
+  },
+  "-2001325": {
+    "Name": "Structural Framing - Horizontal Bracing",
+    "Id": -2001325,
+    "DeutschName": "Skelettbau - Horizontaler Verband"
+  },
+  "-2001355": {
+    "Name": "Structural Stiffener Tags",
+    "Id": -2001355,
+    "DeutschName": "Steifen - Beschriftungen"
+  },
+  "-2000582": {
+    "Name": "Walls - Thermal/Air Layer [3]",
+    "Id": -2000582,
+    "DeutschName": "Wände - Dämmung/Luftschicht [3]"
+  },
+  "-2005255": {
+    "Name": "Internal Area Load Tags",
+    "Id": -2005255,
+    "DeutschName": "Beschriftungen für interne Flächenlasten"
+  },
+  "-2000592": {
+    "Name": "Roofs - Thermal/Air Layer [3]",
+    "Id": -2000592,
+    "DeutschName": "Dächer - Dämmung/Luftschicht [3]"
+  },
+  "-2000983": {
+    "Name": "Analytical Pipe Connections",
+    "Id": -2000983,
+    "DeutschName": "Analytische Rohrverbindungen"
+  },
+  "-2005215": {
+    "Name": "Structural Load Cases - Roof Live Loads",
+    "Id": -2005215,
+    "DeutschName": "Tragwerk Lastfälle - Nicht ständige Dachlasten"
+  },
+  "-2005205": {
+    "Name": "Structural Internal Loads - Internal Point Loads",
+    "Id": -2005205,
+    "DeutschName": "Interne Traglasten - Interne Einzellasten"
+  },
+  "-2009517": {
+    "Name": "Electrical Fixtures - Hidden Lines",
+    "Id": -2009517,
+    "DeutschName": "Elektroinstallationen - Verdeckte Linien"
+  },
+  "-2009507": {
+    "Name": "Stairs - Hidden Lines",
+    "Id": -2009507,
+    "DeutschName": "Treppen - Verdeckte Linien"
+  },
+  "-2000903": {
+    "Name": "Adaptive Points - Lines",
+    "Id": -2000903,
+    "DeutschName": "Adaptive Punkte - Linien"
+  },
+  "-2009527": {
+    "Name": "Specialty Equipment - Hidden Lines",
+    "Id": -2009527,
+    "DeutschName": "Sonderausstattung - Verdeckte Linien"
+  },
+  "-2000542": {
+    "Name": "Roofs - Surface Pattern",
+    "Id": -2000542,
+    "DeutschName": "Dächer - Oberflächenmuster"
+  },
+  "-2000933": {
+    "Name": "Stairs - <Above> Nosing Lines",
+    "Id": -2000933,
+    "DeutschName": "Treppen - <Oberhalb> Trittüberstandslinien"
+  },
+  "-2000973": {
+    "Name": "Analytical Braces - Local Coordinate System",
+    "Id": -2000973,
+    "DeutschName": "Skelettbau Streben (analytisch) - Lokales Koordinatensystem"
+  },
+  "-2005111": {
+    "Name": "Foundation Span Direction Symbol",
+    "Id": -2005111,
+    "DeutschName": "Symbol für Spannrichtung des Fundaments"
+  },
+  "-2003325": {
+    "Name": "Mass - Gridlines",
+    "Id": -2003325,
+    "DeutschName": "Körper - Rasterlinien"
+  },
+  "-2003305": {
+    "Name": "Ramps - UP text",
+    "Id": -2003305,
+    "DeutschName": "Rampen - Text AUF"
+  },
+  "-2000713": {
+    "Name": "Reference Points - Lines",
+    "Id": -2000713,
+    "DeutschName": "Referenzpunkte - Linien"
+  },
+  "-2000095": {
+    "Name": "Model Groups",
+    "Id": -2000095,
+    "DeutschName": "Modellgruppen"
+  },
+  "-2009010": {
+    "Name": "Structural Path Reinforcement Symbols",
+    "Id": -2009010,
+    "DeutschName": "Symbole für lineare Bewehrung"
+  },
+  "-2009000": {
+    "Name": "Structural Rebar",
+    "Id": -2009000,
+    "DeutschName": "Bewehrung - Stabstahl"
+  },
+  "-2009030": {
+    "Name": "Structural Connections",
+    "Id": -2009030,
+    "DeutschName": "Tragwerksverbindungen"
+  },
+  "-2009020": {
+    "Name": "Structural Rebar Tags",
+    "Id": -2009020,
+    "DeutschName": "Bewehrung - Beschriftungen"
+  },
+  "-2009050": {
+    "Name": "Structural Rebar - Hidden Lines",
+    "Id": -2009050,
+    "DeutschName": "Bewehrung - Stabstahl - Verdeckte Linien"
+  },
+  "-2009040": {
+    "Name": "Structural Connection Tags",
+    "Id": -2009040,
+    "DeutschName": "Beschriftungen Tragwerksverbindung"
+  },
+  "-2006131": {
+    "Name": "Bridge Piers",
+    "Id": -2006131,
+    "DeutschName": "Brückenpfeiler"
+  },
+  "-2009060": {
+    "Name": "Structural Rebar Couplers",
+    "Id": -2009060,
+    "DeutschName": "Verbindungsmittel"
+  },
+  "-2000065": {
+    "Name": "Lines - Axis of Rotation",
+    "Id": -2000065,
+    "DeutschName": "Linien - Drehachse"
+  },
+  "-2000045": {
+    "Name": "Lines - <Sketch>",
+    "Id": -2000045,
+    "DeutschName": "Linien - <Skizze>"
+  },
+  "-2000035": {
+    "Name": "Roofs",
+    "Id": -2000035,
+    "DeutschName": "Dächer"
+  },
+  "-2000025": {
+    "Name": "Doors - Panel",
+    "Id": -2000025,
+    "DeutschName": "Türen - Element"
+  },
+  "-2008203": {
+    "Name": "MEP Fabrication Hangers",
+    "Id": -2008203,
+    "DeutschName": "MEP Fabrication Halterungen"
+  },
+  "-2008213": {
+    "Name": "MEP Fabrication Containment Tags",
+    "Id": -2008213,
+    "DeutschName": "MEP Fabrication Kabelführungsbeschriftungen"
+  },
+  "-2008000": {
+    "Name": "Ducts",
+    "Id": -2008000,
+    "DeutschName": "Luftkanäle"
+  },
+  "-2008010": {
+    "Name": "Duct Fittings",
+    "Id": -2008010,
+    "DeutschName": "Luftkanalformteile"
+  },
+  "-2008020": {
+    "Name": "Flex Ducts",
+    "Id": -2008020,
+    "DeutschName": "Flexkanäle"
+  },
+  "-2008050": {
+    "Name": "Flex Pipes",
+    "Id": -2008050,
+    "DeutschName": "Flexible Rohre"
+  },
+  "-2008060": {
+    "Name": "Pipe Fitting Tags",
+    "Id": -2008060,
+    "DeutschName": "Rohrformteilbeschriftung"
+  },
+  "-2008080": {
+    "Name": "Security Device Tags",
+    "Id": -2008080,
+    "DeutschName": "Sicherheitsgerätebeschriftungen"
+  },
+  "-2008090": {
+    "Name": "Analytical Surfaces",
+    "Id": -2008090,
+    "DeutschName": "Berechnete Oberflächen"
+  },
+  "-2009639": {
+    "Name": "Analytical Floors",
+    "Id": -2009639,
+    "DeutschName": "Geschossdecken (analytisch)"
+  },
+  "-2009649": {
+    "Name": "Analytical Beam Tags",
+    "Id": -2009649,
+    "DeutschName": "Träger (analytisch) - Beschriftungen"
+  },
+  "-2010001": {
+    "Name": "Point Clouds",
+    "Id": -2010001,
+    "DeutschName": "Punktwolken"
+  },
+  "-2005015": {
+    "Name": "Structural Framing Tags",
+    "Id": -2005015,
+    "DeutschName": "Trägerbeschriftung"
+  },
+  "-2003417": {
+    "Name": "Mass - Mass Opening",
+    "Id": -2003417,
+    "DeutschName": "Körper - Körper - Öffnung"
+  },
+  "-2005025": {
+    "Name": "Curtain System Tags",
+    "Id": -2005025,
+    "DeutschName": "Fassadensystembeschriftungen"
+  },
+  "-2008204": {
+    "Name": "MEP Fabrication Hanger Tags",
+    "Id": -2008204,
+    "DeutschName": "MEP Fabrication Halterungsbeschriftungen"
+  },
+  "-2008214": {
+    "Name": "MEP Fabrication Containment - Center Line",
+    "Id": -2008214,
+    "DeutschName": "MEP Fabrication Kabelführungen - Achse"
+  },
+  "-2000125": {
+    "Name": "Stair Paths - UP Text",
+    "Id": -2000125,
+    "DeutschName": "Treppe - Lauflinien - Text AUF"
+  },
+  "-2000165": {
+    "Name": "Areas - Color Fill",
+    "Id": -2000165,
+    "DeutschName": "Flächen - Farbfüllung"
+  },
+  "-2000606": {
+    "Name": "Floors - Common Edges",
+    "Id": -2000606,
+    "DeutschName": "Geschossdecken - Gemeinsame Kanten"
+  },
+  "-2000616": {
+    "Name": "Ceilings - Common Edges",
+    "Id": -2000616,
+    "DeutschName": "Decken - Gemeinsame Kanten"
+  },
+  "-2001392": {
+    "Name": "Floors - Slab Edges",
+    "Id": -2001392,
+    "DeutschName": "Geschossdecken - Deckenkanten"
+  },
+  "-2009632": {
+    "Name": "Analytical Beams - End Segment",
+    "Id": -2009632,
+    "DeutschName": "Skelettbau Träger (analytisch) - Endsegment"
+  },
+  "-2009652": {
+    "Name": "Analytical Floor Tags",
+    "Id": -2009652,
+    "DeutschName": "Geschossdecke (analytisch) - Beschriftungen"
+  },
+  "-2009642": {
+    "Name": "Analytical Wall Foundations",
+    "Id": -2009642,
+    "DeutschName": "Fundamente Wand (analytisch)"
+  },
+  "-2001302": {
+    "Name": "Structural Foundations - Hidden Lines",
+    "Id": -2001302,
+    "DeutschName": "Fundamente - Verdeckte Linien"
+  },
+  "-2001322": {
+    "Name": "Structural Framing - Girder",
+    "Id": -2001322,
+    "DeutschName": "Skelettbau - Tragwerk"
+  },
+  "-2001352": {
+    "Name": "RVT Links",
+    "Id": -2001352,
+    "DeutschName": "RVT-Verknüpfungen"
+  },
+  "-2001342": {
+    "Name": "Topography - Primary Contours",
+    "Id": -2001342,
+    "DeutschName": "Topographie - Primäre Höhenlinien"
+  },
+  "-2000587": {
+    "Name": "Walls - Hidden Lines",
+    "Id": -2000587,
+    "DeutschName": "Wände - Verdeckte Linien"
+  },
+  "-2000597": {
+    "Name": "Roofs - Cut Pattern",
+    "Id": -2000597,
+    "DeutschName": "Dächer - Schnittmuster"
+  },
+  "-2000987": {
+    "Name": "Mechanical Equipment Set Boundary Lines",
+    "Id": -2000987,
+    "DeutschName": "Begrenzungslinien für HLS-Bauteilsatz"
+  },
+  "-2009518": {
+    "Name": "Furniture Systems - Hidden Lines",
+    "Id": -2009518,
+    "DeutschName": "Möbelsysteme - Verdeckte Linien"
+  },
+  "-2009508": {
+    "Name": "Railings - Hidden Lines",
+    "Id": -2009508,
+    "DeutschName": "Geländer - Verdeckte Linien"
+  },
+  "-2000537": {
+    "Name": "Callouts",
+    "Id": -2000537,
+    "DeutschName": "Detailausschnitte"
+  },
+  "-2009528": {
+    "Name": "Planting - Hidden Lines",
+    "Id": -2009528,
+    "DeutschName": "Bepflanzung - Verdeckte Linien"
+  },
+  "-2000547": {
+    "Name": "Annotation Crop Boundary",
+    "Id": -2000547,
+    "DeutschName": "Zuschneidegrenze für Beschriftung"
+  },
+  "-2009513": {
+    "Name": "Shaft Openings - Hidden Lines",
+    "Id": -2009513,
+    "DeutschName": "Schachtöffnungen - Verdeckte Linien"
+  },
+  "-2009503": {
+    "Name": "Ceilings - Hidden Lines",
+    "Id": -2009503,
+    "DeutschName": "Decken - Verdeckte Linien"
+  },
+  "-2000302": {
+    "Name": "Render Regions",
+    "Id": -2000302,
+    "DeutschName": "Renderbereiche"
+  },
+  "-2009523": {
+    "Name": "Roads - Hidden Lines",
+    "Id": -2009523,
+    "DeutschName": "Straßen - Verdeckte Linien"
+  },
+  "-2000937": {
+    "Name": "Stairs - <Above> Riser Lines",
+    "Id": -2000937,
+    "DeutschName": "Treppen - <Oberhalb> Steigungslinien"
+  },
+  "-2000947": {
+    "Name": "Railings - Handrails",
+    "Id": -2000947,
+    "DeutschName": "Geländer - Handläufe"
+  },
+  "-2006045": {
+    "Name": "Elevation Marks",
+    "Id": -2006045,
+    "DeutschName": "Ansichtsbeschriftungen"
+  },
+  "-2003302": {
+    "Name": "Ramps - Ramps Beyond Cut Line",
+    "Id": -2003302,
+    "DeutschName": "Rampen - Rampen hinter Schnittlinie"
+  },
+  "-2001263": {
+    "Name": "Site - Pads",
+    "Id": -2001263,
+    "DeutschName": "Grundstück - Sohlen"
+  },
+  "-2001000": {
+    "Name": "Casework",
+    "Id": -2001000,
+    "DeutschName": "Schreinerarbeiten"
+  },
+  "-2001040": {
+    "Name": "Electrical Equipment",
+    "Id": -2001040,
+    "DeutschName": "Elektrische Ausstattung"
+  },
+  "-2001060": {
+    "Name": "Electrical Fixtures",
+    "Id": -2001060,
+    "DeutschName": "Elektroinstallationen"
+  },
+  "-2000283": {
+    "Name": "Title Blocks - Wide Lines",
+    "Id": -2000283,
+    "DeutschName": "Planköpfe - Breite Linien"
+  },
+  "-2000080": {
+    "Name": "Furniture",
+    "Id": -2000080,
+    "DeutschName": "Möbel"
+  },
+  "-2000223": {
+    "Name": "Displacement Path",
+    "Id": -2000223,
+    "DeutschName": "Verschiebungspfad"
+  },
+  "-2000263": {
+    "Name": "Spot Elevations",
+    "Id": -2000263,
+    "DeutschName": "Höhenkoten"
+  },
+  "-2000020": {
+    "Name": "Windows - Sill/Head",
+    "Id": -2000020,
+    "DeutschName": "Fenster - Brüstung/Sturzhöhe"
+  },
+  "-2009044": {
+    "Name": "Structural Connections - Shear Studs",
+    "Id": -2009044,
+    "DeutschName": "Tragwerksverbindungen - Kopfbolzen"
+  },
+  "-2006135": {
+    "Name": "Bridge Decks",
+    "Id": -2006135,
+    "DeutschName": "Brückentafeln"
+  },
+  "-2009064": {
+    "Name": "Profile Tags",
+    "Id": -2009064,
+    "DeutschName": "Profilbezeichnungen"
+  },
+  "-2008207": {
+    "Name": "MEP Fabrication Ductwork - Symbology",
+    "Id": -2008207,
+    "DeutschName": "MEP Fabrication Luftkanäle - Symbole"
+  },
+  "-2008217": {
+    "Name": "MEP Fabrication Pipework - Drop",
+    "Id": -2008217,
+    "DeutschName": "MEP Fabrication Rohre - Gefälle"
+  },
+  "-2008004": {
+    "Name": "Flex Duct Tags",
+    "Id": -2008004,
+    "DeutschName": "Flexkanalbeschriftungen"
+  },
+  "-2008014": {
+    "Name": "Air Terminal Tags",
+    "Id": -2008014,
+    "DeutschName": "Luftdurchlassbeschriftungen"
+  },
+  "-2008044": {
+    "Name": "Pipes",
+    "Id": -2008044,
+    "DeutschName": "Rohre"
+  },
+  "-2008054": {
+    "Name": "Pipes - Rise",
+    "Id": -2008054,
+    "DeutschName": "Rohre - Anstieg"
+  },
+  "-2008074": {
+    "Name": "Wires - Wire Tick Marks",
+    "Id": -2008074,
+    "DeutschName": "Kabel - Kabelmarkierungen"
+  },
+  "-2008084": {
+    "Name": "Data Device Tags",
+    "Id": -2008084,
+    "DeutschName": "Datengerätebeschriftungen"
+  },
+  "-2008094": {
+    "Name": "Analytical Surfaces - Underground",
+    "Id": -2008094,
+    "DeutschName": "Berechnete Oberflächen - Untergrund"
+  },
+  "-2000609": {
+    "Name": "Floors - Interior Edges",
+    "Id": -2000609,
+    "DeutschName": "Geschossdecken - Innenkanten"
+  },
+  "-2001393": {
+    "Name": "Roofs - Roof Soffits",
+    "Id": -2001393,
+    "DeutschName": "Dächer - Dachuntersichten"
+  },
+  "-2009605": {
+    "Name": "Structural Framing - Web",
+    "Id": -2009605,
+    "DeutschName": "Skelettbau - Steg"
+  },
+  "-2009635": {
+    "Name": "Analytical Braces - End Segment",
+    "Id": -2009635,
+    "DeutschName": "Skelettbau Streben (analytisch) - Endsegment"
+  },
+  "-2002000": {
+    "Name": "Detail Items",
+    "Id": -2002000,
+    "DeutschName": "Detailelemente"
+  },
+  "-2009655": {
+    "Name": "Analytical Wall Foundation Tags",
+    "Id": -2009655,
+    "DeutschName": "Wandfundament (analytisch) - Beschriftungen"
+  },
+  "-2009645": {
+    "Name": "Analytical Nodes",
+    "Id": -2009645,
+    "DeutschName": "Analytische Knoten"
+  },
+  "-2000403": {
+    "Name": "Section Marks - Medium Lines",
+    "Id": -2000403,
+    "DeutschName": "Schnittlinienbeschriftung - Mittelstarke Linien"
+  },
+  "-2001333": {
+    "Name": "Structural Framing - Rigid Links",
+    "Id": -2001333,
+    "DeutschName": "Skelettbau - Starre Kopplungen"
+  },
+  "-2001323": {
+    "Name": "Structural Framing - Joist",
+    "Id": -2001323,
+    "DeutschName": "Skelettbau - Balken"
+  },
+  "-2000284": {
+    "Name": "Lines - <Overhead>",
+    "Id": -2000284,
+    "DeutschName": "Linien - <Oberhalb>"
+  },
+  "-2001343": {
+    "Name": "Topography - Secondary Contours",
+    "Id": -2001343,
+    "DeutschName": "Topographie - Sekundäre Höhenlinien"
+  },
+  "-2000264": {
+    "Name": "Spot Coordinates",
+    "Id": -2000264,
+    "DeutschName": "Höhenkoordinaten"
+  },
+  "-2005253": {
+    "Name": "Internal Point Load Tags",
+    "Id": -2005253,
+    "DeutschName": "Beschriftungen für interne Einzellasten"
+  },
+  "-2005213": {
+    "Name": "Structural Load Cases - Wind Loads",
+    "Id": -2005213,
+    "DeutschName": "Tragwerk Lastfälle - Windlasten"
+  },
+  "-2005203": {
+    "Name": "Structural Loads - Area Loads",
+    "Id": -2005203,
+    "DeutschName": "Lasten - Flächenlasten"
+  },
+  "-2005010": {
+    "Name": "Plumbing Fixture Tags",
+    "Id": -2005010,
+    "DeutschName": "Sanitärinstallationsbeschriftungen"
+  },
+  "-2005030": {
+    "Name": "Structural Truss Tags",
+    "Id": -2005030,
+    "DeutschName": "Fachwerkbinderbeschriftungen"
+  },
+  "-2005020": {
+    "Name": "Area Tags",
+    "Id": -2005020,
+    "DeutschName": "Flächenbeschriftungen"
+  },
+  "-2000303": {
+    "Name": "Analysis Results",
+    "Id": -2000303,
+    "DeutschName": "Ergebnisse der Analyse"
+  },
+  "-2000323": {
+    "Name": "Curtain Systems - Curtain System Grids",
+    "Id": -2000323,
+    "DeutschName": "Fassadensysteme - Fassadensystemraster"
+  },
+  "-2003413": {
+    "Name": "Mass - Mass Exterior Wall",
+    "Id": -2003413,
+    "DeutschName": "Körper - Körper - Außenwand"
+  },
+  "-2003403": {
+    "Name": "Mass - Mass Floor",
+    "Id": -2003403,
+    "DeutschName": "Körper - Körpergeschoss"
+  },
+  "-2003303": {
+    "Name": "Ramps - Stringers",
+    "Id": -2003303,
+    "DeutschName": "Rampen - Wangen"
+  },
+  "-2000602": {
+    "Name": "Floors - Thermal/Air Layer [3]",
+    "Id": -2000602,
+    "DeutschName": "Geschossdecken - Dämmung/Luftschicht [3]"
+  },
+  "-2000612": {
+    "Name": "Ceilings - Thermal/Air Layer [3]",
+    "Id": -2000612,
+    "DeutschName": "Decken - Dämmung/Luftschicht [3]"
+  },
+  "-2008122": {
+    "Name": "Pipe Insulations",
+    "Id": -2008122,
+    "DeutschName": "Rohrdämmung"
+  },
+  "-2008132": {
+    "Name": "Conduits",
+    "Id": -2008132,
+    "DeutschName": "Leerrohr"
+  },
+  "-2008152": {
+    "Name": "Electrical Spare/Space Circuits",
+    "Id": -2008152,
+    "DeutschName": "Elektrische Stromkreise für Reserve/Leerfeld"
+  },
+  "-2008172": {
+    "Name": "Analytical Surfaces - Interior Floors",
+    "Id": -2008172,
+    "DeutschName": "Berechnete Oberflächen - Geschossdecken innen"
+  },
+  "-2008182": {
+    "Name": "Analytical Surfaces - Sliding Doors",
+    "Id": -2008182,
+    "DeutschName": "Berechnete Oberflächen - Schiebetüren"
+  },
+  "-2001336": {
+    "Name": "Structural Trusses",
+    "Id": -2001336,
+    "DeutschName": "Fachwerkbinder"
+  },
+  "-2001326": {
+    "Name": "Structural Framing - Vertical Bracing",
+    "Id": -2001326,
+    "DeutschName": "Skelettbau - Vertikaler Verband"
+  },
+  "-2001356": {
+    "Name": "Structural Framing - Location Lines",
+    "Id": -2001356,
+    "DeutschName": "Skelettbau - Basislinien"
+  },
+  "-2000588": {
+    "Name": "Walls - Cut Pattern",
+    "Id": -2000588,
+    "DeutschName": "Wände - Schnittmuster"
+  },
+  "-2000598": {
+    "Name": "Roofs - Interior Edges",
+    "Id": -2000598,
+    "DeutschName": "Dächer - Innenkanten"
+  },
+  "-2000583": {
+    "Name": "Walls - Substrate [2]",
+    "Id": -2000583,
+    "DeutschName": "Wände - Träger [2]"
+  },
+  "-2005254": {
+    "Name": "Internal Line Load Tags",
+    "Id": -2005254,
+    "DeutschName": "Beschriftungen für interne Linienlasten"
+  },
+  "-2000593": {
+    "Name": "Roofs - Substrate [2]",
+    "Id": -2000593,
+    "DeutschName": "Dächer - Träger [2]"
+  },
+  "-2005214": {
+    "Name": "Structural Load Cases - Snow Loads",
+    "Id": -2005214,
+    "DeutschName": "Tragwerk Lastfälle - Schneelasten"
+  },
+  "-2005204": {
+    "Name": "Structural Internal Loads",
+    "Id": -2005204,
+    "DeutschName": "Interne Traglasten"
+  },
+  "-2003602": {
+    "Name": "Spaces - Reference",
+    "Id": -2003602,
+    "DeutschName": "MEP-Räume - Referenz"
+  },
+  "-2000548": {
+    "Name": "Crop Boundaries",
+    "Id": -2000548,
+    "DeutschName": "Zuschneidegrenzen"
+  },
+  "-2009514": {
+    "Name": "Detail Items - Hidden Lines",
+    "Id": -2009514,
+    "DeutschName": "Detailelemente - Verdeckte Linien"
+  },
+  "-2009504": {
+    "Name": "Lines - Hidden Lines",
+    "Id": -2009504,
+    "DeutschName": "Linien - Verdeckte Linien"
+  },
+  "-2000900": {
+    "Name": "Adaptive Points",
+    "Id": -2000900,
+    "DeutschName": "Adaptive Punkte"
+  },
+  "-2009524": {
+    "Name": "Site - Hidden Lines",
+    "Id": -2009524,
+    "DeutschName": "Grundstück - Verdeckte Linien"
+  },
+  "-2000920": {
+    "Name": "Stairs - Landings",
+    "Id": -2000920,
+    "DeutschName": "Treppen - Podeste"
+  },
+  "-2000930": {
+    "Name": "Stairs - Cut Marks",
+    "Id": -2000930,
+    "DeutschName": "Treppen - Schnittmarkierungen"
+  },
+  "-2006080": {
+    "Name": "Revision Cloud Tags",
+    "Id": -2006080,
+    "DeutschName": "Änderungswolken-Beschriftungen"
+  },
+  "-2006090": {
+    "Name": "Structural Annotations",
+    "Id": -2006090,
+    "DeutschName": "Tragwerksbeschriftungen"
+  },
+  "-2006060": {
+    "Name": "Revision Clouds",
+    "Id": -2006060,
+    "DeutschName": "Änderungswolken"
+  },
+  "-2000970": {
+    "Name": "Multi-Rebar Annotations",
+    "Id": -2000970,
+    "DeutschName": "Beschriftung Mehrfachbewehrung"
+  },
+  "-2006040": {
+    "Name": "Grid Heads",
+    "Id": -2006040,
+    "DeutschName": "Rasterbeschriftungen"
+  },
+  "-2000950": {
+    "Name": "Railings - <Above> Top Rails",
+    "Id": -2000950,
+    "DeutschName": "Geländer - <Oberhalb > Obere Holme"
+  },
+  "-2006020": {
+    "Name": "Level Heads",
+    "Id": -2006020,
+    "DeutschName": "Ebenenbeschriftungen"
+  },
+  "-2000940": {
+    "Name": "Stair Run Tags",
+    "Id": -2000940,
+    "DeutschName": "Treppe - Laufbeschriftungen"
+  },
+  "-2006000": {
+    "Name": "Scope Boxes",
+    "Id": -2006000,
+    "DeutschName": "Bildausschnitte"
+  },
+  "-2000573": {
+    "Name": "Schedules",
+    "Id": -2000573,
+    "DeutschName": "Bauteillisten"
+  },
+  "-2000543": {
+    "Name": "Ceilings - Surface Pattern",
+    "Id": -2000543,
+    "DeutschName": "Decken - Oberflächenmuster"
+  },
+  "-2000538": {
+    "Name": "Callout Heads",
+    "Id": -2000538,
+    "DeutschName": "Detailausschnittsbeschriftung"
+  }
+}

@@ -1,0 +1,2522 @@
+{
+  "-2010001": {
+    "Name": "Point Clouds",
+    "Id": -2010001
+  },
+  "-2009657": {
+    "Name": "Analytical Links",
+    "Id": -2009657
+  },
+  "-2009656": {
+    "Name": "Analytical Slab Foundation Tags",
+    "Id": -2009656
+  },
+  "-2009655": {
+    "Name": "Analytical Wall Foundation Tags",
+    "Id": -2009655
+  },
+  "-2009654": {
+    "Name": "Analytical Isolated Foundation Tags",
+    "Id": -2009654
+  },
+  "-2009653": {
+    "Name": "Analytical Wall Tags",
+    "Id": -2009653
+  },
+  "-2009652": {
+    "Name": "Analytical Floor Tags",
+    "Id": -2009652
+  },
+  "-2009651": {
+    "Name": "Analytical Column Tags",
+    "Id": -2009651
+  },
+  "-2009650": {
+    "Name": "Analytical Brace Tags",
+    "Id": -2009650
+  },
+  "-2009649": {
+    "Name": "Analytical Beam Tags",
+    "Id": -2009649
+  },
+  "-2009645": {
+    "Name": "Analytical Nodes",
+    "Id": -2009645
+  },
+  "-2009643": {
+    "Name": "Analytical Foundation Slabs",
+    "Id": -2009643
+  },
+  "-2009642": {
+    "Name": "Analytical Wall Foundations",
+    "Id": -2009642
+  },
+  "-2009641": {
+    "Name": "Analytical Isolated Foundations",
+    "Id": -2009641
+  },
+  "-2009640": {
+    "Name": "Analytical Walls",
+    "Id": -2009640
+  },
+  "-2009639": {
+    "Name": "Analytical Floors",
+    "Id": -2009639
+  },
+  "-2009638": {
+    "Name": "Analytical Columns - Top Segment",
+    "Id": -2009638
+  },
+  "-2009637": {
+    "Name": "Analytical Columns - Base Segment",
+    "Id": -2009637
+  },
+  "-2009636": {
+    "Name": "Analytical Columns",
+    "Id": -2009636
+  },
+  "-2009635": {
+    "Name": "Analytical Braces - End Segment",
+    "Id": -2009635
+  },
+  "-2009634": {
+    "Name": "Analytical Braces - Start Segment",
+    "Id": -2009634
+  },
+  "-2009633": {
+    "Name": "Analytical Braces",
+    "Id": -2009633
+  },
+  "-2009632": {
+    "Name": "Analytical Beams - End Segment",
+    "Id": -2009632
+  },
+  "-2009631": {
+    "Name": "Analytical Beams - Start Segment",
+    "Id": -2009631
+  },
+  "-2009630": {
+    "Name": "Analytical Beams",
+    "Id": -2009630
+  },
+  "-2009608": {
+    "Name": "Structural Trusses - Stick Symbols",
+    "Id": -2009608
+  },
+  "-2009606": {
+    "Name": "Structural Framing - Chord",
+    "Id": -2009606
+  },
+  "-2009605": {
+    "Name": "Structural Framing - Web",
+    "Id": -2009605
+  },
+  "-2009532": {
+    "Name": "Mass - Hidden Lines",
+    "Id": -2009532
+  },
+  "-2009531": {
+    "Name": "Curtain Systems - Hidden Lines",
+    "Id": -2009531
+  },
+  "-2009529": {
+    "Name": "Entourage - Hidden Lines",
+    "Id": -2009529
+  },
+  "-2009528": {
+    "Name": "Planting - Hidden Lines",
+    "Id": -2009528
+  },
+  "-2009527": {
+    "Name": "Specialty Equipment - Hidden Lines",
+    "Id": -2009527
+  },
+  "-2009526": {
+    "Name": "Topography - Hidden Lines",
+    "Id": -2009526
+  },
+  "-2009524": {
+    "Name": "Site - Hidden Lines",
+    "Id": -2009524
+  },
+  "-2009523": {
+    "Name": "Roads - Hidden Lines",
+    "Id": -2009523
+  },
+  "-2009522": {
+    "Name": "Parking - Hidden Lines",
+    "Id": -2009522
+  },
+  "-2009521": {
+    "Name": "Plumbing Fixtures - Hidden Lines",
+    "Id": -2009521
+  },
+  "-2009520": {
+    "Name": "Mechanical Equipment - Hidden Lines",
+    "Id": -2009520
+  },
+  "-2009519": {
+    "Name": "Lighting Fixtures - Hidden Lines",
+    "Id": -2009519
+  },
+  "-2009518": {
+    "Name": "Furniture Systems - Hidden Lines",
+    "Id": -2009518
+  },
+  "-2009517": {
+    "Name": "Electrical Fixtures - Hidden Lines",
+    "Id": -2009517
+  },
+  "-2009516": {
+    "Name": "Electrical Equipment - Hidden Lines",
+    "Id": -2009516
+  },
+  "-2009515": {
+    "Name": "Casework - Hidden Lines",
+    "Id": -2009515
+  },
+  "-2009514": {
+    "Name": "Detail Items - Hidden Lines",
+    "Id": -2009514
+  },
+  "-2009513": {
+    "Name": "Shaft Openings - Hidden Lines",
+    "Id": -2009513
+  },
+  "-2009512": {
+    "Name": "Generic Models - Hidden Lines",
+    "Id": -2009512
+  },
+  "-2009511": {
+    "Name": "Curtain Wall Mullions - Hidden Lines",
+    "Id": -2009511
+  },
+  "-2009510": {
+    "Name": "Curtain Panels - Hidden Lines",
+    "Id": -2009510
+  },
+  "-2009509": {
+    "Name": "Ramps - Hidden Lines",
+    "Id": -2009509
+  },
+  "-2009508": {
+    "Name": "Railings - Hidden Lines",
+    "Id": -2009508
+  },
+  "-2009507": {
+    "Name": "Stairs - Hidden Lines",
+    "Id": -2009507
+  },
+  "-2009506": {
+    "Name": "Columns - Hidden Lines",
+    "Id": -2009506
+  },
+  "-2009505": {
+    "Name": "Furniture - Hidden Lines",
+    "Id": -2009505
+  },
+  "-2009504": {
+    "Name": "Lines - Hidden Lines",
+    "Id": -2009504
+  },
+  "-2009503": {
+    "Name": "Ceilings - Hidden Lines",
+    "Id": -2009503
+  },
+  "-2009502": {
+    "Name": "Roofs - Hidden Lines",
+    "Id": -2009502
+  },
+  "-2009501": {
+    "Name": "Doors - Hidden Lines",
+    "Id": -2009501
+  },
+  "-2009500": {
+    "Name": "Windows - Hidden Lines",
+    "Id": -2009500
+  },
+  "-2009064": {
+    "Name": "Profile Tags",
+    "Id": -2009064
+  },
+  "-2009063": {
+    "Name": "Hole Tags",
+    "Id": -2009063
+  },
+  "-2009062": {
+    "Name": "Structural Rebar Couplers - Hidden Lines",
+    "Id": -2009062
+  },
+  "-2009061": {
+    "Name": "Structural Rebar Coupler Tags",
+    "Id": -2009061
+  },
+  "-2009060": {
+    "Name": "Structural Rebar Couplers",
+    "Id": -2009060
+  },
+  "-2009059": {
+    "Name": "Weld Tags",
+    "Id": -2009059
+  },
+  "-2009058": {
+    "Name": "Shear Stud Tags",
+    "Id": -2009058
+  },
+  "-2009057": {
+    "Name": "Anchor Tags",
+    "Id": -2009057
+  },
+  "-2009056": {
+    "Name": "Bolt Tags",
+    "Id": -2009056
+  },
+  "-2009055": {
+    "Name": "Plate Tags",
+    "Id": -2009055
+  },
+  "-2009050": {
+    "Name": "Structural Rebar - Hidden Lines",
+    "Id": -2009050
+  },
+  "-2009047": {
+    "Name": "Structural Connections - Modifiers",
+    "Id": -2009047
+  },
+  "-2009046": {
+    "Name": "Structural Connections - Welds",
+    "Id": -2009046
+  },
+  "-2009045": {
+    "Name": "Structural Connections - Holes",
+    "Id": -2009045
+  },
+  "-2009044": {
+    "Name": "Structural Connections - Shear Studs",
+    "Id": -2009044
+  },
+  "-2009042": {
+    "Name": "Structural Connections - Others",
+    "Id": -2009042
+  },
+  "-2009041": {
+    "Name": "Structural Connections - Bolts",
+    "Id": -2009041
+  },
+  "-2009040": {
+    "Name": "Structural Connection Tags",
+    "Id": -2009040
+  },
+  "-2009039": {
+    "Name": "Structural Connections - Anchors",
+    "Id": -2009039
+  },
+  "-2009038": {
+    "Name": "Structural Connections - Plates",
+    "Id": -2009038
+  },
+  "-2009037": {
+    "Name": "Structural Connections - Profiles",
+    "Id": -2009037
+  },
+  "-2009036": {
+    "Name": "Structural Connections - Reference",
+    "Id": -2009036
+  },
+  "-2009033": {
+    "Name": "Structural Connections - Symbol",
+    "Id": -2009033
+  },
+  "-2009032": {
+    "Name": "Structural Connections - Hidden Lines",
+    "Id": -2009032
+  },
+  "-2009030": {
+    "Name": "Structural Connections",
+    "Id": -2009030
+  },
+  "-2009029": {
+    "Name": "Structural Fabric Areas - Boundary",
+    "Id": -2009029
+  },
+  "-2009028": {
+    "Name": "Structural Fabric Reinforcement Symbols",
+    "Id": -2009028
+  },
+  "-2009027": {
+    "Name": "Structural Fabric Reinforcement - Fabric Wire",
+    "Id": -2009027
+  },
+  "-2009026": {
+    "Name": "Structural Fabric Reinforcement - Boundary",
+    "Id": -2009026
+  },
+  "-2009025": {
+    "Name": "Rebar Set Toggle",
+    "Id": -2009025
+  },
+  "-2009022": {
+    "Name": "Structural Fabric Reinforcement Tags",
+    "Id": -2009022
+  },
+  "-2009021": {
+    "Name": "Structural Area Reinforcement Tags",
+    "Id": -2009021
+  },
+  "-2009020": {
+    "Name": "Structural Rebar Tags",
+    "Id": -2009020
+  },
+  "-2009019": {
+    "Name": "Lines - <Fabric Sheets>",
+    "Id": -2009019
+  },
+  "-2009018": {
+    "Name": "Lines - <Fabric Envelope>",
+    "Id": -2009018
+  },
+  "-2009017": {
+    "Name": "Structural Fabric Areas",
+    "Id": -2009017
+  },
+  "-2009016": {
+    "Name": "Structural Fabric Reinforcement",
+    "Id": -2009016
+  },
+  "-2009015": {
+    "Name": "Rebar Cover References",
+    "Id": -2009015
+  },
+  "-2009013": {
+    "Name": "Rebar Shape",
+    "Id": -2009013
+  },
+  "-2009012": {
+    "Name": "Structural Path Reinforcement - Boundary",
+    "Id": -2009012
+  },
+  "-2009011": {
+    "Name": "Structural Path Reinforcement Tags",
+    "Id": -2009011
+  },
+  "-2009010": {
+    "Name": "Structural Path Reinforcement Symbols",
+    "Id": -2009010
+  },
+  "-2009009": {
+    "Name": "Structural Path Reinforcement",
+    "Id": -2009009
+  },
+  "-2009006": {
+    "Name": "Structural Area Reinforcement - Boundary",
+    "Id": -2009006
+  },
+  "-2009005": {
+    "Name": "Structural Area Reinforcement Symbols",
+    "Id": -2009005
+  },
+  "-2009003": {
+    "Name": "Structural Area Reinforcement",
+    "Id": -2009003
+  },
+  "-2009000": {
+    "Name": "Structural Rebar",
+    "Id": -2009000
+  },
+  "-2008221": {
+    "Name": "MEP Fabrication Pipework - Insulation",
+    "Id": -2008221
+  },
+  "-2008220": {
+    "Name": "MEP Fabrication Ductwork - Lining",
+    "Id": -2008220
+  },
+  "-2008219": {
+    "Name": "MEP Fabrication Containment - Drop",
+    "Id": -2008219
+  },
+  "-2008218": {
+    "Name": "MEP Fabrication Containment - Rise",
+    "Id": -2008218
+  },
+  "-2008217": {
+    "Name": "MEP Fabrication Pipework - Drop",
+    "Id": -2008217
+  },
+  "-2008216": {
+    "Name": "MEP Fabrication Pipework - Rise",
+    "Id": -2008216
+  },
+  "-2008215": {
+    "Name": "MEP Fabrication Containment - Symbology",
+    "Id": -2008215
+  },
+  "-2008214": {
+    "Name": "MEP Fabrication Containment - Center Line",
+    "Id": -2008214
+  },
+  "-2008213": {
+    "Name": "MEP Fabrication Containment Tags",
+    "Id": -2008213
+  },
+  "-2008212": {
+    "Name": "MEP Fabrication Containment",
+    "Id": -2008212
+  },
+  "-2008211": {
+    "Name": "MEP Fabrication Pipework - Symbology",
+    "Id": -2008211
+  },
+  "-2008210": {
+    "Name": "MEP Fabrication Pipework - Center Line",
+    "Id": -2008210
+  },
+  "-2008209": {
+    "Name": "MEP Fabrication Pipework Tags",
+    "Id": -2008209
+  },
+  "-2008208": {
+    "Name": "MEP Fabrication Pipework",
+    "Id": -2008208
+  },
+  "-2008207": {
+    "Name": "MEP Fabrication Ductwork - Symbology",
+    "Id": -2008207
+  },
+  "-2008206": {
+    "Name": "MEP Fabrication Ductwork - Drop",
+    "Id": -2008206
+  },
+  "-2008205": {
+    "Name": "MEP Fabrication Ductwork - Rise",
+    "Id": -2008205
+  },
+  "-2008204": {
+    "Name": "MEP Fabrication Hanger Tags",
+    "Id": -2008204
+  },
+  "-2008203": {
+    "Name": "MEP Fabrication Hangers",
+    "Id": -2008203
+  },
+  "-2008198": {
+    "Name": "MEP Fabrication Ductwork - Insulation",
+    "Id": -2008198
+  },
+  "-2008196": {
+    "Name": "MEP Fabrication Ductwork - Center Line",
+    "Id": -2008196
+  },
+  "-2008194": {
+    "Name": "MEP Fabrication Ductwork Tags",
+    "Id": -2008194
+  },
+  "-2008193": {
+    "Name": "MEP Fabrication Ductwork",
+    "Id": -2008193
+  },
+  "-2008187": {
+    "Name": "Analytical Surfaces - Shades",
+    "Id": -2008187
+  },
+  "-2008186": {
+    "Name": "Analytical Surfaces",
+    "Id": -2008186
+  },
+  "-2008185": {
+    "Name": "Analytical Spaces",
+    "Id": -2008185
+  },
+  "-2008184": {
+    "Name": "Analytical Surfaces - Air Openings",
+    "Id": -2008184
+  },
+  "-2008183": {
+    "Name": "Analytical Surfaces - Non-sliding Doors",
+    "Id": -2008183
+  },
+  "-2008182": {
+    "Name": "Analytical Surfaces - Sliding Doors",
+    "Id": -2008182
+  },
+  "-2008181": {
+    "Name": "Analytical Surfaces - Operable Skylights",
+    "Id": -2008181
+  },
+  "-2008180": {
+    "Name": "Analytical Surfaces - Fixed Skylights",
+    "Id": -2008180
+  },
+  "-2008179": {
+    "Name": "Analytical Surfaces - Operable Windows",
+    "Id": -2008179
+  },
+  "-2008178": {
+    "Name": "Analytical Surfaces - Fixed Windows",
+    "Id": -2008178
+  },
+  "-2008177": {
+    "Name": "Analytical Surfaces - Underground Ceilings",
+    "Id": -2008177
+  },
+  "-2008176": {
+    "Name": "Analytical Surfaces - Underground Slabs",
+    "Id": -2008176
+  },
+  "-2008175": {
+    "Name": "Analytical Surfaces - Underground Walls",
+    "Id": -2008175
+  },
+  "-2008174": {
+    "Name": "Analytical Surfaces - Air Surfaces",
+    "Id": -2008174
+  },
+  "-2008173": {
+    "Name": "Analytical Surfaces - Ceilings",
+    "Id": -2008173
+  },
+  "-2008172": {
+    "Name": "Analytical Surfaces - Interior Floors",
+    "Id": -2008172
+  },
+  "-2008171": {
+    "Name": "Analytical Surfaces - Interior Walls",
+    "Id": -2008171
+  },
+  "-2008170": {
+    "Name": "Analytical Surfaces - Slabs on Grade",
+    "Id": -2008170
+  },
+  "-2008169": {
+    "Name": "Analytical Surfaces - Raised Floors",
+    "Id": -2008169
+  },
+  "-2008168": {
+    "Name": "Analytical Surfaces - Roofs",
+    "Id": -2008168
+  },
+  "-2008167": {
+    "Name": "Analytical Surfaces - Exterior Walls",
+    "Id": -2008167
+  },
+  "-2008163": {
+    "Name": "Pipe Segments",
+    "Id": -2008163
+  },
+  "-2008161": {
+    "Name": "Pipe Placeholders",
+    "Id": -2008161
+  },
+  "-2008160": {
+    "Name": "Duct Placeholders",
+    "Id": -2008160
+  },
+  "-2008159": {
+    "Name": "Piping Systems - Reference Lines",
+    "Id": -2008159
+  },
+  "-2008157": {
+    "Name": "Duct Systems - Reference Lines",
+    "Id": -2008157
+  },
+  "-2008155": {
+    "Name": "Pipe Insulation Tags",
+    "Id": -2008155
+  },
+  "-2008154": {
+    "Name": "Duct Lining Tags",
+    "Id": -2008154
+  },
+  "-2008153": {
+    "Name": "Duct Insulation Tags",
+    "Id": -2008153
+  },
+  "-2008152": {
+    "Name": "Electrical Spare/Space Circuits",
+    "Id": -2008152
+  },
+  "-2008151": {
+    "Name": "Panel Schedule Graphics",
+    "Id": -2008151
+  },
+  "-2008150": {
+    "Name": "Cable Tray Runs",
+    "Id": -2008150
+  },
+  "-2008149": {
+    "Name": "Conduit Runs",
+    "Id": -2008149
+  },
+  "-2008141": {
+    "Name": "Conduit Fittings - Center line",
+    "Id": -2008141
+  },
+  "-2008140": {
+    "Name": "Cable Tray Fittings - Center line",
+    "Id": -2008140
+  },
+  "-2008139": {
+    "Name": "Conduits - Center line",
+    "Id": -2008139
+  },
+  "-2008138": {
+    "Name": "Conduits - Drop",
+    "Id": -2008138
+  },
+  "-2008137": {
+    "Name": "Conduits - Rise",
+    "Id": -2008137
+  },
+  "-2008136": {
+    "Name": "Cable Trays - Center line",
+    "Id": -2008136
+  },
+  "-2008135": {
+    "Name": "Cable Trays - Drop",
+    "Id": -2008135
+  },
+  "-2008134": {
+    "Name": "Cable Trays - Rise",
+    "Id": -2008134
+  },
+  "-2008133": {
+    "Name": "Conduit Tags",
+    "Id": -2008133
+  },
+  "-2008132": {
+    "Name": "Conduits",
+    "Id": -2008132
+  },
+  "-2008131": {
+    "Name": "Cable Tray Tags",
+    "Id": -2008131
+  },
+  "-2008130": {
+    "Name": "Cable Trays",
+    "Id": -2008130
+  },
+  "-2008129": {
+    "Name": "Conduit Fitting Tags",
+    "Id": -2008129
+  },
+  "-2008128": {
+    "Name": "Conduit Fittings",
+    "Id": -2008128
+  },
+  "-2008127": {
+    "Name": "Cable Tray Fitting Tags",
+    "Id": -2008127
+  },
+  "-2008126": {
+    "Name": "Cable Tray Fittings",
+    "Id": -2008126
+  },
+  "-2008125": {
+    "Name": "Routing Preferences",
+    "Id": -2008125
+  },
+  "-2008124": {
+    "Name": "Duct Linings",
+    "Id": -2008124
+  },
+  "-2008123": {
+    "Name": "Duct Insulations",
+    "Id": -2008123
+  },
+  "-2008122": {
+    "Name": "Pipe Insulations",
+    "Id": -2008122
+  },
+  "-2008118": {
+    "Name": "HVAC Zones - Reference Lines",
+    "Id": -2008118
+  },
+  "-2008117": {
+    "Name": "HVAC Zones - Interior Fill",
+    "Id": -2008117
+  },
+  "-2008116": {
+    "Name": "HVAC Zones - Color Fill",
+    "Id": -2008116
+  },
+  "-2008115": {
+    "Name": "Zone Tags",
+    "Id": -2008115
+  },
+  "-2008108": {
+    "Name": "HVAC Zones - Boundary",
+    "Id": -2008108
+  },
+  "-2008107": {
+    "Name": "HVAC Zones",
+    "Id": -2008107
+  },
+  "-2008101": {
+    "Name": "Switch System",
+    "Id": -2008101
+  },
+  "-2008100": {
+    "Name": "Sprinkler Tags",
+    "Id": -2008100
+  },
+  "-2008099": {
+    "Name": "Sprinklers",
+    "Id": -2008099
+  },
+  "-2008095": {
+    "Name": "Analytical Surfaces - Opening",
+    "Id": -2008095
+  },
+  "-2008094": {
+    "Name": "Analytical Surfaces - Underground",
+    "Id": -2008094
+  },
+  "-2008093": {
+    "Name": "Analytical Surfaces - Shades",
+    "Id": -2008093
+  },
+  "-2008092": {
+    "Name": "Analytical Surfaces - Exterior",
+    "Id": -2008092
+  },
+  "-2008091": {
+    "Name": "Analytical Surfaces - Interior",
+    "Id": -2008091
+  },
+  "-2008090": {
+    "Name": "Analytical Surfaces",
+    "Id": -2008090
+  },
+  "-2008089": {
+    "Name": "Wires - Home Run Arrows",
+    "Id": -2008089
+  },
+  "-2008088": {
+    "Name": "Lighting Device Tags",
+    "Id": -2008088
+  },
+  "-2008087": {
+    "Name": "Lighting Devices",
+    "Id": -2008087
+  },
+  "-2008086": {
+    "Name": "Fire Alarm Device Tags",
+    "Id": -2008086
+  },
+  "-2008085": {
+    "Name": "Fire Alarm Devices",
+    "Id": -2008085
+  },
+  "-2008084": {
+    "Name": "Data Device Tags",
+    "Id": -2008084
+  },
+  "-2008083": {
+    "Name": "Data Devices",
+    "Id": -2008083
+  },
+  "-2008082": {
+    "Name": "Communication Device Tags",
+    "Id": -2008082
+  },
+  "-2008081": {
+    "Name": "Communication Devices",
+    "Id": -2008081
+  },
+  "-2008080": {
+    "Name": "Security Device Tags",
+    "Id": -2008080
+  },
+  "-2008079": {
+    "Name": "Security Devices",
+    "Id": -2008079
+  },
+  "-2008078": {
+    "Name": "Nurse Call Device Tags",
+    "Id": -2008078
+  },
+  "-2008077": {
+    "Name": "Nurse Call Devices",
+    "Id": -2008077
+  },
+  "-2008076": {
+    "Name": "Telephone Device Tags",
+    "Id": -2008076
+  },
+  "-2008075": {
+    "Name": "Telephone Devices",
+    "Id": -2008075
+  },
+  "-2008074": {
+    "Name": "Wires - Wire Tick Marks",
+    "Id": -2008074
+  },
+  "-2008072": {
+    "Name": "Pipe Fittings - Center line",
+    "Id": -2008072
+  },
+  "-2008069": {
+    "Name": "Pipes - Drop",
+    "Id": -2008069
+  },
+  "-2008066": {
+    "Name": "Duct Fittings - Center line",
+    "Id": -2008066
+  },
+  "-2008062": {
+    "Name": "Ducts - Drop",
+    "Id": -2008062
+  },
+  "-2008061": {
+    "Name": "Duct Fitting Tags",
+    "Id": -2008061
+  },
+  "-2008060": {
+    "Name": "Pipe Fitting Tags",
+    "Id": -2008060
+  },
+  "-2008059": {
+    "Name": "Pipe Color Fill",
+    "Id": -2008059
+  },
+  "-2008058": {
+    "Name": "Pipe Color Fill Legends",
+    "Id": -2008058
+  },
+  "-2008057": {
+    "Name": "Wire Tags",
+    "Id": -2008057
+  },
+  "-2008056": {
+    "Name": "Pipe Accessory Tags",
+    "Id": -2008056
+  },
+  "-2008055": {
+    "Name": "Pipe Accessories",
+    "Id": -2008055
+  },
+  "-2008054": {
+    "Name": "Pipes - Rise",
+    "Id": -2008054
+  },
+  "-2008053": {
+    "Name": "Flex Pipes - Pattern",
+    "Id": -2008053
+  },
+  "-2008051": {
+    "Name": "Flex Pipes - Center Line",
+    "Id": -2008051
+  },
+  "-2008050": {
+    "Name": "Flex Pipes",
+    "Id": -2008050
+  },
+  "-2008049": {
+    "Name": "Pipe Fittings",
+    "Id": -2008049
+  },
+  "-2008048": {
+    "Name": "Flex Pipe Tags",
+    "Id": -2008048
+  },
+  "-2008047": {
+    "Name": "Pipe Tags",
+    "Id": -2008047
+  },
+  "-2008045": {
+    "Name": "Pipes - Center Line",
+    "Id": -2008045
+  },
+  "-2008044": {
+    "Name": "Pipes",
+    "Id": -2008044
+  },
+  "-2008043": {
+    "Name": "Piping Systems",
+    "Id": -2008043
+  },
+  "-2008039": {
+    "Name": "Wires",
+    "Id": -2008039
+  },
+  "-2008037": {
+    "Name": "Electrical Circuits",
+    "Id": -2008037
+  },
+  "-2008036": {
+    "Name": "Ducts - Rise",
+    "Id": -2008036
+  },
+  "-2008023": {
+    "Name": "Flex Ducts - Pattern",
+    "Id": -2008023
+  },
+  "-2008021": {
+    "Name": "Flex Ducts - Center line",
+    "Id": -2008021
+  },
+  "-2008020": {
+    "Name": "Flex Ducts",
+    "Id": -2008020
+  },
+  "-2008017": {
+    "Name": "Duct Accessory Tags",
+    "Id": -2008017
+  },
+  "-2008016": {
+    "Name": "Duct Accessories",
+    "Id": -2008016
+  },
+  "-2008015": {
+    "Name": "Duct Systems",
+    "Id": -2008015
+  },
+  "-2008014": {
+    "Name": "Air Terminal Tags",
+    "Id": -2008014
+  },
+  "-2008013": {
+    "Name": "Air Terminals",
+    "Id": -2008013
+  },
+  "-2008010": {
+    "Name": "Duct Fittings",
+    "Id": -2008010
+  },
+  "-2008005": {
+    "Name": "Duct Color Fill",
+    "Id": -2008005
+  },
+  "-2008004": {
+    "Name": "Flex Duct Tags",
+    "Id": -2008004
+  },
+  "-2008003": {
+    "Name": "Duct Tags",
+    "Id": -2008003
+  },
+  "-2008001": {
+    "Name": "Ducts - Center line",
+    "Id": -2008001
+  },
+  "-2008000": {
+    "Name": "Ducts",
+    "Id": -2008000
+  },
+  "-2007004": {
+    "Name": "Duct Color Fill Legends",
+    "Id": -2007004
+  },
+  "-2006138": {
+    "Name": "Bridge Bearings",
+    "Id": -2006138
+  },
+  "-2006137": {
+    "Name": "Bridge Girders",
+    "Id": -2006137
+  },
+  "-2006136": {
+    "Name": "Bridge Foundations",
+    "Id": -2006136
+  },
+  "-2006135": {
+    "Name": "Bridge Decks",
+    "Id": -2006135
+  },
+  "-2006134": {
+    "Name": "Bridge Arches",
+    "Id": -2006134
+  },
+  "-2006133": {
+    "Name": "Bridge Cables",
+    "Id": -2006133
+  },
+  "-2006132": {
+    "Name": "Bridge Towers",
+    "Id": -2006132
+  },
+  "-2006131": {
+    "Name": "Bridge Piers",
+    "Id": -2006131
+  },
+  "-2006130": {
+    "Name": "Bridge Abutments",
+    "Id": -2006130
+  },
+  "-2006110": {
+    "Name": "Brace in Plan View Symbols",
+    "Id": -2006110
+  },
+  "-2006100": {
+    "Name": "Connection Symbols",
+    "Id": -2006100
+  },
+  "-2006090": {
+    "Name": "Structural Annotations",
+    "Id": -2006090
+  },
+  "-2006080": {
+    "Name": "Revision Cloud Tags",
+    "Id": -2006080
+  },
+  "-2006060": {
+    "Name": "Revision Clouds",
+    "Id": -2006060
+  },
+  "-2006045": {
+    "Name": "Elevation Marks",
+    "Id": -2006045
+  },
+  "-2006040": {
+    "Name": "Grid Heads",
+    "Id": -2006040
+  },
+  "-2006020": {
+    "Name": "Level Heads",
+    "Id": -2006020
+  },
+  "-2006000": {
+    "Name": "Scope Boxes",
+    "Id": -2006000
+  },
+  "-2005301": {
+    "Name": "Boundary Conditions",
+    "Id": -2005301
+  },
+  "-2005255": {
+    "Name": "Internal Area Load Tags",
+    "Id": -2005255
+  },
+  "-2005254": {
+    "Name": "Internal Line Load Tags",
+    "Id": -2005254
+  },
+  "-2005253": {
+    "Name": "Internal Point Load Tags",
+    "Id": -2005253
+  },
+  "-2005252": {
+    "Name": "Area Load Tags",
+    "Id": -2005252
+  },
+  "-2005251": {
+    "Name": "Line Load Tags",
+    "Id": -2005251
+  },
+  "-2005250": {
+    "Name": "Point Load Tags",
+    "Id": -2005250
+  },
+  "-2005218": {
+    "Name": "Structural Load Cases - Seismic Loads",
+    "Id": -2005218
+  },
+  "-2005217": {
+    "Name": "Structural Load Cases - Temperature Loads",
+    "Id": -2005217
+  },
+  "-2005216": {
+    "Name": "Structural Load Cases - Accidental Loads",
+    "Id": -2005216
+  },
+  "-2005215": {
+    "Name": "Structural Load Cases - Roof Live Loads",
+    "Id": -2005215
+  },
+  "-2005214": {
+    "Name": "Structural Load Cases - Snow Loads",
+    "Id": -2005214
+  },
+  "-2005213": {
+    "Name": "Structural Load Cases - Wind Loads",
+    "Id": -2005213
+  },
+  "-2005212": {
+    "Name": "Structural Load Cases - Live Loads",
+    "Id": -2005212
+  },
+  "-2005211": {
+    "Name": "Structural Load Cases - Dead Loads",
+    "Id": -2005211
+  },
+  "-2005210": {
+    "Name": "Structural Load Cases",
+    "Id": -2005210
+  },
+  "-2005207": {
+    "Name": "Structural Internal Loads - Internal Area Loads",
+    "Id": -2005207
+  },
+  "-2005206": {
+    "Name": "Structural Internal Loads - Internal Line Loads",
+    "Id": -2005206
+  },
+  "-2005205": {
+    "Name": "Structural Internal Loads - Internal Point Loads",
+    "Id": -2005205
+  },
+  "-2005204": {
+    "Name": "Structural Internal Loads",
+    "Id": -2005204
+  },
+  "-2005203": {
+    "Name": "Structural Loads - Area Loads",
+    "Id": -2005203
+  },
+  "-2005202": {
+    "Name": "Structural Loads - Line Loads",
+    "Id": -2005202
+  },
+  "-2005201": {
+    "Name": "Structural Loads - Point Loads",
+    "Id": -2005201
+  },
+  "-2005200": {
+    "Name": "Structural Loads",
+    "Id": -2005200
+  },
+  "-2005130": {
+    "Name": "Structural Beam System Tags",
+    "Id": -2005130
+  },
+  "-2005111": {
+    "Name": "Foundation Span Direction Symbol",
+    "Id": -2005111
+  },
+  "-2005110": {
+    "Name": "Span Direction Symbol",
+    "Id": -2005110
+  },
+  "-2005100": {
+    "Name": "Spot Elevation Symbols",
+    "Id": -2005100
+  },
+  "-2005030": {
+    "Name": "Structural Truss Tags",
+    "Id": -2005030
+  },
+  "-2005029": {
+    "Name": "Keynote Tags",
+    "Id": -2005029
+  },
+  "-2005028": {
+    "Name": "Detail Item Tags",
+    "Id": -2005028
+  },
+  "-2005027": {
+    "Name": "Material Tags",
+    "Id": -2005027
+  },
+  "-2005026": {
+    "Name": "Floor Tags",
+    "Id": -2005026
+  },
+  "-2005025": {
+    "Name": "Curtain System Tags",
+    "Id": -2005025
+  },
+  "-2005023": {
+    "Name": "Stair Tags",
+    "Id": -2005023
+  },
+  "-2005022": {
+    "Name": "Multi-Category Tags",
+    "Id": -2005022
+  },
+  "-2005021": {
+    "Name": "Planting Tags",
+    "Id": -2005021
+  },
+  "-2005020": {
+    "Name": "Area Tags",
+    "Id": -2005020
+  },
+  "-2005019": {
+    "Name": "Structural Foundation Tags",
+    "Id": -2005019
+  },
+  "-2005018": {
+    "Name": "Structural Column Tags",
+    "Id": -2005018
+  },
+  "-2005017": {
+    "Name": "Parking Tags",
+    "Id": -2005017
+  },
+  "-2005016": {
+    "Name": "Site Tags",
+    "Id": -2005016
+  },
+  "-2005015": {
+    "Name": "Structural Framing Tags",
+    "Id": -2005015
+  },
+  "-2005014": {
+    "Name": "Specialty Equipment Tags",
+    "Id": -2005014
+  },
+  "-2005013": {
+    "Name": "Generic Model Tags",
+    "Id": -2005013
+  },
+  "-2005012": {
+    "Name": "Curtain Panel Tags",
+    "Id": -2005012
+  },
+  "-2005011": {
+    "Name": "Wall Tags",
+    "Id": -2005011
+  },
+  "-2005010": {
+    "Name": "Plumbing Fixture Tags",
+    "Id": -2005010
+  },
+  "-2005009": {
+    "Name": "Mechanical Equipment Tags",
+    "Id": -2005009
+  },
+  "-2005008": {
+    "Name": "Lighting Fixture Tags",
+    "Id": -2005008
+  },
+  "-2005007": {
+    "Name": "Furniture System Tags",
+    "Id": -2005007
+  },
+  "-2005006": {
+    "Name": "Furniture Tags",
+    "Id": -2005006
+  },
+  "-2005004": {
+    "Name": "Electrical Fixture Tags",
+    "Id": -2005004
+  },
+  "-2005003": {
+    "Name": "Electrical Equipment Tags",
+    "Id": -2005003
+  },
+  "-2005002": {
+    "Name": "Ceiling Tags",
+    "Id": -2005002
+  },
+  "-2005001": {
+    "Name": "Casework Tags",
+    "Id": -2005001
+  },
+  "-2003605": {
+    "Name": "Spaces - Color Fill",
+    "Id": -2003605
+  },
+  "-2003602": {
+    "Name": "Spaces - Reference",
+    "Id": -2003602
+  },
+  "-2003601": {
+    "Name": "Spaces - Interior",
+    "Id": -2003601
+  },
+  "-2003600": {
+    "Name": "Spaces",
+    "Id": -2003600
+  },
+  "-2003418": {
+    "Name": "Mass - Mass Shade",
+    "Id": -2003418
+  },
+  "-2003417": {
+    "Name": "Mass - Mass Opening",
+    "Id": -2003417
+  },
+  "-2003416": {
+    "Name": "Mass - Mass Skylight",
+    "Id": -2003416
+  },
+  "-2003415": {
+    "Name": "Mass - Mass Glazing",
+    "Id": -2003415
+  },
+  "-2003414": {
+    "Name": "Mass - Mass Roof",
+    "Id": -2003414
+  },
+  "-2003413": {
+    "Name": "Mass - Mass Exterior Wall",
+    "Id": -2003413
+  },
+  "-2003412": {
+    "Name": "Mass - Mass Interior Wall",
+    "Id": -2003412
+  },
+  "-2003411": {
+    "Name": "Mass - Mass Zone",
+    "Id": -2003411
+  },
+  "-2003410": {
+    "Name": "Mass Floor Tags",
+    "Id": -2003410
+  },
+  "-2003405": {
+    "Name": "Mass Tags",
+    "Id": -2003405
+  },
+  "-2003404": {
+    "Name": "Mass - Form",
+    "Id": -2003404
+  },
+  "-2003403": {
+    "Name": "Mass - Mass Floor",
+    "Id": -2003403
+  },
+  "-2003400": {
+    "Name": "Mass",
+    "Id": -2003400
+  },
+  "-2003327": {
+    "Name": "Mass - Pattern Fill",
+    "Id": -2003327
+  },
+  "-2003326": {
+    "Name": "Mass - Pattern Lines",
+    "Id": -2003326
+  },
+  "-2003325": {
+    "Name": "Mass - Gridlines",
+    "Id": -2003325
+  },
+  "-2003324": {
+    "Name": "Mass - Nodes",
+    "Id": -2003324
+  },
+  "-2003308": {
+    "Name": "Ramps - Down Arrow",
+    "Id": -2003308
+  },
+  "-2003307": {
+    "Name": "Ramps - Up Arrow",
+    "Id": -2003307
+  },
+  "-2003306": {
+    "Name": "Ramps - DOWN text",
+    "Id": -2003306
+  },
+  "-2003305": {
+    "Name": "Ramps - UP text",
+    "Id": -2003305
+  },
+  "-2003304": {
+    "Name": "Ramps - Stringers Beyond Cut Line",
+    "Id": -2003304
+  },
+  "-2003303": {
+    "Name": "Ramps - Stringers",
+    "Id": -2003303
+  },
+  "-2003302": {
+    "Name": "Ramps - Ramps Beyond Cut Line",
+    "Id": -2003302
+  },
+  "-2003200": {
+    "Name": "Areas",
+    "Id": -2003200
+  },
+  "-2003101": {
+    "Name": "Project Information",
+    "Id": -2003101
+  },
+  "-2003100": {
+    "Name": "Sheets",
+    "Id": -2003100
+  },
+  "-2002000": {
+    "Name": "Detail Items",
+    "Id": -2002000
+  },
+  "-2001393": {
+    "Name": "Roofs - Roof Soffits",
+    "Id": -2001393
+  },
+  "-2001392": {
+    "Name": "Floors - Slab Edges",
+    "Id": -2001392
+  },
+  "-2001391": {
+    "Name": "Roofs - Gutters",
+    "Id": -2001391
+  },
+  "-2001390": {
+    "Name": "Roofs - Fascias",
+    "Id": -2001390
+  },
+  "-2001370": {
+    "Name": "Entourage",
+    "Id": -2001370
+  },
+  "-2001360": {
+    "Name": "Planting",
+    "Id": -2001360
+  },
+  "-2001358": {
+    "Name": "Structural Stiffeners - Hidden Lines",
+    "Id": -2001358
+  },
+  "-2001357": {
+    "Name": "Structural Columns - Location Lines",
+    "Id": -2001357
+  },
+  "-2001356": {
+    "Name": "Structural Framing - Location Lines",
+    "Id": -2001356
+  },
+  "-2001355": {
+    "Name": "Structural Stiffener Tags",
+    "Id": -2001355
+  },
+  "-2001354": {
+    "Name": "Structural Stiffeners",
+    "Id": -2001354
+  },
+  "-2001352": {
+    "Name": "RVT Links",
+    "Id": -2001352
+  },
+  "-2001350": {
+    "Name": "Specialty Equipment",
+    "Id": -2001350
+  },
+  "-2001344": {
+    "Name": "Structural Columns - Rigid Links",
+    "Id": -2001344
+  },
+  "-2001343": {
+    "Name": "Topography - Secondary Contours",
+    "Id": -2001343
+  },
+  "-2001342": {
+    "Name": "Topography - Primary Contours",
+    "Id": -2001342
+  },
+  "-2001341": {
+    "Name": "Topography - Triangulation Edges",
+    "Id": -2001341
+  },
+  "-2001340": {
+    "Name": "Topography",
+    "Id": -2001340
+  },
+  "-2001339": {
+    "Name": "Topography - Topography Links",
+    "Id": -2001339
+  },
+  "-2001336": {
+    "Name": "Structural Trusses",
+    "Id": -2001336
+  },
+  "-2001335": {
+    "Name": "Structural Columns - Stick Symbols",
+    "Id": -2001335
+  },
+  "-2001334": {
+    "Name": "Structural Columns - Hidden Lines",
+    "Id": -2001334
+  },
+  "-2001333": {
+    "Name": "Structural Framing - Rigid Links",
+    "Id": -2001333
+  },
+  "-2001330": {
+    "Name": "Structural Columns",
+    "Id": -2001330
+  },
+  "-2001329": {
+    "Name": "Structural Framing - Hidden Lines",
+    "Id": -2001329
+  },
+  "-2001328": {
+    "Name": "Structural Framing - Kicker Bracing",
+    "Id": -2001328
+  },
+  "-2001327": {
+    "Name": "Structural Beam Systems",
+    "Id": -2001327
+  },
+  "-2001326": {
+    "Name": "Structural Framing - Vertical Bracing",
+    "Id": -2001326
+  },
+  "-2001325": {
+    "Name": "Structural Framing - Horizontal Bracing",
+    "Id": -2001325
+  },
+  "-2001324": {
+    "Name": "Structural Framing - Purlin",
+    "Id": -2001324
+  },
+  "-2001323": {
+    "Name": "Structural Framing - Joist",
+    "Id": -2001323
+  },
+  "-2001322": {
+    "Name": "Structural Framing - Girder",
+    "Id": -2001322
+  },
+  "-2001321": {
+    "Name": "Structural Framing - Other",
+    "Id": -2001321
+  },
+  "-2001320": {
+    "Name": "Structural Framing",
+    "Id": -2001320
+  },
+  "-2001302": {
+    "Name": "Structural Foundations - Hidden Lines",
+    "Id": -2001302
+  },
+  "-2001300": {
+    "Name": "Structural Foundations",
+    "Id": -2001300
+  },
+  "-2001272": {
+    "Name": "Site - Survey Point",
+    "Id": -2001272
+  },
+  "-2001271": {
+    "Name": "Site - Project Base Point",
+    "Id": -2001271
+  },
+  "-2001269": {
+    "Name": "Property Line Segment Tags",
+    "Id": -2001269
+  },
+  "-2001268": {
+    "Name": "Site - Property Line Segments",
+    "Id": -2001268
+  },
+  "-2001267": {
+    "Name": "Property Tags",
+    "Id": -2001267
+  },
+  "-2001266": {
+    "Name": "Topography - Boundary Point",
+    "Id": -2001266
+  },
+  "-2001265": {
+    "Name": "Site - Property Lines",
+    "Id": -2001265
+  },
+  "-2001263": {
+    "Name": "Site - Pads",
+    "Id": -2001263
+  },
+  "-2001262": {
+    "Name": "Topography - Interior Point",
+    "Id": -2001262
+  },
+  "-2001260": {
+    "Name": "Site",
+    "Id": -2001260
+  },
+  "-2001220": {
+    "Name": "Roads",
+    "Id": -2001220
+  },
+  "-2001180": {
+    "Name": "Parking",
+    "Id": -2001180
+  },
+  "-2001160": {
+    "Name": "Plumbing Fixtures",
+    "Id": -2001160
+  },
+  "-2001140": {
+    "Name": "Mechanical Equipment",
+    "Id": -2001140
+  },
+  "-2001121": {
+    "Name": "Lighting Fixtures - Light Source",
+    "Id": -2001121
+  },
+  "-2001120": {
+    "Name": "Lighting Fixtures",
+    "Id": -2001120
+  },
+  "-2001100": {
+    "Name": "Furniture Systems",
+    "Id": -2001100
+  },
+  "-2001060": {
+    "Name": "Electrical Fixtures",
+    "Id": -2001060
+  },
+  "-2001040": {
+    "Name": "Electrical Equipment",
+    "Id": -2001040
+  },
+  "-2001000": {
+    "Name": "Casework",
+    "Id": -2001000
+  },
+  "-2000996": {
+    "Name": "Shaft Openings",
+    "Id": -2000996
+  },
+  "-2000988": {
+    "Name": "Pipes - Hydraulic Separation Symbols",
+    "Id": -2000988
+  },
+  "-2000987": {
+    "Name": "Mechanical Equipment Set Boundary Lines",
+    "Id": -2000987
+  },
+  "-2000986": {
+    "Name": "Mechanical Equipment Set Tags",
+    "Id": -2000986
+  },
+  "-2000985": {
+    "Name": "Mechanical Equipment Sets",
+    "Id": -2000985
+  },
+  "-2000984": {
+    "Name": "Analytical Pipe Connections - Connection Line Symbol",
+    "Id": -2000984
+  },
+  "-2000983": {
+    "Name": "Analytical Pipe Connections",
+    "Id": -2000983
+  },
+  "-2000982": {
+    "Name": "Coordination Model",
+    "Id": -2000982
+  },
+  "-2000976": {
+    "Name": "Analytical Foundation Slabs - Local Coordinate System",
+    "Id": -2000976
+  },
+  "-2000975": {
+    "Name": "Analytical Floors - Local Coordinate System",
+    "Id": -2000975
+  },
+  "-2000974": {
+    "Name": "Analytical Walls - Local Coordinate System",
+    "Id": -2000974
+  },
+  "-2000973": {
+    "Name": "Analytical Braces - Local Coordinate System",
+    "Id": -2000973
+  },
+  "-2000972": {
+    "Name": "Analytical Columns - Local Coordinate System",
+    "Id": -2000972
+  },
+  "-2000971": {
+    "Name": "Analytical Beams - Local Coordinate System",
+    "Id": -2000971
+  },
+  "-2000970": {
+    "Name": "Multi-Rebar Annotations",
+    "Id": -2000970
+  },
+  "-2000956": {
+    "Name": "Analytical Node Tags",
+    "Id": -2000956
+  },
+  "-2000955": {
+    "Name": "Analytical Link Tags",
+    "Id": -2000955
+  },
+  "-2000952": {
+    "Name": "Stairs - Supports",
+    "Id": -2000952
+  },
+  "-2000951": {
+    "Name": "Railings - <Above> Handrails",
+    "Id": -2000951
+  },
+  "-2000950": {
+    "Name": "Railings - <Above> Top Rails",
+    "Id": -2000950
+  },
+  "-2000949": {
+    "Name": "Railings - Terminations",
+    "Id": -2000949
+  },
+  "-2000948": {
+    "Name": "Railings - Supports",
+    "Id": -2000948
+  },
+  "-2000947": {
+    "Name": "Railings - Handrails",
+    "Id": -2000947
+  },
+  "-2000946": {
+    "Name": "Railings - Top Rails",
+    "Id": -2000946
+  },
+  "-2000944": {
+    "Name": "Stair Tread/Riser Numbers",
+    "Id": -2000944
+  },
+  "-2000942": {
+    "Name": "Stair Support Tags",
+    "Id": -2000942
+  },
+  "-2000941": {
+    "Name": "Stair Landing Tags",
+    "Id": -2000941
+  },
+  "-2000940": {
+    "Name": "Stair Run Tags",
+    "Id": -2000940
+  },
+  "-2000939": {
+    "Name": "Stair Paths - <Above> Up Arrows",
+    "Id": -2000939
+  },
+  "-2000938": {
+    "Name": "Stair Paths",
+    "Id": -2000938
+  },
+  "-2000937": {
+    "Name": "Stairs - <Above> Riser Lines",
+    "Id": -2000937
+  },
+  "-2000936": {
+    "Name": "Stairs - Riser Lines",
+    "Id": -2000936
+  },
+  "-2000935": {
+    "Name": "Stairs - <Above> Outlines",
+    "Id": -2000935
+  },
+  "-2000934": {
+    "Name": "Stairs - Outlines",
+    "Id": -2000934
+  },
+  "-2000933": {
+    "Name": "Stairs - <Above> Nosing Lines",
+    "Id": -2000933
+  },
+  "-2000932": {
+    "Name": "Stairs - Nosing Lines",
+    "Id": -2000932
+  },
+  "-2000931": {
+    "Name": "Stairs - <Above> Cut Marks",
+    "Id": -2000931
+  },
+  "-2000930": {
+    "Name": "Stairs - Cut Marks",
+    "Id": -2000930
+  },
+  "-2000921": {
+    "Name": "Stairs - Treads/Risers",
+    "Id": -2000921
+  },
+  "-2000920": {
+    "Name": "Stairs - Landings",
+    "Id": -2000920
+  },
+  "-2000919": {
+    "Name": "Stairs - Runs",
+    "Id": -2000919
+  },
+  "-2000903": {
+    "Name": "Adaptive Points - Lines",
+    "Id": -2000903
+  },
+  "-2000902": {
+    "Name": "Adaptive Points - Planes",
+    "Id": -2000902
+  },
+  "-2000901": {
+    "Name": "Adaptive Points - Points",
+    "Id": -2000901
+  },
+  "-2000900": {
+    "Name": "Adaptive Points",
+    "Id": -2000900
+  },
+  "-2000831": {
+    "Name": "Lines - <Space Separation>",
+    "Id": -2000831
+  },
+  "-2000713": {
+    "Name": "Reference Points - Lines",
+    "Id": -2000713
+  },
+  "-2000712": {
+    "Name": "Reference Points - Planes",
+    "Id": -2000712
+  },
+  "-2000711": {
+    "Name": "Reference Points - Points",
+    "Id": -2000711
+  },
+  "-2000710": {
+    "Name": "Reference Points",
+    "Id": -2000710
+  },
+  "-2000700": {
+    "Name": "Materials",
+    "Id": -2000700
+  },
+  "-2000617": {
+    "Name": "Ceilings - Cut Pattern",
+    "Id": -2000617
+  },
+  "-2000616": {
+    "Name": "Ceilings - Common Edges",
+    "Id": -2000616
+  },
+  "-2000615": {
+    "Name": "Ceilings - Finish 2 [5]",
+    "Id": -2000615
+  },
+  "-2000614": {
+    "Name": "Ceilings - Finish 1 [4]",
+    "Id": -2000614
+  },
+  "-2000613": {
+    "Name": "Ceilings - Substrate [2]",
+    "Id": -2000613
+  },
+  "-2000612": {
+    "Name": "Ceilings - Thermal/Air Layer [3]",
+    "Id": -2000612
+  },
+  "-2000611": {
+    "Name": "Ceilings - Structure [1]",
+    "Id": -2000611
+  },
+  "-2000610": {
+    "Name": "Ceilings - Membrane Layer",
+    "Id": -2000610
+  },
+  "-2000609": {
+    "Name": "Floors - Interior Edges",
+    "Id": -2000609
+  },
+  "-2000608": {
+    "Name": "Floors - Cut Pattern",
+    "Id": -2000608
+  },
+  "-2000607": {
+    "Name": "Floors - Hidden Lines",
+    "Id": -2000607
+  },
+  "-2000606": {
+    "Name": "Floors - Common Edges",
+    "Id": -2000606
+  },
+  "-2000605": {
+    "Name": "Floors - Finish 2 [5]",
+    "Id": -2000605
+  },
+  "-2000604": {
+    "Name": "Floors - Finish 1 [4]",
+    "Id": -2000604
+  },
+  "-2000603": {
+    "Name": "Floors - Substrate [2]",
+    "Id": -2000603
+  },
+  "-2000602": {
+    "Name": "Floors - Thermal/Air Layer [3]",
+    "Id": -2000602
+  },
+  "-2000601": {
+    "Name": "Floors - Structure [1]",
+    "Id": -2000601
+  },
+  "-2000600": {
+    "Name": "Floors - Membrane Layer",
+    "Id": -2000600
+  },
+  "-2000598": {
+    "Name": "Roofs - Interior Edges",
+    "Id": -2000598
+  },
+  "-2000597": {
+    "Name": "Roofs - Cut Pattern",
+    "Id": -2000597
+  },
+  "-2000596": {
+    "Name": "Roofs - Common Edges",
+    "Id": -2000596
+  },
+  "-2000595": {
+    "Name": "Roofs - Finish 2 [5]",
+    "Id": -2000595
+  },
+  "-2000594": {
+    "Name": "Roofs - Finish 1 [4]",
+    "Id": -2000594
+  },
+  "-2000593": {
+    "Name": "Roofs - Substrate [2]",
+    "Id": -2000593
+  },
+  "-2000592": {
+    "Name": "Roofs - Thermal/Air Layer [3]",
+    "Id": -2000592
+  },
+  "-2000591": {
+    "Name": "Roofs - Structure [1]",
+    "Id": -2000591
+  },
+  "-2000590": {
+    "Name": "Roofs - Membrane Layer",
+    "Id": -2000590
+  },
+  "-2000588": {
+    "Name": "Walls - Cut Pattern",
+    "Id": -2000588
+  },
+  "-2000587": {
+    "Name": "Walls - Hidden Lines",
+    "Id": -2000587
+  },
+  "-2000586": {
+    "Name": "Walls - Common Edges",
+    "Id": -2000586
+  },
+  "-2000585": {
+    "Name": "Walls - Finish 2 [5]",
+    "Id": -2000585
+  },
+  "-2000584": {
+    "Name": "Walls - Finish 1 [4]",
+    "Id": -2000584
+  },
+  "-2000583": {
+    "Name": "Walls - Substrate [2]",
+    "Id": -2000583
+  },
+  "-2000582": {
+    "Name": "Walls - Thermal/Air Layer [3]",
+    "Id": -2000582
+  },
+  "-2000581": {
+    "Name": "Walls - Structure [1]",
+    "Id": -2000581
+  },
+  "-2000580": {
+    "Name": "Walls - Membrane Layer",
+    "Id": -2000580
+  },
+  "-2000573": {
+    "Name": "Schedules",
+    "Id": -2000573
+  },
+  "-2000570": {
+    "Name": "Schedule Graphics",
+    "Id": -2000570
+  },
+  "-2000560": {
+    "Name": "Raster Images",
+    "Id": -2000560
+  },
+  "-2000551": {
+    "Name": "Rooms - Color Fill",
+    "Id": -2000551
+  },
+  "-2000550": {
+    "Name": "Color Fill Legends",
+    "Id": -2000550
+  },
+  "-2000549": {
+    "Name": "Annotation Crop Boundary",
+    "Id": -2000549
+  },
+  "-2000548": {
+    "Name": "Crop Boundaries",
+    "Id": -2000548
+  },
+  "-2000547": {
+    "Name": "Annotation Crop Boundary",
+    "Id": -2000547
+  },
+  "-2000544": {
+    "Name": "Callout Boundary - Callout Leader Line",
+    "Id": -2000544
+  },
+  "-2000543": {
+    "Name": "Ceilings - Surface Pattern",
+    "Id": -2000543
+  },
+  "-2000542": {
+    "Name": "Roofs - Surface Pattern",
+    "Id": -2000542
+  },
+  "-2000541": {
+    "Name": "Floors - Surface Pattern",
+    "Id": -2000541
+  },
+  "-2000540": {
+    "Name": "Walls - Surface Pattern",
+    "Id": -2000540
+  },
+  "-2000539": {
+    "Name": "Callout Boundary",
+    "Id": -2000539
+  },
+  "-2000538": {
+    "Name": "Callout Heads",
+    "Id": -2000538
+  },
+  "-2000537": {
+    "Name": "Callouts",
+    "Id": -2000537
+  },
+  "-2000536": {
+    "Name": "Crop Boundaries",
+    "Id": -2000536
+  },
+  "-2000535": {
+    "Name": "Elevations",
+    "Id": -2000535
+  },
+  "-2000530": {
+    "Name": "Reference Planes",
+    "Id": -2000530
+  },
+  "-2000515": {
+    "Name": "View Titles",
+    "Id": -2000515
+  },
+  "-2000510": {
+    "Name": "Viewports",
+    "Id": -2000510
+  },
+  "-2000501": {
+    "Name": "Cameras",
+    "Id": -2000501
+  },
+  "-2000485": {
+    "Name": "Space Tags",
+    "Id": -2000485
+  },
+  "-2000480": {
+    "Name": "Room Tags",
+    "Id": -2000480
+  },
+  "-2000460": {
+    "Name": "Door Tags",
+    "Id": -2000460
+  },
+  "-2000450": {
+    "Name": "Window Tags",
+    "Id": -2000450
+  },
+  "-2000404": {
+    "Name": "Section Marks - Wide Lines",
+    "Id": -2000404
+  },
+  "-2000403": {
+    "Name": "Section Marks - Medium Lines",
+    "Id": -2000403
+  },
+  "-2000401": {
+    "Name": "Section Marks - Thin Lines",
+    "Id": -2000401
+  },
+  "-2000400": {
+    "Name": "Section Marks",
+    "Id": -2000400
+  },
+  "-2000350": {
+    "Name": "Contour Labels",
+    "Id": -2000350
+  },
+  "-2000340": {
+    "Name": "Curtain Systems",
+    "Id": -2000340
+  },
+  "-2000323": {
+    "Name": "Curtain Systems - Curtain System Grids",
+    "Id": -2000323
+  },
+  "-2000321": {
+    "Name": "Walls - Curtain Wall Grids",
+    "Id": -2000321
+  },
+  "-2000320": {
+    "Name": "Roofs - Curtain Roof Grids",
+    "Id": -2000320
+  },
+  "-2000304": {
+    "Name": "Analysis Display Style",
+    "Id": -2000304
+  },
+  "-2000303": {
+    "Name": "Analysis Results",
+    "Id": -2000303
+  },
+  "-2000302": {
+    "Name": "Render Regions",
+    "Id": -2000302
+  },
+  "-2000301": {
+    "Name": "Section Boxes",
+    "Id": -2000301
+  },
+  "-2000300": {
+    "Name": "Text Notes",
+    "Id": -2000300
+  },
+  "-2000288": {
+    "Name": "Lines - <Centerline>",
+    "Id": -2000288
+  },
+  "-2000287": {
+    "Name": "Lines - <Beyond>",
+    "Id": -2000287
+  },
+  "-2000286": {
+    "Name": "Lines - <Hidden>",
+    "Id": -2000286
+  },
+  "-2000285": {
+    "Name": "Lines - <Demolished>",
+    "Id": -2000285
+  },
+  "-2000284": {
+    "Name": "Lines - <Overhead>",
+    "Id": -2000284
+  },
+  "-2000283": {
+    "Name": "Title Blocks - Wide Lines",
+    "Id": -2000283
+  },
+  "-2000282": {
+    "Name": "Title Blocks - Medium Lines",
+    "Id": -2000282
+  },
+  "-2000281": {
+    "Name": "Title Blocks - Thin Lines",
+    "Id": -2000281
+  },
+  "-2000280": {
+    "Name": "Title Blocks",
+    "Id": -2000280
+  },
+  "-2000279": {
+    "Name": "Views",
+    "Id": -2000279
+  },
+  "-2000271": {
+    "Name": "Parts - Hidden Lines",
+    "Id": -2000271
+  },
+  "-2000270": {
+    "Name": "Part Tags",
+    "Id": -2000270
+  },
+  "-2000269": {
+    "Name": "Parts",
+    "Id": -2000269
+  },
+  "-2000268": {
+    "Name": "Assembly Tags",
+    "Id": -2000268
+  },
+  "-2000267": {
+    "Name": "Assemblies",
+    "Id": -2000267
+  },
+  "-2000266": {
+    "Name": "Roof Tags",
+    "Id": -2000266
+  },
+  "-2000265": {
+    "Name": "Spot Slopes",
+    "Id": -2000265
+  },
+  "-2000264": {
+    "Name": "Spot Coordinates",
+    "Id": -2000264
+  },
+  "-2000263": {
+    "Name": "Spot Elevations",
+    "Id": -2000263
+  },
+  "-2000261": {
+    "Name": "Dimensions - Automatic Sketch Dimensions",
+    "Id": -2000261
+  },
+  "-2000260": {
+    "Name": "Dimensions",
+    "Id": -2000260
+  },
+  "-2000240": {
+    "Name": "Levels",
+    "Id": -2000240
+  },
+  "-2000223": {
+    "Name": "Displacement Path",
+    "Id": -2000223
+  },
+  "-2000221": {
+    "Name": "Grids - Multi-segmented Grid",
+    "Id": -2000221
+  },
+  "-2000220": {
+    "Name": "Grids",
+    "Id": -2000220
+  },
+  "-2000202": {
+    "Name": "Section Line - Broken Section Line",
+    "Id": -2000202
+  },
+  "-2000201": {
+    "Name": "Section Line",
+    "Id": -2000201
+  },
+  "-2000200": {
+    "Name": "Sections",
+    "Id": -2000200
+  },
+  "-2000198": {
+    "Name": "View Reference",
+    "Id": -2000198
+  },
+  "-2000197": {
+    "Name": "View Reference",
+    "Id": -2000197
+  },
+  "-2000196": {
+    "Name": "Imports in Families",
+    "Id": -2000196
+  },
+  "-2000194": {
+    "Name": "Masking Region",
+    "Id": -2000194
+  },
+  "-2000193": {
+    "Name": "Matchline",
+    "Id": -2000193
+  },
+  "-2000191": {
+    "Name": "Plan Region",
+    "Id": -2000191
+  },
+  "-2000190": {
+    "Name": "Filled region",
+    "Id": -2000190
+  },
+  "-2000181": {
+    "Name": "Walls - Wall Sweeps",
+    "Id": -2000181
+  },
+  "-2000180": {
+    "Name": "Ramps",
+    "Id": -2000180
+  },
+  "-2000173": {
+    "Name": "Curtain Grids",
+    "Id": -2000173
+  },
+  "-2000171": {
+    "Name": "Curtain Wall Mullions",
+    "Id": -2000171
+  },
+  "-2000170": {
+    "Name": "Curtain Panels",
+    "Id": -2000170
+  },
+  "-2000165": {
+    "Name": "Areas - Color Fill",
+    "Id": -2000165
+  },
+  "-2000164": {
+    "Name": "Areas - Reference",
+    "Id": -2000164
+  },
+  "-2000163": {
+    "Name": "Areas - Interior Fill",
+    "Id": -2000163
+  },
+  "-2000162": {
+    "Name": "Rooms - Reference",
+    "Id": -2000162
+  },
+  "-2000161": {
+    "Name": "Rooms - Interior Fill",
+    "Id": -2000161
+  },
+  "-2000160": {
+    "Name": "Rooms",
+    "Id": -2000160
+  },
+  "-2000151": {
+    "Name": "Generic Models",
+    "Id": -2000151
+  },
+  "-2000150": {
+    "Name": "Generic Annotations",
+    "Id": -2000150
+  },
+  "-2000133": {
+    "Name": "Railing Tags",
+    "Id": -2000133
+  },
+  "-2000132": {
+    "Name": "Railings - <Above> Railings Cut Line",
+    "Id": -2000132
+  },
+  "-2000131": {
+    "Name": "Stair Paths - Down Arrows",
+    "Id": -2000131
+  },
+  "-2000130": {
+    "Name": "Stair Paths - Up Arrows",
+    "Id": -2000130
+  },
+  "-2000129": {
+    "Name": "Stair Paths - DOWN Text",
+    "Id": -2000129
+  },
+  "-2000128": {
+    "Name": "Railings - Rails",
+    "Id": -2000128
+  },
+  "-2000127": {
+    "Name": "Railings - Balusters",
+    "Id": -2000127
+  },
+  "-2000126": {
+    "Name": "Railings",
+    "Id": -2000126
+  },
+  "-2000125": {
+    "Name": "Stair Paths - UP Text",
+    "Id": -2000125
+  },
+  "-2000124": {
+    "Name": "Stairs - <Above> Supports",
+    "Id": -2000124
+  },
+  "-2000123": {
+    "Name": "Stairs - Supports",
+    "Id": -2000952
+  },
+  "-2000120": {
+    "Name": "Stairs",
+    "Id": -2000120
+  },
+  "-2000107": {
+    "Name": "Guide Grid",
+    "Id": -2000107
+  },
+  "-2000100": {
+    "Name": "Columns",
+    "Id": -2000100
+  },
+  "-2000095": {
+    "Name": "Model Groups",
+    "Id": -2000095
+  },
+  "-2000083": {
+    "Name": "Reference Lines",
+    "Id": -2000083
+  },
+  "-2000080": {
+    "Name": "Furniture",
+    "Id": -2000080
+  },
+  "-2000079": {
+    "Name": "Lines - <Area Boundary>",
+    "Id": -2000079
+  },
+  "-2000078": {
+    "Name": "Lines - Lines",
+    "Id": -2000078
+  },
+  "-2000077": {
+    "Name": "Lines - Insulation Batting Lines",
+    "Id": -2000077
+  },
+  "-2000066": {
+    "Name": "Lines - <Room Separation>",
+    "Id": -2000066
+  },
+  "-2000065": {
+    "Name": "Lines - Axis of Rotation",
+    "Id": -2000065
+  },
+  "-2000051": {
+    "Name": "Lines",
+    "Id": -2000051
+  },
+  "-2000045": {
+    "Name": "Lines - <Sketch>",
+    "Id": -2000045
+  },
+  "-2000044": {
+    "Name": "Lines - Wide Lines",
+    "Id": -2000044
+  },
+  "-2000043": {
+    "Name": "Lines - Medium Lines",
+    "Id": -2000043
+  },
+  "-2000042": {
+    "Name": "Lines - Thin Lines",
+    "Id": -2000042
+  },
+  "-2000038": {
+    "Name": "Ceilings",
+    "Id": -2000038
+  },
+  "-2000035": {
+    "Name": "Roofs",
+    "Id": -2000035
+  },
+  "-2000032": {
+    "Name": "Floors",
+    "Id": -2000032
+  },
+  "-2000031": {
+    "Name": "Doors - Glass",
+    "Id": -2000031
+  },
+  "-2000029": {
+    "Name": "Doors - Frame/Mullion",
+    "Id": -2000029
+  },
+  "-2000027": {
+    "Name": "Doors - Opening",
+    "Id": -2000027
+  },
+  "-2000025": {
+    "Name": "Doors - Panel",
+    "Id": -2000025
+  },
+  "-2000023": {
+    "Name": "Doors",
+    "Id": -2000023
+  },
+  "-2000022": {
+    "Name": "Windows - Opening",
+    "Id": -2000022
+  },
+  "-2000020": {
+    "Name": "Windows - Sill/Head",
+    "Id": -2000020
+  },
+  "-2000018": {
+    "Name": "Windows - Frame/Mullion",
+    "Id": -2000018
+  },
+  "-2000016": {
+    "Name": "Windows - Glass",
+    "Id": -2000016
+  },
+  "-2000014": {
+    "Name": "Windows",
+    "Id": -2000014
+  },
+  "-2000011": {
+    "Name": "Walls",
+    "Id": -2000011
+  }
+}

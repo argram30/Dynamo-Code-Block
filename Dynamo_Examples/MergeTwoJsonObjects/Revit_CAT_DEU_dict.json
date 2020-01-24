@@ -1,0 +1,2522 @@
+{
+  "-2010001": {
+    "Name": "Punktwolken",
+    "Id": -2010001
+  },
+  "-2009657": {
+    "Name": "Kopplungen",
+    "Id": -2009657
+  },
+  "-2009656": {
+    "Name": "Plattenfundament (analytisch) - Beschriftungen",
+    "Id": -2009656
+  },
+  "-2009655": {
+    "Name": "Wandfundament (analytisch) - Beschriftungen",
+    "Id": -2009655
+  },
+  "-2009654": {
+    "Name": "Einzelfundament (analytisch) - Beschriftungen",
+    "Id": -2009654
+  },
+  "-2009653": {
+    "Name": "Wand (analytisch) - Beschriftungen",
+    "Id": -2009653
+  },
+  "-2009652": {
+    "Name": "Geschossdecke (analytisch) - Beschriftungen",
+    "Id": -2009652
+  },
+  "-2009651": {
+    "Name": "Stütze (analytisch) - Beschriftungen",
+    "Id": -2009651
+  },
+  "-2009650": {
+    "Name": "Strebe (analytisch) - Beschriftungen",
+    "Id": -2009650
+  },
+  "-2009649": {
+    "Name": "Träger (analytisch) - Beschriftungen",
+    "Id": -2009649
+  },
+  "-2009645": {
+    "Name": "Analytische Knoten",
+    "Id": -2009645
+  },
+  "-2009643": {
+    "Name": "Fundamente Platte (analytisch)",
+    "Id": -2009643
+  },
+  "-2009642": {
+    "Name": "Fundamente Wand (analytisch)",
+    "Id": -2009642
+  },
+  "-2009641": {
+    "Name": "Fundamente Einzeln (analytisch)",
+    "Id": -2009641
+  },
+  "-2009640": {
+    "Name": "Wände (analytisch)",
+    "Id": -2009640
+  },
+  "-2009639": {
+    "Name": "Geschossdecken (analytisch)",
+    "Id": -2009639
+  },
+  "-2009638": {
+    "Name": "Tragwerksstützen (analytisch) - Oberes Segment",
+    "Id": -2009638
+  },
+  "-2009637": {
+    "Name": "Tragwerksstützen (analytisch) - Basissegment",
+    "Id": -2009637
+  },
+  "-2009636": {
+    "Name": "Tragwerksstützen (analytisch)",
+    "Id": -2009636
+  },
+  "-2009635": {
+    "Name": "Skelettbau Streben (analytisch) - Endsegment",
+    "Id": -2009635
+  },
+  "-2009634": {
+    "Name": "Skelettbau Streben (analytisch) - Anfangssegment",
+    "Id": -2009634
+  },
+  "-2009633": {
+    "Name": "Skelettbau Streben (analytisch)",
+    "Id": -2009633
+  },
+  "-2009632": {
+    "Name": "Skelettbau Träger (analytisch) - Endsegment",
+    "Id": -2009632
+  },
+  "-2009631": {
+    "Name": "Skelettbau Träger (analytisch) - Anfangssegment",
+    "Id": -2009631
+  },
+  "-2009630": {
+    "Name": "Skelettbau Träger (analytisch)",
+    "Id": -2009630
+  },
+  "-2009608": {
+    "Name": "Fachwerkbinder - Einfügesymbole",
+    "Id": -2009608
+  },
+  "-2009606": {
+    "Name": "Skelettbau - Gurt",
+    "Id": -2009606
+  },
+  "-2009605": {
+    "Name": "Skelettbau - Steg",
+    "Id": -2009605
+  },
+  "-2009532": {
+    "Name": "Körper - Verdeckte Linien",
+    "Id": -2009532
+  },
+  "-2009531": {
+    "Name": "Fassadensysteme - Verdeckte Linien",
+    "Id": -2009531
+  },
+  "-2009529": {
+    "Name": "Umgebung - Verdeckte Linien",
+    "Id": -2009529
+  },
+  "-2009528": {
+    "Name": "Bepflanzung - Verdeckte Linien",
+    "Id": -2009528
+  },
+  "-2009527": {
+    "Name": "Sonderausstattung - Verdeckte Linien",
+    "Id": -2009527
+  },
+  "-2009526": {
+    "Name": "Topographie - Verdeckte Linien",
+    "Id": -2009526
+  },
+  "-2009524": {
+    "Name": "Grundstück - Verdeckte Linien",
+    "Id": -2009524
+  },
+  "-2009523": {
+    "Name": "Straßen - Verdeckte Linien",
+    "Id": -2009523
+  },
+  "-2009522": {
+    "Name": "Parkplatz - Verdeckte Linien",
+    "Id": -2009522
+  },
+  "-2009521": {
+    "Name": "Sanitärinstallationen - Verdeckte Linien",
+    "Id": -2009521
+  },
+  "-2009520": {
+    "Name": "HLS-Bauteile - Verdeckte Linien",
+    "Id": -2009520
+  },
+  "-2009519": {
+    "Name": "Leuchten - Verdeckte Linien",
+    "Id": -2009519
+  },
+  "-2009518": {
+    "Name": "Möbelsysteme - Verdeckte Linien",
+    "Id": -2009518
+  },
+  "-2009517": {
+    "Name": "Elektroinstallationen - Verdeckte Linien",
+    "Id": -2009517
+  },
+  "-2009516": {
+    "Name": "Elektrische Ausstattung - Verdeckte Linien",
+    "Id": -2009516
+  },
+  "-2009515": {
+    "Name": "Schreinerarbeiten - Verdeckte Linien",
+    "Id": -2009515
+  },
+  "-2009514": {
+    "Name": "Detailelemente - Verdeckte Linien",
+    "Id": -2009514
+  },
+  "-2009513": {
+    "Name": "Schachtöffnungen - Verdeckte Linien",
+    "Id": -2009513
+  },
+  "-2009512": {
+    "Name": "Allgemeines Modell - Verdeckte Linien",
+    "Id": -2009512
+  },
+  "-2009511": {
+    "Name": "Fassadenpfosten - Verdeckte Linien",
+    "Id": -2009511
+  },
+  "-2009510": {
+    "Name": "Fassadenelemente - Verdeckte Linien",
+    "Id": -2009510
+  },
+  "-2009509": {
+    "Name": "Rampen - Verdeckte Linien",
+    "Id": -2009509
+  },
+  "-2009508": {
+    "Name": "Geländer - Verdeckte Linien",
+    "Id": -2009508
+  },
+  "-2009507": {
+    "Name": "Treppen - Verdeckte Linien",
+    "Id": -2009507
+  },
+  "-2009506": {
+    "Name": "Stützen - Verdeckte Linien",
+    "Id": -2009506
+  },
+  "-2009505": {
+    "Name": "Möbel - Verdeckte Linien",
+    "Id": -2009505
+  },
+  "-2009504": {
+    "Name": "Linien - Verdeckte Linien",
+    "Id": -2009504
+  },
+  "-2009503": {
+    "Name": "Decken - Verdeckte Linien",
+    "Id": -2009503
+  },
+  "-2009502": {
+    "Name": "Dächer - Verdeckte Linien",
+    "Id": -2009502
+  },
+  "-2009501": {
+    "Name": "Türen - Verdeckte Linien",
+    "Id": -2009501
+  },
+  "-2009500": {
+    "Name": "Fenster - Verdeckte Linien",
+    "Id": -2009500
+  },
+  "-2009064": {
+    "Name": "Profilbezeichnungen",
+    "Id": -2009064
+  },
+  "-2009063": {
+    "Name": "Bohrungsbezeichnungen",
+    "Id": -2009063
+  },
+  "-2009062": {
+    "Name": "Verbindungsmittel - Verdeckte Linien",
+    "Id": -2009062
+  },
+  "-2009061": {
+    "Name": "Beschriftungen Verbindungsmittel",
+    "Id": -2009061
+  },
+  "-2009060": {
+    "Name": "Verbindungsmittel",
+    "Id": -2009060
+  },
+  "-2009059": {
+    "Name": "Schweißnahtbezeichnungen",
+    "Id": -2009059
+  },
+  "-2009058": {
+    "Name": "Kopfbolzenbezeichnungen",
+    "Id": -2009058
+  },
+  "-2009057": {
+    "Name": "Ankerbezeichnungen",
+    "Id": -2009057
+  },
+  "-2009056": {
+    "Name": "Schraubenbezeichnungen",
+    "Id": -2009056
+  },
+  "-2009055": {
+    "Name": "Plattenbezeichnungen",
+    "Id": -2009055
+  },
+  "-2009050": {
+    "Name": "Bewehrung - Stabstahl - Verdeckte Linien",
+    "Id": -2009050
+  },
+  "-2009047": {
+    "Name": "Tragwerksverbindungen - Modifikatoren",
+    "Id": -2009047
+  },
+  "-2009046": {
+    "Name": "Tragwerksverbindungen - Schweißnähte",
+    "Id": -2009046
+  },
+  "-2009045": {
+    "Name": "Tragwerksverbindungen - Bohrungen",
+    "Id": -2009045
+  },
+  "-2009044": {
+    "Name": "Tragwerksverbindungen - Kopfbolzen",
+    "Id": -2009044
+  },
+  "-2009042": {
+    "Name": "Tragwerksverbindungen - Sonstige",
+    "Id": -2009042
+  },
+  "-2009041": {
+    "Name": "Tragwerksverbindungen - Schrauben",
+    "Id": -2009041
+  },
+  "-2009040": {
+    "Name": "Beschriftungen Tragwerksverbindung",
+    "Id": -2009040
+  },
+  "-2009039": {
+    "Name": "Tragwerksverbindungen - Anker",
+    "Id": -2009039
+  },
+  "-2009038": {
+    "Name": "Tragwerksverbindungen - Platten",
+    "Id": -2009038
+  },
+  "-2009037": {
+    "Name": "Tragwerksverbindungen - Profile",
+    "Id": -2009037
+  },
+  "-2009036": {
+    "Name": "Tragwerksverbindungen - Referenz",
+    "Id": -2009036
+  },
+  "-2009033": {
+    "Name": "Tragwerksverbindungen - Symbol",
+    "Id": -2009033
+  },
+  "-2009032": {
+    "Name": "Tragwerksverbindungen - Verdeckte Linien",
+    "Id": -2009032
+  },
+  "-2009030": {
+    "Name": "Tragwerksverbindungen",
+    "Id": -2009030
+  },
+  "-2009029": {
+    "Name": "Bewehrung - Verlegebereich Matten - Begrenzung",
+    "Id": -2009029
+  },
+  "-2009028": {
+    "Name": "Symbole für Mattenbewehrung",
+    "Id": -2009028
+  },
+  "-2009027": {
+    "Name": "Bewehrung - Matten - Mattenstab",
+    "Id": -2009027
+  },
+  "-2009026": {
+    "Name": "Bewehrung - Matten - Begrenzung",
+    "Id": -2009026
+  },
+  "-2009025": {
+    "Name": "Bewehrungssatz ein/aus",
+    "Id": -2009025
+  },
+  "-2009022": {
+    "Name": "Bewehrung - Mattenbeschriftungen",
+    "Id": -2009022
+  },
+  "-2009021": {
+    "Name": "Tragwerk-Flächenbewehrung - Beschriftungen",
+    "Id": -2009021
+  },
+  "-2009020": {
+    "Name": "Bewehrung - Beschriftungen",
+    "Id": -2009020
+  },
+  "-2009019": {
+    "Name": "Linien - <Einzelmatten>",
+    "Id": -2009019
+  },
+  "-2009018": {
+    "Name": "Linien - <Mattenfeld>",
+    "Id": -2009018
+  },
+  "-2009017": {
+    "Name": "Bewehrung - Verlegebereich Matten",
+    "Id": -2009017
+  },
+  "-2009016": {
+    "Name": "Bewehrung - Matten",
+    "Id": -2009016
+  },
+  "-2009015": {
+    "Name": "Bewehrungsüberdeckungsreferenzen",
+    "Id": -2009015
+  },
+  "-2009013": {
+    "Name": "Biegeform",
+    "Id": -2009013
+  },
+  "-2009012": {
+    "Name": "Bewehrung - linear - Verlegebereich",
+    "Id": -2009012
+  },
+  "-2009011": {
+    "Name": "Bewehrung - lineare Bewehrungsbeschriftungen",
+    "Id": -2009011
+  },
+  "-2009010": {
+    "Name": "Symbole für lineare Bewehrung",
+    "Id": -2009010
+  },
+  "-2009009": {
+    "Name": "Bewehrung - linear",
+    "Id": -2009009
+  },
+  "-2009006": {
+    "Name": "Bewehrung - Verlegebereich Fläche - Begrenzung",
+    "Id": -2009006
+  },
+  "-2009005": {
+    "Name": "Symbole für Tragwerk-Flächenbewehrung",
+    "Id": -2009005
+  },
+  "-2009003": {
+    "Name": "Bewehrung - Verlegebereich Fläche",
+    "Id": -2009003
+  },
+  "-2009000": {
+    "Name": "Bewehrung - Stabstahl",
+    "Id": -2009000
+  },
+  "-2008221": {
+    "Name": "MEP Fabrication Rohre - Dämmung außen",
+    "Id": -2008221
+  },
+  "-2008220": {
+    "Name": "MEP Fabrication Luftkanäle - Dämmung innen",
+    "Id": -2008220
+  },
+  "-2008219": {
+    "Name": "MEP Fabrication Kabelführungen - Gefälle",
+    "Id": -2008219
+  },
+  "-2008218": {
+    "Name": "MEP Fabrication Kabelführungen - Anstieg",
+    "Id": -2008218
+  },
+  "-2008217": {
+    "Name": "MEP Fabrication Rohre - Gefälle",
+    "Id": -2008217
+  },
+  "-2008216": {
+    "Name": "MEP Fabrication Rohre - Anstieg",
+    "Id": -2008216
+  },
+  "-2008215": {
+    "Name": "MEP Fabrication Kabelführungen - Symbole",
+    "Id": -2008215
+  },
+  "-2008214": {
+    "Name": "MEP Fabrication Kabelführungen - Achse",
+    "Id": -2008214
+  },
+  "-2008213": {
+    "Name": "MEP Fabrication Kabelführungsbeschriftungen",
+    "Id": -2008213
+  },
+  "-2008212": {
+    "Name": "MEP Fabrication Kabelführungen",
+    "Id": -2008212
+  },
+  "-2008211": {
+    "Name": "MEP Fabrication Rohre - Symbole",
+    "Id": -2008211
+  },
+  "-2008210": {
+    "Name": "MEP Fabrication Rohre - Achse",
+    "Id": -2008210
+  },
+  "-2008209": {
+    "Name": "MEP Fabrication Rohrbeschriftungen",
+    "Id": -2008209
+  },
+  "-2008208": {
+    "Name": "MEP Fabrication Rohre",
+    "Id": -2008208
+  },
+  "-2008207": {
+    "Name": "MEP Fabrication Luftkanäle - Symbole",
+    "Id": -2008207
+  },
+  "-2008206": {
+    "Name": "MEP Fabrication Luftkanäle - Gefälle",
+    "Id": -2008206
+  },
+  "-2008205": {
+    "Name": "MEP Fabrication Luftkanäle - Anstieg",
+    "Id": -2008205
+  },
+  "-2008204": {
+    "Name": "MEP Fabrication Halterungsbeschriftungen",
+    "Id": -2008204
+  },
+  "-2008203": {
+    "Name": "MEP Fabrication Halterungen",
+    "Id": -2008203
+  },
+  "-2008198": {
+    "Name": "MEP Fabrication Luftkanäle - Dämmung außen",
+    "Id": -2008198
+  },
+  "-2008196": {
+    "Name": "MEP Fabrication Luftkanäle - Achse",
+    "Id": -2008196
+  },
+  "-2008194": {
+    "Name": "MEP Fabrication Luftkanalbeschriftungen",
+    "Id": -2008194
+  },
+  "-2008193": {
+    "Name": "MEP Fabrication Luftkanäle",
+    "Id": -2008193
+  },
+  "-2008187": {
+    "Name": "Berechnete Oberflächen - Schattierungen",
+    "Id": -2008187
+  },
+  "-2008186": {
+    "Name": "Berechnete Oberflächen",
+    "Id": -2008186
+  },
+  "-2008185": {
+    "Name": "Berechnete Räume",
+    "Id": -2008185
+  },
+  "-2008184": {
+    "Name": "Berechnete Oberflächen - Luftöffnungen",
+    "Id": -2008184
+  },
+  "-2008183": {
+    "Name": "Berechnete Oberflächen - Türen außer Schiebetüren",
+    "Id": -2008183
+  },
+  "-2008182": {
+    "Name": "Berechnete Oberflächen - Schiebetüren",
+    "Id": -2008182
+  },
+  "-2008181": {
+    "Name": "Berechnete Oberflächen - Bewegliche Dachfenster",
+    "Id": -2008181
+  },
+  "-2008180": {
+    "Name": "Berechnete Oberflächen - Festverglaste Dachfenster",
+    "Id": -2008180
+  },
+  "-2008179": {
+    "Name": "Berechnete Oberflächen - Bewegliche Fenster",
+    "Id": -2008179
+  },
+  "-2008178": {
+    "Name": "Berechnete Oberflächen - Festverglaste Fenster",
+    "Id": -2008178
+  },
+  "-2008177": {
+    "Name": "Berechnete Oberflächen - Unterirdische Decken",
+    "Id": -2008177
+  },
+  "-2008176": {
+    "Name": "Berechnete Oberflächen - Unterirdische Platten",
+    "Id": -2008176
+  },
+  "-2008175": {
+    "Name": "Berechnete Oberflächen - Unterirdische Wände",
+    "Id": -2008175
+  },
+  "-2008174": {
+    "Name": "Berechnete Oberflächen - Luftflächen",
+    "Id": -2008174
+  },
+  "-2008173": {
+    "Name": "Berechnete Oberflächen - Decken",
+    "Id": -2008173
+  },
+  "-2008172": {
+    "Name": "Berechnete Oberflächen - Geschossdecken innen",
+    "Id": -2008172
+  },
+  "-2008171": {
+    "Name": "Berechnete Oberflächen - Innenwände",
+    "Id": -2008171
+  },
+  "-2008170": {
+    "Name": "Berechnete Oberflächen - Eingemessene Platten",
+    "Id": -2008170
+  },
+  "-2008169": {
+    "Name": "Berechnete Oberflächen - Erhöhte Geschossdecken",
+    "Id": -2008169
+  },
+  "-2008168": {
+    "Name": "Berechnete Oberflächen - Dächer",
+    "Id": -2008168
+  },
+  "-2008167": {
+    "Name": "Berechnete Oberflächen - Außenwände",
+    "Id": -2008167
+  },
+  "-2008163": {
+    "Name": "Rohrsegmente",
+    "Id": -2008163
+  },
+  "-2008161": {
+    "Name": "Rohrplatzhalter",
+    "Id": -2008161
+  },
+  "-2008160": {
+    "Name": "Luftkanalplatzhalter",
+    "Id": -2008160
+  },
+  "-2008159": {
+    "Name": "Rohr Systeme - Referenzlinien",
+    "Id": -2008159
+  },
+  "-2008157": {
+    "Name": "Luftkanal Systeme - Referenzlinien",
+    "Id": -2008157
+  },
+  "-2008155": {
+    "Name": "Rohrdämmung außen - Beschriftungen",
+    "Id": -2008155
+  },
+  "-2008154": {
+    "Name": "Luftkanaldämmung innen - Beschriftungen",
+    "Id": -2008154
+  },
+  "-2008153": {
+    "Name": "Luftkanaldämmung außen - Beschriftungen",
+    "Id": -2008153
+  },
+  "-2008152": {
+    "Name": "Elektrische Stromkreise für Reserve/Leerfeld",
+    "Id": -2008152
+  },
+  "-2008151": {
+    "Name": "Grafiken für Verteiler-Bauteilliste",
+    "Id": -2008151
+  },
+  "-2008150": {
+    "Name": "Kabeltrassenführung",
+    "Id": -2008150
+  },
+  "-2008149": {
+    "Name": "Leerrohrstrecken",
+    "Id": -2008149
+  },
+  "-2008141": {
+    "Name": "Leerrohrformteile - Achse",
+    "Id": -2008141
+  },
+  "-2008140": {
+    "Name": "Kabeltrassenformteile - Mittellinie",
+    "Id": -2008140
+  },
+  "-2008139": {
+    "Name": "Leerrohr - Achse",
+    "Id": -2008139
+  },
+  "-2008138": {
+    "Name": "Leerrohr - Gefälle",
+    "Id": -2008138
+  },
+  "-2008137": {
+    "Name": "Leerrohr - Anstieg",
+    "Id": -2008137
+  },
+  "-2008136": {
+    "Name": "Kabeltrassen - Achse",
+    "Id": -2008136
+  },
+  "-2008135": {
+    "Name": "Kabeltrassen - Gefälle",
+    "Id": -2008135
+  },
+  "-2008134": {
+    "Name": "Kabeltrassen - Anstieg",
+    "Id": -2008134
+  },
+  "-2008133": {
+    "Name": "Leerrohre - Beschriftungen",
+    "Id": -2008133
+  },
+  "-2008132": {
+    "Name": "Leerrohr",
+    "Id": -2008132
+  },
+  "-2008131": {
+    "Name": "Kabeltrasse - Beschriftungen",
+    "Id": -2008131
+  },
+  "-2008130": {
+    "Name": "Kabeltrassen",
+    "Id": -2008130
+  },
+  "-2008129": {
+    "Name": "Leerrohrformteil - Beschriftungen",
+    "Id": -2008129
+  },
+  "-2008128": {
+    "Name": "Leerrohrformteile",
+    "Id": -2008128
+  },
+  "-2008127": {
+    "Name": "Kabeltrassenformteil - Beschriftungen",
+    "Id": -2008127
+  },
+  "-2008126": {
+    "Name": "Kabeltrassenformteile",
+    "Id": -2008126
+  },
+  "-2008125": {
+    "Name": "Routing-Voreinstellungen",
+    "Id": -2008125
+  },
+  "-2008124": {
+    "Name": "Luftkanaldämmung innen",
+    "Id": -2008124
+  },
+  "-2008123": {
+    "Name": "Luftkanaldämmung außen",
+    "Id": -2008123
+  },
+  "-2008122": {
+    "Name": "Rohrdämmung",
+    "Id": -2008122
+  },
+  "-2008118": {
+    "Name": "Zonen - Referenzlinien",
+    "Id": -2008118
+  },
+  "-2008117": {
+    "Name": "Zonen - Innenfüllung",
+    "Id": -2008117
+  },
+  "-2008116": {
+    "Name": "Zonen - Farbfüllung",
+    "Id": -2008116
+  },
+  "-2008115": {
+    "Name": "Zonenbeschriftungen",
+    "Id": -2008115
+  },
+  "-2008108": {
+    "Name": "Zonen - Begrenzung",
+    "Id": -2008108
+  },
+  "-2008107": {
+    "Name": "Zonen",
+    "Id": -2008107
+  },
+  "-2008101": {
+    "Name": "Schaltersystem",
+    "Id": -2008101
+  },
+  "-2008100": {
+    "Name": "Sprinklerbeschriftungen",
+    "Id": -2008100
+  },
+  "-2008099": {
+    "Name": "Sprinkler",
+    "Id": -2008099
+  },
+  "-2008095": {
+    "Name": "Berechnete Oberflächen - Öffnung",
+    "Id": -2008095
+  },
+  "-2008094": {
+    "Name": "Berechnete Oberflächen - Untergrund",
+    "Id": -2008094
+  },
+  "-2008093": {
+    "Name": "Berechnete Oberflächen - Schattierungen",
+    "Id": -2008093
+  },
+  "-2008092": {
+    "Name": "Berechnete Oberflächen - Außen",
+    "Id": -2008092
+  },
+  "-2008091": {
+    "Name": "Berechnete Oberflächen - Innen",
+    "Id": -2008091
+  },
+  "-2008090": {
+    "Name": "Berechnete Oberflächen",
+    "Id": -2008090
+  },
+  "-2008089": {
+    "Name": "Kabel - Rückführungspfeile",
+    "Id": -2008089
+  },
+  "-2008088": {
+    "Name": "Lichtschalterbeschriftung",
+    "Id": -2008088
+  },
+  "-2008087": {
+    "Name": "Lichtschalter",
+    "Id": -2008087
+  },
+  "-2008086": {
+    "Name": "Brandmelderbeschriftungen",
+    "Id": -2008086
+  },
+  "-2008085": {
+    "Name": "Brandmelder",
+    "Id": -2008085
+  },
+  "-2008084": {
+    "Name": "Datengerätebeschriftungen",
+    "Id": -2008084
+  },
+  "-2008083": {
+    "Name": "Datengeräte",
+    "Id": -2008083
+  },
+  "-2008082": {
+    "Name": "Kommunikationsgerätebeschriftungen",
+    "Id": -2008082
+  },
+  "-2008081": {
+    "Name": "Kommunikationsgeräte",
+    "Id": -2008081
+  },
+  "-2008080": {
+    "Name": "Sicherheitsgerätebeschriftungen",
+    "Id": -2008080
+  },
+  "-2008079": {
+    "Name": "Sicherheitsgeräte",
+    "Id": -2008079
+  },
+  "-2008078": {
+    "Name": "Notrufgerätebeschriftungen",
+    "Id": -2008078
+  },
+  "-2008077": {
+    "Name": "Notrufgeräte",
+    "Id": -2008077
+  },
+  "-2008076": {
+    "Name": "Telefongerätebeschriftungen",
+    "Id": -2008076
+  },
+  "-2008075": {
+    "Name": "Telefongeräte",
+    "Id": -2008075
+  },
+  "-2008074": {
+    "Name": "Kabel - Kabelmarkierungen",
+    "Id": -2008074
+  },
+  "-2008072": {
+    "Name": "Rohrformteile - Achse",
+    "Id": -2008072
+  },
+  "-2008069": {
+    "Name": "Rohre - Gefälle",
+    "Id": -2008069
+  },
+  "-2008066": {
+    "Name": "Luftkanalformteile - Achse",
+    "Id": -2008066
+  },
+  "-2008062": {
+    "Name": "Luftkanäle - Gefälle",
+    "Id": -2008062
+  },
+  "-2008061": {
+    "Name": "Luftkanalformteilbeschriftung",
+    "Id": -2008061
+  },
+  "-2008060": {
+    "Name": "Rohrformteilbeschriftung",
+    "Id": -2008060
+  },
+  "-2008059": {
+    "Name": "Rohrfarbfüllung",
+    "Id": -2008059
+  },
+  "-2008058": {
+    "Name": "Rohr-Farbenlegenden",
+    "Id": -2008058
+  },
+  "-2008057": {
+    "Name": "Kabelbeschriftungen",
+    "Id": -2008057
+  },
+  "-2008056": {
+    "Name": "Rohrzubehörbeschriftungen",
+    "Id": -2008056
+  },
+  "-2008055": {
+    "Name": "Rohrzubehör",
+    "Id": -2008055
+  },
+  "-2008054": {
+    "Name": "Rohre - Anstieg",
+    "Id": -2008054
+  },
+  "-2008053": {
+    "Name": "Flexible Rohre - Muster",
+    "Id": -2008053
+  },
+  "-2008051": {
+    "Name": "Flexible Rohre - Achse",
+    "Id": -2008051
+  },
+  "-2008050": {
+    "Name": "Flexible Rohre",
+    "Id": -2008050
+  },
+  "-2008049": {
+    "Name": "Rohrformteile",
+    "Id": -2008049
+  },
+  "-2008048": {
+    "Name": "Flexible Rohre - Beschriftungen",
+    "Id": -2008048
+  },
+  "-2008047": {
+    "Name": "Rohrbeschriftungen",
+    "Id": -2008047
+  },
+  "-2008045": {
+    "Name": "Rohre - Achse",
+    "Id": -2008045
+  },
+  "-2008044": {
+    "Name": "Rohre",
+    "Id": -2008044
+  },
+  "-2008043": {
+    "Name": "Rohr Systeme",
+    "Id": -2008043
+  },
+  "-2008039": {
+    "Name": "Kabel",
+    "Id": -2008039
+  },
+  "-2008037": {
+    "Name": "Elektrischer Stromkreis",
+    "Id": -2008037
+  },
+  "-2008036": {
+    "Name": "Luftkanäle - Anstieg",
+    "Id": -2008036
+  },
+  "-2008023": {
+    "Name": "Flexkanäle - Muster",
+    "Id": -2008023
+  },
+  "-2008021": {
+    "Name": "Flexkanäle - Achse",
+    "Id": -2008021
+  },
+  "-2008020": {
+    "Name": "Flexkanäle",
+    "Id": -2008020
+  },
+  "-2008017": {
+    "Name": "Luftkanalzubehör - Beschriftungen",
+    "Id": -2008017
+  },
+  "-2008016": {
+    "Name": "Luftkanalzubehör",
+    "Id": -2008016
+  },
+  "-2008015": {
+    "Name": "Luftkanal Systeme",
+    "Id": -2008015
+  },
+  "-2008014": {
+    "Name": "Luftdurchlassbeschriftungen",
+    "Id": -2008014
+  },
+  "-2008013": {
+    "Name": "Luftdurchlässe",
+    "Id": -2008013
+  },
+  "-2008010": {
+    "Name": "Luftkanalformteile",
+    "Id": -2008010
+  },
+  "-2008005": {
+    "Name": "Farbfüllung für Luftkanäle",
+    "Id": -2008005
+  },
+  "-2008004": {
+    "Name": "Flexkanalbeschriftungen",
+    "Id": -2008004
+  },
+  "-2008003": {
+    "Name": "Luftkanalbeschriftungen",
+    "Id": -2008003
+  },
+  "-2008001": {
+    "Name": "Luftkanäle - Achse",
+    "Id": -2008001
+  },
+  "-2008000": {
+    "Name": "Luftkanäle",
+    "Id": -2008000
+  },
+  "-2007004": {
+    "Name": "Farbenlegenden für Luftkanäle",
+    "Id": -2007004
+  },
+  "-2006138": {
+    "Name": "Brückenlager",
+    "Id": -2006138
+  },
+  "-2006137": {
+    "Name": "Brückenträger",
+    "Id": -2006137
+  },
+  "-2006136": {
+    "Name": "Brückenfundamente",
+    "Id": -2006136
+  },
+  "-2006135": {
+    "Name": "Brückentafeln",
+    "Id": -2006135
+  },
+  "-2006134": {
+    "Name": "Brückenbogen",
+    "Id": -2006134
+  },
+  "-2006133": {
+    "Name": "Brückenkabel",
+    "Id": -2006133
+  },
+  "-2006132": {
+    "Name": "Brückentürme",
+    "Id": -2006132
+  },
+  "-2006131": {
+    "Name": "Brückenpfeiler",
+    "Id": -2006131
+  },
+  "-2006130": {
+    "Name": "Brückenwiderlager",
+    "Id": -2006130
+  },
+  "-2006110": {
+    "Name": "Strebe in Symbolen in Draufsicht",
+    "Id": -2006110
+  },
+  "-2006100": {
+    "Name": "Verbindungssymbole",
+    "Id": -2006100
+  },
+  "-2006090": {
+    "Name": "Tragwerksbeschriftungen",
+    "Id": -2006090
+  },
+  "-2006080": {
+    "Name": "Änderungswolken-Beschriftungen",
+    "Id": -2006080
+  },
+  "-2006060": {
+    "Name": "Änderungswolken",
+    "Id": -2006060
+  },
+  "-2006045": {
+    "Name": "Ansichtsbeschriftungen",
+    "Id": -2006045
+  },
+  "-2006040": {
+    "Name": "Rasterbeschriftungen",
+    "Id": -2006040
+  },
+  "-2006020": {
+    "Name": "Ebenenbeschriftungen",
+    "Id": -2006020
+  },
+  "-2006000": {
+    "Name": "Bildausschnitte",
+    "Id": -2006000
+  },
+  "-2005301": {
+    "Name": "Auflagerbedingungen",
+    "Id": -2005301
+  },
+  "-2005255": {
+    "Name": "Beschriftungen für interne Flächenlasten",
+    "Id": -2005255
+  },
+  "-2005254": {
+    "Name": "Beschriftungen für interne Linienlasten",
+    "Id": -2005254
+  },
+  "-2005253": {
+    "Name": "Beschriftungen für interne Einzellasten",
+    "Id": -2005253
+  },
+  "-2005252": {
+    "Name": "Flächenlastenbeschriftungen",
+    "Id": -2005252
+  },
+  "-2005251": {
+    "Name": "Linienlastenbeschriftungen",
+    "Id": -2005251
+  },
+  "-2005250": {
+    "Name": "Einzellastenbeschriftungen",
+    "Id": -2005250
+  },
+  "-2005218": {
+    "Name": "Tragwerk Lastfälle - Erdbebenlasten",
+    "Id": -2005218
+  },
+  "-2005217": {
+    "Name": "Tragwerk Lastfälle - Temperaturlast",
+    "Id": -2005217
+  },
+  "-2005216": {
+    "Name": "Tragwerk Lastfälle - Außergewöhnliche Lasten",
+    "Id": -2005216
+  },
+  "-2005215": {
+    "Name": "Tragwerk Lastfälle - Nicht ständige Dachlasten",
+    "Id": -2005215
+  },
+  "-2005214": {
+    "Name": "Tragwerk Lastfälle - Schneelasten",
+    "Id": -2005214
+  },
+  "-2005213": {
+    "Name": "Tragwerk Lastfälle - Windlasten",
+    "Id": -2005213
+  },
+  "-2005212": {
+    "Name": "Tragwerk Lastfälle - Nicht ständige Lasten",
+    "Id": -2005212
+  },
+  "-2005211": {
+    "Name": "Tragwerk Lastfälle - Ständige Lasten",
+    "Id": -2005211
+  },
+  "-2005210": {
+    "Name": "Tragwerk Lastfälle",
+    "Id": -2005210
+  },
+  "-2005207": {
+    "Name": "Interne Traglasten - Interne Flächenlasten",
+    "Id": -2005207
+  },
+  "-2005206": {
+    "Name": "Interne Traglasten - Interne Linienlasten",
+    "Id": -2005206
+  },
+  "-2005205": {
+    "Name": "Interne Traglasten - Interne Einzellasten",
+    "Id": -2005205
+  },
+  "-2005204": {
+    "Name": "Interne Traglasten",
+    "Id": -2005204
+  },
+  "-2005203": {
+    "Name": "Lasten - Flächenlasten",
+    "Id": -2005203
+  },
+  "-2005202": {
+    "Name": "Lasten - Linienlasten",
+    "Id": -2005202
+  },
+  "-2005201": {
+    "Name": "Lasten - Einzellasten",
+    "Id": -2005201
+  },
+  "-2005200": {
+    "Name": "Lasten",
+    "Id": -2005200
+  },
+  "-2005130": {
+    "Name": "Trägersystem - Beschriftungen",
+    "Id": -2005130
+  },
+  "-2005111": {
+    "Name": "Symbol für Spannrichtung des Fundaments",
+    "Id": -2005111
+  },
+  "-2005110": {
+    "Name": "Spannrichtungssymbol",
+    "Id": -2005110
+  },
+  "-2005100": {
+    "Name": "Höhenkotensymbole",
+    "Id": -2005100
+  },
+  "-2005030": {
+    "Name": "Fachwerkbinderbeschriftungen",
+    "Id": -2005030
+  },
+  "-2005029": {
+    "Name": "Bauelementbeschriftungen",
+    "Id": -2005029
+  },
+  "-2005028": {
+    "Name": "Detailelementbeschriftungen",
+    "Id": -2005028
+  },
+  "-2005027": {
+    "Name": "Materialbeschriftungen",
+    "Id": -2005027
+  },
+  "-2005026": {
+    "Name": "Geschossdeckenbeschriftungen",
+    "Id": -2005026
+  },
+  "-2005025": {
+    "Name": "Fassadensystembeschriftungen",
+    "Id": -2005025
+  },
+  "-2005023": {
+    "Name": "Treppe - Beschriftungen",
+    "Id": -2005023
+  },
+  "-2005022": {
+    "Name": "Mehrere Kategorien - Beschriftungen",
+    "Id": -2005022
+  },
+  "-2005021": {
+    "Name": "Bepflanzungsbeschriftungen",
+    "Id": -2005021
+  },
+  "-2005020": {
+    "Name": "Flächenbeschriftungen",
+    "Id": -2005020
+  },
+  "-2005019": {
+    "Name": "Fundamentbeschriftungen",
+    "Id": -2005019
+  },
+  "-2005018": {
+    "Name": "Tragwerksstützenbeschriftungen",
+    "Id": -2005018
+  },
+  "-2005017": {
+    "Name": "Parkplatzbeschriftungen",
+    "Id": -2005017
+  },
+  "-2005016": {
+    "Name": "Grundstücksbeschriftungen",
+    "Id": -2005016
+  },
+  "-2005015": {
+    "Name": "Trägerbeschriftung",
+    "Id": -2005015
+  },
+  "-2005014": {
+    "Name": "Sonderausstattung - Beschriftungen",
+    "Id": -2005014
+  },
+  "-2005013": {
+    "Name": "Allgemeine Modellbeschriftungen",
+    "Id": -2005013
+  },
+  "-2005012": {
+    "Name": "Fassadenelementbeschriftungen",
+    "Id": -2005012
+  },
+  "-2005011": {
+    "Name": "Wandbeschriftungen",
+    "Id": -2005011
+  },
+  "-2005010": {
+    "Name": "Sanitärinstallationsbeschriftungen",
+    "Id": -2005010
+  },
+  "-2005009": {
+    "Name": "HLS-Bauteile - Beschriftungen",
+    "Id": -2005009
+  },
+  "-2005008": {
+    "Name": "Leuchtenbeschriftungen",
+    "Id": -2005008
+  },
+  "-2005007": {
+    "Name": "Möbelsystembeschriftungen",
+    "Id": -2005007
+  },
+  "-2005006": {
+    "Name": "Möbelbeschriftungen",
+    "Id": -2005006
+  },
+  "-2005004": {
+    "Name": "Elektroinstallationsbeschriftungen",
+    "Id": -2005004
+  },
+  "-2005003": {
+    "Name": "Elektrische Ausstattung - Beschriftungen",
+    "Id": -2005003
+  },
+  "-2005002": {
+    "Name": "Deckenbeschriftungen",
+    "Id": -2005002
+  },
+  "-2005001": {
+    "Name": "Schreinerarbeiten - Beschriftungen",
+    "Id": -2005001
+  },
+  "-2003605": {
+    "Name": "MEP-Räume - Farbfüllung",
+    "Id": -2003605
+  },
+  "-2003602": {
+    "Name": "MEP-Räume - Referenz",
+    "Id": -2003602
+  },
+  "-2003601": {
+    "Name": "MEP-Räume - Innen",
+    "Id": -2003601
+  },
+  "-2003600": {
+    "Name": "MEP-Räume",
+    "Id": -2003600
+  },
+  "-2003418": {
+    "Name": "Körper - Körper - Schatten",
+    "Id": -2003418
+  },
+  "-2003417": {
+    "Name": "Körper - Körper - Öffnung",
+    "Id": -2003417
+  },
+  "-2003416": {
+    "Name": "Körper - Körper - Oberlicht",
+    "Id": -2003416
+  },
+  "-2003415": {
+    "Name": "Körper - Körper - Verglasung",
+    "Id": -2003415
+  },
+  "-2003414": {
+    "Name": "Körper - Körper - Dach",
+    "Id": -2003414
+  },
+  "-2003413": {
+    "Name": "Körper - Körper - Außenwand",
+    "Id": -2003413
+  },
+  "-2003412": {
+    "Name": "Körper - Körper - Innenwand",
+    "Id": -2003412
+  },
+  "-2003411": {
+    "Name": "Körper - Körpermodellzone",
+    "Id": -2003411
+  },
+  "-2003410": {
+    "Name": "Körpergeschossbeschriftungen",
+    "Id": -2003410
+  },
+  "-2003405": {
+    "Name": "Körperbeschriftungen",
+    "Id": -2003405
+  },
+  "-2003404": {
+    "Name": "Körper - Form",
+    "Id": -2003404
+  },
+  "-2003403": {
+    "Name": "Körper - Körpergeschoss",
+    "Id": -2003403
+  },
+  "-2003400": {
+    "Name": "Körper",
+    "Id": -2003400
+  },
+  "-2003327": {
+    "Name": "Körper - Musterfüllung",
+    "Id": -2003327
+  },
+  "-2003326": {
+    "Name": "Körper - Musterlinien",
+    "Id": -2003326
+  },
+  "-2003325": {
+    "Name": "Körper - Rasterlinien",
+    "Id": -2003325
+  },
+  "-2003324": {
+    "Name": "Körper - Knoten",
+    "Id": -2003324
+  },
+  "-2003308": {
+    "Name": "Rampen - Pfeil nach unten",
+    "Id": -2003308
+  },
+  "-2003307": {
+    "Name": "Rampen - Pfeil nach oben",
+    "Id": -2003307
+  },
+  "-2003306": {
+    "Name": "Rampen - Text AB",
+    "Id": -2003306
+  },
+  "-2003305": {
+    "Name": "Rampen - Text AUF",
+    "Id": -2003305
+  },
+  "-2003304": {
+    "Name": "Rampen - Wangen hinter Schnittverlauf",
+    "Id": -2003304
+  },
+  "-2003303": {
+    "Name": "Rampen - Wangen",
+    "Id": -2003303
+  },
+  "-2003302": {
+    "Name": "Rampen - Rampen hinter Schnittlinie",
+    "Id": -2003302
+  },
+  "-2003200": {
+    "Name": "Flächen",
+    "Id": -2003200
+  },
+  "-2003101": {
+    "Name": "Projektinformationen",
+    "Id": -2003101
+  },
+  "-2003100": {
+    "Name": "Pläne",
+    "Id": -2003100
+  },
+  "-2002000": {
+    "Name": "Detailelemente",
+    "Id": -2002000
+  },
+  "-2001393": {
+    "Name": "Dächer - Dachuntersichten",
+    "Id": -2001393
+  },
+  "-2001392": {
+    "Name": "Geschossdecken - Deckenkanten",
+    "Id": -2001392
+  },
+  "-2001391": {
+    "Name": "Dächer - Rinnen",
+    "Id": -2001391
+  },
+  "-2001390": {
+    "Name": "Dächer - Traufen",
+    "Id": -2001390
+  },
+  "-2001370": {
+    "Name": "Umgebung",
+    "Id": -2001370
+  },
+  "-2001360": {
+    "Name": "Bepflanzung",
+    "Id": -2001360
+  },
+  "-2001358": {
+    "Name": "Steifen - Verdeckte Linien",
+    "Id": -2001358
+  },
+  "-2001357": {
+    "Name": "Tragwerksstützen - Basislinien",
+    "Id": -2001357
+  },
+  "-2001356": {
+    "Name": "Skelettbau - Basislinien",
+    "Id": -2001356
+  },
+  "-2001355": {
+    "Name": "Steifen - Beschriftungen",
+    "Id": -2001355
+  },
+  "-2001354": {
+    "Name": "Steifen",
+    "Id": -2001354
+  },
+  "-2001352": {
+    "Name": "RVT-Verknüpfungen",
+    "Id": -2001352
+  },
+  "-2001350": {
+    "Name": "Sonderausstattung",
+    "Id": -2001350
+  },
+  "-2001344": {
+    "Name": "Tragwerksstützen - Starre Kopplungen",
+    "Id": -2001344
+  },
+  "-2001343": {
+    "Name": "Topographie - Sekundäre Höhenlinien",
+    "Id": -2001343
+  },
+  "-2001342": {
+    "Name": "Topographie - Primäre Höhenlinien",
+    "Id": -2001342
+  },
+  "-2001341": {
+    "Name": "Topographie - Triangulationskanten",
+    "Id": -2001341
+  },
+  "-2001340": {
+    "Name": "Topographie",
+    "Id": -2001340
+  },
+  "-2001339": {
+    "Name": "Topographie - Topografieverknüpfung",
+    "Id": -2001339
+  },
+  "-2001336": {
+    "Name": "Fachwerkbinder",
+    "Id": -2001336
+  },
+  "-2001335": {
+    "Name": "Tragwerksstützen - Einfügesymbole",
+    "Id": -2001335
+  },
+  "-2001334": {
+    "Name": "Tragwerksstützen - Verdeckte Linien",
+    "Id": -2001334
+  },
+  "-2001333": {
+    "Name": "Skelettbau - Starre Kopplungen",
+    "Id": -2001333
+  },
+  "-2001330": {
+    "Name": "Tragwerksstützen",
+    "Id": -2001330
+  },
+  "-2001329": {
+    "Name": "Skelettbau - Verdeckte Linien",
+    "Id": -2001329
+  },
+  "-2001328": {
+    "Name": "Skelettbau - Aussteifungselement",
+    "Id": -2001328
+  },
+  "-2001327": {
+    "Name": "Trägersysteme",
+    "Id": -2001327
+  },
+  "-2001326": {
+    "Name": "Skelettbau - Vertikaler Verband",
+    "Id": -2001326
+  },
+  "-2001325": {
+    "Name": "Skelettbau - Horizontaler Verband",
+    "Id": -2001325
+  },
+  "-2001324": {
+    "Name": "Skelettbau - Pfette",
+    "Id": -2001324
+  },
+  "-2001323": {
+    "Name": "Skelettbau - Balken",
+    "Id": -2001323
+  },
+  "-2001322": {
+    "Name": "Skelettbau - Tragwerk",
+    "Id": -2001322
+  },
+  "-2001321": {
+    "Name": "Skelettbau - Sonstige",
+    "Id": -2001321
+  },
+  "-2001320": {
+    "Name": "Skelettbau",
+    "Id": -2001320
+  },
+  "-2001302": {
+    "Name": "Fundamente - Verdeckte Linien",
+    "Id": -2001302
+  },
+  "-2001300": {
+    "Name": "Fundamente",
+    "Id": -2001300
+  },
+  "-2001272": {
+    "Name": "Grundstück - Vermessungspunkt",
+    "Id": -2001272
+  },
+  "-2001271": {
+    "Name": "Grundstück - Projekt-Basispunkt",
+    "Id": -2001271
+  },
+  "-2001269": {
+    "Name": "Grundstücksgrenzensegmente - Beschriftungen",
+    "Id": -2001269
+  },
+  "-2001268": {
+    "Name": "Grundstück - Grundstücksgrenzensegmente",
+    "Id": -2001268
+  },
+  "-2001267": {
+    "Name": "Eigenschaftsbeschriftungen",
+    "Id": -2001267
+  },
+  "-2001266": {
+    "Name": "Topographie - Grenzpunkt",
+    "Id": -2001266
+  },
+  "-2001265": {
+    "Name": "Grundstück - Grundstücksgrenzen",
+    "Id": -2001265
+  },
+  "-2001263": {
+    "Name": "Grundstück - Sohlen",
+    "Id": -2001263
+  },
+  "-2001262": {
+    "Name": "Topographie - Innenpunkt",
+    "Id": -2001262
+  },
+  "-2001260": {
+    "Name": "Grundstück",
+    "Id": -2001260
+  },
+  "-2001220": {
+    "Name": "Straßen",
+    "Id": -2001220
+  },
+  "-2001180": {
+    "Name": "Parkplatz",
+    "Id": -2001180
+  },
+  "-2001160": {
+    "Name": "Sanitärinstallationen",
+    "Id": -2001160
+  },
+  "-2001140": {
+    "Name": "HLS-Bauteile",
+    "Id": -2001140
+  },
+  "-2001121": {
+    "Name": "Leuchten - Lichtquelle",
+    "Id": -2001121
+  },
+  "-2001120": {
+    "Name": "Leuchten",
+    "Id": -2001120
+  },
+  "-2001100": {
+    "Name": "Möbelsysteme",
+    "Id": -2001100
+  },
+  "-2001060": {
+    "Name": "Elektroinstallationen",
+    "Id": -2001060
+  },
+  "-2001040": {
+    "Name": "Elektrische Ausstattung",
+    "Id": -2001040
+  },
+  "-2001000": {
+    "Name": "Schreinerarbeiten",
+    "Id": -2001000
+  },
+  "-2000996": {
+    "Name": "Schachtöffnungen",
+    "Id": -2000996
+  },
+  "-2000988": {
+    "Name": "Rohre - Symbole für Warmwassertrennung",
+    "Id": -2000988
+  },
+  "-2000987": {
+    "Name": "Begrenzungslinien für HLS-Bauteilsatz",
+    "Id": -2000987
+  },
+  "-2000986": {
+    "Name": "Beschriftungen für HSL-Bauteile",
+    "Id": -2000986
+  },
+  "-2000985": {
+    "Name": "HLS-Bauteilsätze",
+    "Id": -2000985
+  },
+  "-2000984": {
+    "Name": "Analytische Rohrverbindungen - Verbindungsliniensymbol",
+    "Id": -2000984
+  },
+  "-2000983": {
+    "Name": "Analytische Rohrverbindungen",
+    "Id": -2000983
+  },
+  "-2000982": {
+    "Name": "Koordinationsmodell",
+    "Id": -2000982
+  },
+  "-2000976": {
+    "Name": "Fundamente Platte (analytisch) - Lokales Koordinatensystem",
+    "Id": -2000976
+  },
+  "-2000975": {
+    "Name": "Geschossdecken (analytisch) - Lokales Koordinatensystem",
+    "Id": -2000975
+  },
+  "-2000974": {
+    "Name": "Wände (analytisch) - Lokales Koordinatensystem",
+    "Id": -2000974
+  },
+  "-2000973": {
+    "Name": "Skelettbau Streben (analytisch) - Lokales Koordinatensystem",
+    "Id": -2000973
+  },
+  "-2000972": {
+    "Name": "Tragwerksstützen (analytisch) - Lokales Koordinatensystem",
+    "Id": -2000972
+  },
+  "-2000971": {
+    "Name": "Skelettbau Träger (analytisch) - Lokales Koordinatensystem",
+    "Id": -2000971
+  },
+  "-2000970": {
+    "Name": "Beschriftung Mehrfachbewehrung",
+    "Id": -2000970
+  },
+  "-2000956": {
+    "Name": "Beschriftungen für analytische Knoten",
+    "Id": -2000956
+  },
+  "-2000955": {
+    "Name": "Kopplungsbeschriftungen",
+    "Id": -2000955
+  },
+  "-2000952": {
+    "Name": "Treppen - Auflager",
+    "Id": -2000952
+  },
+  "-2000951": {
+    "Name": "Geländer - <Oberhalb > Handläufe",
+    "Id": -2000951
+  },
+  "-2000950": {
+    "Name": "Geländer - <Oberhalb > Obere Holme",
+    "Id": -2000950
+  },
+  "-2000949": {
+    "Name": "Geländer - Endpfosten",
+    "Id": -2000949
+  },
+  "-2000948": {
+    "Name": "Geländer - Stützen",
+    "Id": -2000948
+  },
+  "-2000947": {
+    "Name": "Geländer - Handläufe",
+    "Id": -2000947
+  },
+  "-2000946": {
+    "Name": "Geländer - Obere Holme",
+    "Id": -2000946
+  },
+  "-2000944": {
+    "Name": "Treppe - Nummerierung Auftritte/Steigugen",
+    "Id": -2000944
+  },
+  "-2000942": {
+    "Name": "Treppe - Auflagerbeschriftungen",
+    "Id": -2000942
+  },
+  "-2000941": {
+    "Name": "Treppe - Podestbeschriftungen",
+    "Id": -2000941
+  },
+  "-2000940": {
+    "Name": "Treppe - Laufbeschriftungen",
+    "Id": -2000940
+  },
+  "-2000939": {
+    "Name": "Treppe - Lauflinien - <Oberhalb> Pfeil AUF",
+    "Id": -2000939
+  },
+  "-2000938": {
+    "Name": "Treppe - Lauflinien",
+    "Id": -2000938
+  },
+  "-2000937": {
+    "Name": "Treppen - <Oberhalb> Steigungslinien",
+    "Id": -2000937
+  },
+  "-2000936": {
+    "Name": "Treppen - Steigungslinien",
+    "Id": -2000936
+  },
+  "-2000935": {
+    "Name": "Treppen - <Oberhalb> Konturen",
+    "Id": -2000935
+  },
+  "-2000934": {
+    "Name": "Treppen - Konturen",
+    "Id": -2000934
+  },
+  "-2000933": {
+    "Name": "Treppen - <Oberhalb> Trittüberstandslinien",
+    "Id": -2000933
+  },
+  "-2000932": {
+    "Name": "Treppen - Trittüberstandslinien",
+    "Id": -2000932
+  },
+  "-2000931": {
+    "Name": "Treppen - <Oberhalb> Schnittmarkierungen",
+    "Id": -2000931
+  },
+  "-2000930": {
+    "Name": "Treppen - Schnittmarkierungen",
+    "Id": -2000930
+  },
+  "-2000921": {
+    "Name": "Treppen - Auftritte/Steigungen",
+    "Id": -2000921
+  },
+  "-2000920": {
+    "Name": "Treppen - Podeste",
+    "Id": -2000920
+  },
+  "-2000919": {
+    "Name": "Treppen - Läufe",
+    "Id": -2000919
+  },
+  "-2000903": {
+    "Name": "Adaptive Punkte - Linien",
+    "Id": -2000903
+  },
+  "-2000902": {
+    "Name": "Adaptive Punkte - Ebenen",
+    "Id": -2000902
+  },
+  "-2000901": {
+    "Name": "Adaptive Punkte - Punkte",
+    "Id": -2000901
+  },
+  "-2000900": {
+    "Name": "Adaptive Punkte",
+    "Id": -2000900
+  },
+  "-2000831": {
+    "Name": "Linien - <MEP-Raumtrennung>",
+    "Id": -2000831
+  },
+  "-2000713": {
+    "Name": "Referenzpunkte - Linien",
+    "Id": -2000713
+  },
+  "-2000712": {
+    "Name": "Referenzpunkte - Ebenen",
+    "Id": -2000712
+  },
+  "-2000711": {
+    "Name": "Referenzpunkte - Punkte",
+    "Id": -2000711
+  },
+  "-2000710": {
+    "Name": "Referenzpunkte",
+    "Id": -2000710
+  },
+  "-2000700": {
+    "Name": "Materialien",
+    "Id": -2000700
+  },
+  "-2000617": {
+    "Name": "Decken - Schnittmuster",
+    "Id": -2000617
+  },
+  "-2000616": {
+    "Name": "Decken - Gemeinsame Kanten",
+    "Id": -2000616
+  },
+  "-2000615": {
+    "Name": "Decken - Nichttragende Schicht 2 [5]",
+    "Id": -2000615
+  },
+  "-2000614": {
+    "Name": "Decken - Nichttragende Schicht 1 [4]",
+    "Id": -2000614
+  },
+  "-2000613": {
+    "Name": "Decken - Träger [2]",
+    "Id": -2000613
+  },
+  "-2000612": {
+    "Name": "Decken - Dämmung/Luftschicht [3]",
+    "Id": -2000612
+  },
+  "-2000611": {
+    "Name": "Decken - Tragende Schicht [1]",
+    "Id": -2000611
+  },
+  "-2000610": {
+    "Name": "Decken - Sperrschicht",
+    "Id": -2000610
+  },
+  "-2000609": {
+    "Name": "Geschossdecken - Innenkanten",
+    "Id": -2000609
+  },
+  "-2000608": {
+    "Name": "Geschossdecken - Schnittmuster",
+    "Id": -2000608
+  },
+  "-2000607": {
+    "Name": "Geschossdecken - Verdeckte Linien",
+    "Id": -2000607
+  },
+  "-2000606": {
+    "Name": "Geschossdecken - Gemeinsame Kanten",
+    "Id": -2000606
+  },
+  "-2000605": {
+    "Name": "Geschossdecken - Nichttragende Schicht 2 [5]",
+    "Id": -2000605
+  },
+  "-2000604": {
+    "Name": "Geschossdecken - Nichttragende Schicht 1 [4]",
+    "Id": -2000604
+  },
+  "-2000603": {
+    "Name": "Geschossdecken - Träger [2]",
+    "Id": -2000603
+  },
+  "-2000602": {
+    "Name": "Geschossdecken - Dämmung/Luftschicht [3]",
+    "Id": -2000602
+  },
+  "-2000601": {
+    "Name": "Geschossdecken - Tragende Schicht [1]",
+    "Id": -2000601
+  },
+  "-2000600": {
+    "Name": "Geschossdecken - Sperrschicht",
+    "Id": -2000600
+  },
+  "-2000598": {
+    "Name": "Dächer - Innenkanten",
+    "Id": -2000598
+  },
+  "-2000597": {
+    "Name": "Dächer - Schnittmuster",
+    "Id": -2000597
+  },
+  "-2000596": {
+    "Name": "Dächer - Gemeinsame Kanten",
+    "Id": -2000596
+  },
+  "-2000595": {
+    "Name": "Dächer - Nichttragende Schicht 2 [5]",
+    "Id": -2000595
+  },
+  "-2000594": {
+    "Name": "Dächer - Nichttragende Schicht 1 [4]",
+    "Id": -2000594
+  },
+  "-2000593": {
+    "Name": "Dächer - Träger [2]",
+    "Id": -2000593
+  },
+  "-2000592": {
+    "Name": "Dächer - Dämmung/Luftschicht [3]",
+    "Id": -2000592
+  },
+  "-2000591": {
+    "Name": "Dächer - Tragende Schicht [1]",
+    "Id": -2000591
+  },
+  "-2000590": {
+    "Name": "Dächer - Sperrschicht",
+    "Id": -2000590
+  },
+  "-2000588": {
+    "Name": "Wände - Schnittmuster",
+    "Id": -2000588
+  },
+  "-2000587": {
+    "Name": "Wände - Verdeckte Linien",
+    "Id": -2000587
+  },
+  "-2000586": {
+    "Name": "Wände - Gemeinsame Kanten",
+    "Id": -2000586
+  },
+  "-2000585": {
+    "Name": "Wände - Nichttragende Schicht 2 [5]",
+    "Id": -2000585
+  },
+  "-2000584": {
+    "Name": "Wände - Nichttragende Schicht 1 [4]",
+    "Id": -2000584
+  },
+  "-2000583": {
+    "Name": "Wände - Träger [2]",
+    "Id": -2000583
+  },
+  "-2000582": {
+    "Name": "Wände - Dämmung/Luftschicht [3]",
+    "Id": -2000582
+  },
+  "-2000581": {
+    "Name": "Wände - Tragende Schicht [1]",
+    "Id": -2000581
+  },
+  "-2000580": {
+    "Name": "Wände - Sperrschicht",
+    "Id": -2000580
+  },
+  "-2000573": {
+    "Name": "Bauteillisten",
+    "Id": -2000573
+  },
+  "-2000570": {
+    "Name": "Grafikliste",
+    "Id": -2000570
+  },
+  "-2000560": {
+    "Name": "Rasterbilder",
+    "Id": -2000560
+  },
+  "-2000551": {
+    "Name": "Räume - Farbfüllung",
+    "Id": -2000551
+  },
+  "-2000550": {
+    "Name": "Farbenlegenden",
+    "Id": -2000550
+  },
+  "-2000549": {
+    "Name": "Zuschneidegrenze für Beschriftung",
+    "Id": -2000549
+  },
+  "-2000548": {
+    "Name": "Zuschneidegrenzen",
+    "Id": -2000548
+  },
+  "-2000547": {
+    "Name": "Zuschneidegrenze für Beschriftung",
+    "Id": -2000547
+  },
+  "-2000544": {
+    "Name": "Begrenzung des Detailausschnitts - Führungslinie des Detailausschnitts",
+    "Id": -2000544
+  },
+  "-2000543": {
+    "Name": "Decken - Oberflächenmuster",
+    "Id": -2000543
+  },
+  "-2000542": {
+    "Name": "Dächer - Oberflächenmuster",
+    "Id": -2000542
+  },
+  "-2000541": {
+    "Name": "Geschossdecken - Oberflächenmuster",
+    "Id": -2000541
+  },
+  "-2000540": {
+    "Name": "Wände - Oberflächenmuster",
+    "Id": -2000540
+  },
+  "-2000539": {
+    "Name": "Begrenzung des Detailausschnitts",
+    "Id": -2000539
+  },
+  "-2000538": {
+    "Name": "Detailausschnittsbeschriftung",
+    "Id": -2000538
+  },
+  "-2000537": {
+    "Name": "Detailausschnitte",
+    "Id": -2000537
+  },
+  "-2000536": {
+    "Name": "Zuschneidegrenzen",
+    "Id": -2000536
+  },
+  "-2000535": {
+    "Name": "Ansichten",
+    "Id": -2000535
+  },
+  "-2000530": {
+    "Name": "Referenzebenen",
+    "Id": -2000530
+  },
+  "-2000515": {
+    "Name": "Ansichtstitel",
+    "Id": -2000515
+  },
+  "-2000510": {
+    "Name": "Ansichtsfenster",
+    "Id": -2000510
+  },
+  "-2000501": {
+    "Name": "Kameras",
+    "Id": -2000501
+  },
+  "-2000485": {
+    "Name": "MEP-Raumbeschriftungen",
+    "Id": -2000485
+  },
+  "-2000480": {
+    "Name": "Raumbeschriftungen",
+    "Id": -2000480
+  },
+  "-2000460": {
+    "Name": "Türbeschriftungen",
+    "Id": -2000460
+  },
+  "-2000450": {
+    "Name": "Fensterbeschriftungen",
+    "Id": -2000450
+  },
+  "-2000404": {
+    "Name": "Schnittlinienbeschriftung - Breite Linien",
+    "Id": -2000404
+  },
+  "-2000403": {
+    "Name": "Schnittlinienbeschriftung - Mittelstarke Linien",
+    "Id": -2000403
+  },
+  "-2000401": {
+    "Name": "Schnittlinienbeschriftung - Feine Linien",
+    "Id": -2000401
+  },
+  "-2000400": {
+    "Name": "Schnittlinienbeschriftung",
+    "Id": -2000400
+  },
+  "-2000350": {
+    "Name": "Höhenlinienbeschriftungen",
+    "Id": -2000350
+  },
+  "-2000340": {
+    "Name": "Fassadensysteme",
+    "Id": -2000340
+  },
+  "-2000323": {
+    "Name": "Fassadensysteme - Fassadensystemraster",
+    "Id": -2000323
+  },
+  "-2000321": {
+    "Name": "Wände - Fassadenraster",
+    "Id": -2000321
+  },
+  "-2000320": {
+    "Name": "Dächer - Fassadendachraster",
+    "Id": -2000320
+  },
+  "-2000304": {
+    "Name": "Anzeigestil für Analyse",
+    "Id": -2000304
+  },
+  "-2000303": {
+    "Name": "Ergebnisse der Analyse",
+    "Id": -2000303
+  },
+  "-2000302": {
+    "Name": "Renderbereiche",
+    "Id": -2000302
+  },
+  "-2000301": {
+    "Name": "3D-Schnittbereiche",
+    "Id": -2000301
+  },
+  "-2000300": {
+    "Name": "Notizen",
+    "Id": -2000300
+  },
+  "-2000288": {
+    "Name": "Linien - <Achse>",
+    "Id": -2000288
+  },
+  "-2000287": {
+    "Name": "Linien - <Außerhalb des Bereichs>",
+    "Id": -2000287
+  },
+  "-2000286": {
+    "Name": "Linien - <Verdeckt>",
+    "Id": -2000286
+  },
+  "-2000285": {
+    "Name": "Linien - <Abgebrochen>",
+    "Id": -2000285
+  },
+  "-2000284": {
+    "Name": "Linien - <Oberhalb>",
+    "Id": -2000284
+  },
+  "-2000283": {
+    "Name": "Planköpfe - Breite Linien",
+    "Id": -2000283
+  },
+  "-2000282": {
+    "Name": "Planköpfe - Mittelstarke Linien",
+    "Id": -2000282
+  },
+  "-2000281": {
+    "Name": "Planköpfe - Feine Linien",
+    "Id": -2000281
+  },
+  "-2000280": {
+    "Name": "Planköpfe",
+    "Id": -2000280
+  },
+  "-2000279": {
+    "Name": "Ansichten",
+    "Id": -2000279
+  },
+  "-2000271": {
+    "Name": "Teile - Verdeckte Linien",
+    "Id": -2000271
+  },
+  "-2000270": {
+    "Name": "Teilebeschriftungen",
+    "Id": -2000270
+  },
+  "-2000269": {
+    "Name": "Teile",
+    "Id": -2000269
+  },
+  "-2000268": {
+    "Name": "Baugruppenbeschriftungen",
+    "Id": -2000268
+  },
+  "-2000267": {
+    "Name": "Baugruppen",
+    "Id": -2000267
+  },
+  "-2000266": {
+    "Name": "Dachbeschriftungen",
+    "Id": -2000266
+  },
+  "-2000265": {
+    "Name": "Neigungskoten",
+    "Id": -2000265
+  },
+  "-2000264": {
+    "Name": "Höhenkoordinaten",
+    "Id": -2000264
+  },
+  "-2000263": {
+    "Name": "Höhenkoten",
+    "Id": -2000263
+  },
+  "-2000261": {
+    "Name": "Bemaßungen - Automatische Skizzenbemaßungen",
+    "Id": -2000261
+  },
+  "-2000260": {
+    "Name": "Bemaßungen",
+    "Id": -2000260
+  },
+  "-2000240": {
+    "Name": "Ebenen",
+    "Id": -2000240
+  },
+  "-2000223": {
+    "Name": "Verschiebungspfad",
+    "Id": -2000223
+  },
+  "-2000221": {
+    "Name": "Raster - Segmentierte Rasterlinie",
+    "Id": -2000221
+  },
+  "-2000220": {
+    "Name": "Raster",
+    "Id": -2000220
+  },
+  "-2000202": {
+    "Name": "Schnittlinie - Versetzte Schnittlinie",
+    "Id": -2000202
+  },
+  "-2000201": {
+    "Name": "Schnittlinie",
+    "Id": -2000201
+  },
+  "-2000200": {
+    "Name": "Schnitte",
+    "Id": -2000200
+  },
+  "-2000198": {
+    "Name": "Referenz anzeigen",
+    "Id": -2000198
+  },
+  "-2000197": {
+    "Name": "Referenz anzeigen",
+    "Id": -2000197
+  },
+  "-2000196": {
+    "Name": "Importiert in Familien",
+    "Id": -2000196
+  },
+  "-2000194": {
+    "Name": "Maskierung",
+    "Id": -2000194
+  },
+  "-2000193": {
+    "Name": "Anpassungslinie",
+    "Id": -2000193
+  },
+  "-2000191": {
+    "Name": "Planbereich",
+    "Id": -2000191
+  },
+  "-2000190": {
+    "Name": "Gefüllter Bereich",
+    "Id": -2000190
+  },
+  "-2000181": {
+    "Name": "Wände - Profilierte Wände",
+    "Id": -2000181
+  },
+  "-2000180": {
+    "Name": "Rampen",
+    "Id": -2000180
+  },
+  "-2000173": {
+    "Name": "Fassadenraster",
+    "Id": -2000173
+  },
+  "-2000171": {
+    "Name": "Fassadenpfosten",
+    "Id": -2000171
+  },
+  "-2000170": {
+    "Name": "Fassadenelemente",
+    "Id": -2000170
+  },
+  "-2000165": {
+    "Name": "Flächen - Farbfüllung",
+    "Id": -2000165
+  },
+  "-2000164": {
+    "Name": "Flächen - Referenz",
+    "Id": -2000164
+  },
+  "-2000163": {
+    "Name": "Flächen - Innenfüllung",
+    "Id": -2000163
+  },
+  "-2000162": {
+    "Name": "Räume - Referenz",
+    "Id": -2000162
+  },
+  "-2000161": {
+    "Name": "Räume - Innenfüllung",
+    "Id": -2000161
+  },
+  "-2000160": {
+    "Name": "Räume",
+    "Id": -2000160
+  },
+  "-2000151": {
+    "Name": "Allgemeines Modell",
+    "Id": -2000151
+  },
+  "-2000150": {
+    "Name": "Allgemeine Beschriftungen",
+    "Id": -2000150
+  },
+  "-2000133": {
+    "Name": "Geländerholmbeschriftungen",
+    "Id": -2000133
+  },
+  "-2000132": {
+    "Name": "Geländer - <Oberhalb> Geländerschnittlinie",
+    "Id": -2000132
+  },
+  "-2000131": {
+    "Name": "Treppe - Lauflinien - Pfeile AB",
+    "Id": -2000131
+  },
+  "-2000130": {
+    "Name": "Treppe - Lauflinien - Pfeile AUF",
+    "Id": -2000130
+  },
+  "-2000129": {
+    "Name": "Treppe - Lauflinien - Text AB",
+    "Id": -2000129
+  },
+  "-2000128": {
+    "Name": "Geländer - Geländer",
+    "Id": -2000128
+  },
+  "-2000127": {
+    "Name": "Geländer - Vertikale Holme",
+    "Id": -2000127
+  },
+  "-2000126": {
+    "Name": "Geländer",
+    "Id": -2000126
+  },
+  "-2000125": {
+    "Name": "Treppe - Lauflinien - Text AUF",
+    "Id": -2000125
+  },
+  "-2000124": {
+    "Name": "Treppen - <Oberhalb> Auflager",
+    "Id": -2000124
+  },
+  "-2000123": {
+    "Name": "Treppen - Auflager",
+    "Id": -2000952
+  },
+  "-2000120": {
+    "Name": "Treppen",
+    "Id": -2000120
+  },
+  "-2000107": {
+    "Name": "Hilfslinienraster",
+    "Id": -2000107
+  },
+  "-2000100": {
+    "Name": "Stützen",
+    "Id": -2000100
+  },
+  "-2000095": {
+    "Name": "Modellgruppen",
+    "Id": -2000095
+  },
+  "-2000083": {
+    "Name": "Referenzlinien",
+    "Id": -2000083
+  },
+  "-2000080": {
+    "Name": "Möbel",
+    "Id": -2000080
+  },
+  "-2000079": {
+    "Name": "Linien - <Flächenbegrenzung>",
+    "Id": -2000079
+  },
+  "-2000078": {
+    "Name": "Linien - Linien",
+    "Id": -2000078
+  },
+  "-2000077": {
+    "Name": "Linien - Dämmung",
+    "Id": -2000077
+  },
+  "-2000066": {
+    "Name": "Linien - <Raumtrennung>",
+    "Id": -2000066
+  },
+  "-2000065": {
+    "Name": "Linien - Drehachse",
+    "Id": -2000065
+  },
+  "-2000051": {
+    "Name": "Linien",
+    "Id": -2000051
+  },
+  "-2000045": {
+    "Name": "Linien - <Skizze>",
+    "Id": -2000045
+  },
+  "-2000044": {
+    "Name": "Linien - Breite Linien",
+    "Id": -2000044
+  },
+  "-2000043": {
+    "Name": "Linien - Mittelstarke Linien",
+    "Id": -2000043
+  },
+  "-2000042": {
+    "Name": "Linien - Feine Linien",
+    "Id": -2000042
+  },
+  "-2000038": {
+    "Name": "Decken",
+    "Id": -2000038
+  },
+  "-2000035": {
+    "Name": "Dächer",
+    "Id": -2000035
+  },
+  "-2000032": {
+    "Name": "Geschossdecken",
+    "Id": -2000032
+  },
+  "-2000031": {
+    "Name": "Türen - Glas",
+    "Id": -2000031
+  },
+  "-2000029": {
+    "Name": "Türen - Rahmen/Pfosten",
+    "Id": -2000029
+  },
+  "-2000027": {
+    "Name": "Türen - Öffnung",
+    "Id": -2000027
+  },
+  "-2000025": {
+    "Name": "Türen - Element",
+    "Id": -2000025
+  },
+  "-2000023": {
+    "Name": "Türen",
+    "Id": -2000023
+  },
+  "-2000022": {
+    "Name": "Fenster - Öffnung",
+    "Id": -2000022
+  },
+  "-2000020": {
+    "Name": "Fenster - Brüstung/Sturzhöhe",
+    "Id": -2000020
+  },
+  "-2000018": {
+    "Name": "Fenster - Rahmen/Pfosten",
+    "Id": -2000018
+  },
+  "-2000016": {
+    "Name": "Fenster - Glas",
+    "Id": -2000016
+  },
+  "-2000014": {
+    "Name": "Fenster",
+    "Id": -2000014
+  },
+  "-2000011": {
+    "Name": "Wände",
+    "Id": -2000011
+  }
+}

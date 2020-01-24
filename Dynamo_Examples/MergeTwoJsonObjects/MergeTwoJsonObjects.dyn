@@ -1,0 +1,481 @@
+{
+  "Uuid": "adbcf316-b1e1-46b4-883e-30fc444fa2c7",
+  "IsCustomNode": false,
+  "Description": null,
+  "Name": "MergeTwoJsonObjects",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "JsonData.Utilities.Read.FromJsonFile@string",
+      "Id": "be219708c0654943b96957e3c867a223",
+      "Inputs": [
+        {
+          "Id": "ae1a0c7aea7f49e88d96d5dbca0fd873",
+          "Name": "filepath",
+          "Description": "Filepath of the json file\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "4f744248e4b04983bf672a206df238d3",
+          "Name": "object",
+          "Description": "Object returned by the parser.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Reads and parses a json file. It will return JsonObject, JsonArray or other match that the parser can do from the input. Error will be thrown if parser fails.\n\nRead.FromJsonFile (filepath: string): var[]..[]"
+    },
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "NodeType": "PythonScriptNode",
+      "Code": "import clr\r\nclr.AddReference(\"JsonData\")\r\nfrom JsonData.Utilities import Parse\r\n\r\nimport sys\r\nsys.path.append(r\"C:\\Program Files (x86)\\IronPython 2.7\\Lib\")\r\nimport json\r\n\r\neng = IN[0]\r\nger = IN[1]\r\n\r\nen_dicts = json.loads(eng)\r\nde_dicts = json.loads(ger)\r\n\r\n\r\nfor key,value in en_dicts.items():\r\n\tnew_value = de_dicts[key]\r\n\tnew_name = new_value[\"Name\"]\r\n\ten_dicts[key].update({\"DeutschName\": new_name})\r\n\t\r\ndata = json.dumps(en_dicts, ensure_ascii=False)\r\n\r\n\r\nOUT = Parse.String(data)",
+      "VariableInputPorts": true,
+      "Id": "c69013a2a03f4dd08c01d68955e65b51",
+      "Inputs": [
+        {
+          "Id": "8c87299424b44be7ae018b2afbcc388b",
+          "Name": "IN[0]",
+          "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "4d6e7a3dfffb4f2f9094fc1c5b16eda9",
+          "Name": "IN[1]",
+          "Description": "Input #1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "e624446a0d904acd83cfa8d6d6572734",
+          "Name": "OUT",
+          "Description": "Ergebnis des Python-Skripts",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Führt ein eingebettetes IronPython-Skript aus."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Watch, CoreNodeModels",
+      "NodeType": "ExtensionNode",
+      "Id": "dea826bfe04c498a863d596c9772f74d",
+      "Inputs": [
+        {
+          "Id": "6fc423efb9304b67a6b88613bcf9af2e",
+          "Name": "",
+          "Description": "Auszuwertender Block",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "db9e630d15ac4b0096794ee7f023e7b5",
+          "Name": "",
+          "Description": "Inhalt beobachten",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Visualisierung der Ausgabe des Blocks"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "JsonData.Utilities.Read.FromJsonFile@string",
+      "Id": "eb1f5e85b9d84ee3825e4e92e4dc1c40",
+      "Inputs": [
+        {
+          "Id": "18529962bcfb40e8a6ecdf3fe827cedb",
+          "Name": "filepath",
+          "Description": "Filepath of the json file\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "b666eee2f6fb4e658cf01d7f90a5fba3",
+          "Name": "object",
+          "Description": "Object returned by the parser.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Reads and parses a json file. It will return JsonObject, JsonArray or other match that the parser can do from the input. Error will be thrown if parser fails.\n\nRead.FromJsonFile (filepath: string): var[]..[]"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.Filename, CoreNodeModels",
+      "HintPath": "C:\\Users\\RGovindarajan\\Git_RG\\Dynamo-Examples_Snippets\\Dynamo_Examples\\MergeTwoJsonObjects\\Revit_CAT_DEU_dict.json",
+      "InputValue": "..\\..\\Git_RG\\Dynamo-Examples_Snippets\\Dynamo_Examples\\MergeTwoJsonObjects\\Revit_CAT_DEU_dict.json",
+      "NodeType": "ExtensionNode",
+      "Id": "330dc5d88ffb4ea995a8cc26ef6be43a",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "8bf4313eda1642ef9152f0bba0a15f5c",
+          "Name": "",
+          "Description": "Filename",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Ermöglicht die Auswahl einer Datei auf dem System, um ihren Dateinamen abzurufen."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "JsonData.Utilities.Parse.JsonToString@var[]..[]",
+      "Id": "d6193d759e5a4aff8ebdcfebcc79fdb2",
+      "Inputs": [
+        {
+          "Id": "68c2d285edd547f8823820603e8d7667",
+          "Name": "jsonObjects",
+          "Description": "Single or list of JsonObjects\n\nvar[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "47d1bdbb63f242af81d32536ab98d747",
+          "Name": "string",
+          "Description": "Returns the parsed string",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Converts a list of JsonObject to CSV string format.\n\nParse.JsonToString (jsonObjects: var[]..[]): string"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "JsonData.Utilities.Parse.JsonToString@var[]..[]",
+      "Id": "230cc3c89c63484cad4cf9958f872d5c",
+      "Inputs": [
+        {
+          "Id": "1ee37dc415c240adaa4d33fa2e50ad3e",
+          "Name": "jsonObjects",
+          "Description": "Single or list of JsonObjects\n\nvar[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "3a9b7f2c1eda4ec9a38af9edd499d9f2",
+          "Name": "string",
+          "Description": "Returns the parsed string",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Converts a list of JsonObject to CSV string format.\n\nParse.JsonToString (jsonObjects: var[]..[]): string"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.Filename, CoreNodeModels",
+      "HintPath": "C:\\Users\\RGovindarajan\\Git_RG\\Dynamo-Examples_Snippets\\Dynamo_Examples\\MergeTwoJsonObjects\\Revit_CAT_ENG_dict.json",
+      "InputValue": "..\\..\\Git_RG\\Dynamo-Examples_Snippets\\Dynamo_Examples\\MergeTwoJsonObjects\\Revit_CAT_ENG_dict.json",
+      "NodeType": "ExtensionNode",
+      "Id": "03e5fdf8613d4ddb8d8875de9cf8de5c",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "57415656121047f6b99001d5db12f1b9",
+          "Name": "",
+          "Description": "Filename",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Ermöglicht die Auswahl einer Datei auf dem System, um ihren Dateinamen abzurufen."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "JsonData.Utilities.Write.ToJsonFile@var[]..[],string",
+      "Id": "f538351f1111406e9291b0c2626fa221",
+      "Inputs": [
+        {
+          "Id": "32b26c2d15e648778b0d4db4a4d99ae0",
+          "Name": "jsonObjects",
+          "Description": "Single or list of JsonObjects\n\nvar[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "81e232d2e92941a49a839b8704e92853",
+          "Name": "filepath",
+          "Description": "File path for json file\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "9e9c693e9c9249c8add33ba612ddf2b4",
+          "Name": "filepath",
+          "Description": "Returns the filepath if write operation is succesful",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Writes the JsonObject or JsonArray to a json file.\n\nWrite.ToJsonFile (jsonObjects: var[]..[], filepath: string): string"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.Filename, CoreNodeModels",
+      "HintPath": "C:\\Users\\RGovindarajan\\Git_RG\\Dynamo-Examples_Snippets\\Dynamo_Examples\\MergeTwoJsonObjects\\Revit_CAT_MERGED_dict.json",
+      "InputValue": "..\\..\\Git_RG\\Dynamo-Examples_Snippets\\Dynamo_Examples\\MergeTwoJsonObjects\\Revit_CAT_MERGED_dict.json",
+      "NodeType": "ExtensionNode",
+      "Id": "85ee7637c2804711afb55f1f764f4bdb",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "7e0a7e945bdc43c18461b488f8bd83f8",
+          "Name": "",
+          "Description": "Filename",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Ermöglicht die Auswahl einer Datei auf dem System, um ihren Dateinamen abzurufen."
+    }
+  ],
+  "Connectors": [
+    {
+      "Start": "4f744248e4b04983bf672a206df238d3",
+      "End": "1ee37dc415c240adaa4d33fa2e50ad3e",
+      "Id": "51b632ed4e1b4c1695455dc35918267b"
+    },
+    {
+      "Start": "e624446a0d904acd83cfa8d6d6572734",
+      "End": "6fc423efb9304b67a6b88613bcf9af2e",
+      "Id": "6374f15471744de5a4176754867d1bc2"
+    },
+    {
+      "Start": "e624446a0d904acd83cfa8d6d6572734",
+      "End": "32b26c2d15e648778b0d4db4a4d99ae0",
+      "Id": "3ae86c967937464d9a8857277a10d372"
+    },
+    {
+      "Start": "b666eee2f6fb4e658cf01d7f90a5fba3",
+      "End": "68c2d285edd547f8823820603e8d7667",
+      "Id": "0de2a110f70049ef8a895a54624cfd85"
+    },
+    {
+      "Start": "8bf4313eda1642ef9152f0bba0a15f5c",
+      "End": "18529962bcfb40e8a6ecdf3fe827cedb",
+      "Id": "c826d13a54a74456b4036de7b14dfc17"
+    },
+    {
+      "Start": "47d1bdbb63f242af81d32536ab98d747",
+      "End": "4d6e7a3dfffb4f2f9094fc1c5b16eda9",
+      "Id": "d99c6aaf91d040c9b430a1209bd7b701"
+    },
+    {
+      "Start": "3a9b7f2c1eda4ec9a38af9edd499d9f2",
+      "End": "8c87299424b44be7ae018b2afbcc388b",
+      "Id": "c4f186f8ba8349ab86888551e00a1a05"
+    },
+    {
+      "Start": "57415656121047f6b99001d5db12f1b9",
+      "End": "ae1a0c7aea7f49e88d96d5dbca0fd873",
+      "Id": "48a7b9826fce44348984368d1878e0f8"
+    },
+    {
+      "Start": "7e0a7e945bdc43c18461b488f8bd83f8",
+      "End": "81e232d2e92941a49a839b8704e92853",
+      "Id": "d17648b5c4e4468fb2c8b2f1763adc62"
+    }
+  ],
+  "Dependencies": [],
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.0.3.8810",
+      "RunType": "Manual",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Hintergrundvorschau",
+      "EyeX": -17.0,
+      "EyeY": 24.0,
+      "EyeZ": 50.0,
+      "LookX": 12.0,
+      "LookY": -13.0,
+      "LookZ": -58.0,
+      "UpX": 0.0,
+      "UpY": 1.0,
+      "UpZ": 0.0
+    },
+    "NodeViews": [
+      {
+        "ShowGeometry": true,
+        "Name": "Read.FromJsonFile",
+        "Id": "be219708c0654943b96957e3c867a223",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 876.15546618388112,
+        "Y": 393.9828286791323
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Update JSON Objects",
+        "Id": "c69013a2a03f4dd08c01d68955e65b51",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1514.6416059019537,
+        "Y": 540.63899796675355
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Watch",
+        "Id": "dea826bfe04c498a863d596c9772f74d",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 2233.8663269329572,
+        "Y": 59.359889098766814
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Read.FromJsonFile",
+        "Id": "eb1f5e85b9d84ee3825e4e92e4dc1c40",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 879.90076032756326,
+        "Y": 780.87887910419067
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "File Path",
+        "Id": "330dc5d88ffb4ea995a8cc26ef6be43a",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 406.26854912178067,
+        "Y": 682.20330754020506
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Parse.JsonToString",
+        "Id": "d6193d759e5a4aff8ebdcfebcc79fdb2",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1162.8371434115786,
+        "Y": 782.53809546526372
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Parse.JsonToString",
+        "Id": "230cc3c89c63484cad4cf9958f872d5c",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1144.0447245699136,
+        "Y": 394.96757723835725
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "File Path",
+        "Id": "03e5fdf8613d4ddb8d8875de9cf8de5c",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 397.26281114724884,
+        "Y": 493.60630851087666
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Write.ToJsonFile",
+        "Id": "f538351f1111406e9291b0c2626fa221",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 2176.4505015964937,
+        "Y": 540.59321709068035
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "File Path",
+        "Id": "85ee7637c2804711afb55f1f764f4bdb",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1560.2025711723134,
+        "Y": 845.0026852184244
+      }
+    ],
+    "Annotations": [],
+    "X": -147.55557428997918,
+    "Y": 12.727859711042242,
+    "Zoom": 0.625017390457938
+  }
+}
