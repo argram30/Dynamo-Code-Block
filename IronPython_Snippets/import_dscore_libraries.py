@@ -12,4 +12,4 @@ from DSCore import *
 #Import Dynamo Dictionary in to Iron python
 clr.AddReference("DesignScriptBuiltin")
 from DesignScript.Builtin import Dictionary
-OUT = Dictionary.ByKeysValues(["A"], [1,2])
+OUT = Dictionary.ByKeysValues(["A"], [1,3])
