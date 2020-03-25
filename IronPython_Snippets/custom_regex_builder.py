@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# https://regexr.com/
 data = IN[0]
 pattern = ""
 wand_texts = ["wand","wa","wall"]
